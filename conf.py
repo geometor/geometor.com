@@ -16,7 +16,7 @@ import alabaster
 # -- General ABlog Options ----------------------------------------------------
 
 # A path relative to the configuration directory for blog archive pages.
-# blog_path = 'blog'
+blog_path = 'posts'
 
 # The "title" for the blog, used in active pages.  Default is ``'Blog'``.
 blog_title = "GEOMETOR"
@@ -24,6 +24,7 @@ blog_title = "GEOMETOR"
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
 blog_baseurl = ""
+
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
