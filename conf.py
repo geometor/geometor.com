@@ -371,3 +371,4 @@ html_theme_options = {
     'font_family': "'Fira Sans Condensed', sans-serif",
 }
 
+ablog_website = 'docs'
