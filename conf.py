@@ -19,7 +19,7 @@ import alabaster
 # blog_path = 'blog'
 
 # The "title" for the blog, used in active pages.  Default is ``'Blog'``.
-blog_title = "GEOMETOR Blog"
+blog_title = "GEOMETOR"
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
@@ -189,6 +189,9 @@ needs_sphinx = '1.2'
 extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.graphviz',
+    'sphinx.ext.mathjax',
     'sphinx.ext.todo',
     'alabaster',
     'ablog',
@@ -262,7 +265,7 @@ pygments_style = 'sphinx'
 # keep_warnings = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = "False"
+todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -275,7 +278,7 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'github_button': False,
+    'github_button': True,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
