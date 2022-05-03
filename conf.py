@@ -370,9 +370,7 @@ htmlhelp_basename = "GEOMETORdoc"
 html_theme_options = {
     'logo': 'logo.png',
     'github_user': 'geometor',
-    #  'base_bg': 'black',
-    #  'base_text': 'white',
-    'font_family': "'Fira Sans Condensed', sans-serif",
+    'github_button': True,
 }
 
 ablog_website = 'docs'
