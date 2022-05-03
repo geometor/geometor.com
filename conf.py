@@ -11,7 +11,7 @@
 import os
 import sys
 import ablog
-import alabaster
+import photonsphinx
 
 # -- General ABlog Options ----------------------------------------------------
 
@@ -194,7 +194,7 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx.ext.mathjax',
     'sphinx.ext.todo',
-    'alabaster',
+    'photonsphinx',
     'ablog',
 ]
 
@@ -273,7 +273,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+html_theme = 'photonsphinx'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -283,7 +283,7 @@ html_theme_options = {
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [alabaster.get_path()]
+html_theme_path = [photonsphinx.get_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -370,8 +370,8 @@ htmlhelp_basename = "GEOMETORdoc"
 html_theme_options = {
     'logo': 'logo.png',
     'github_user': 'geometor',
-    'base_bg': 'black',
-    'base_text': 'white',
+    #  'base_bg': 'black',
+    #  'base_text': 'white',
     'font_family': "'Fira Sans Condensed', sans-serif",
 }
 
