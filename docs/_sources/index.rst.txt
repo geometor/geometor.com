@@ -1,30 +1,27 @@
 
 .. GEOMETOR index file, created by `ablog start` on Mon May  2 12:05:44 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 
-GEOMETOR project
-================
+GEOMETOR • foundation
+=====================
 
 exploring the architecture of all that is
 
+Key Projects
+------------
 
-Here is a list of most recent posts:
+- geometor-explorer
+- explorer-constructions
+
+Recent Posts
+------------
 
 .. postlist:: 5
    :excerpts:
 
 
-.. `toctree` directive, below, contains list of non-post `.rst` files.
-   This is how they appear in Navigation sidebar. Note that directive
-   also contains `:hidden:` option so that it is not included inside the page.
-
-   Posts are excluded from this directive so that they aren't double listed
-   in the sidebar both under Navigation and Recent Posts.
-
 .. toctree::
    :hidden:
 
-   mission.rst
-   about.rst
+   MISSION <mission.rst>
+   ABOUT <about.rst>

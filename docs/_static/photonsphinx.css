@@ -71,13 +71,13 @@ div.relations {
 
 
 div.sphinxsidebar a {
-    color: #444;
+    color: #C90;
     text-decoration: none;
-    border-bottom: 1px dotted #444;
+    border-bottom: 1px dotted #FC0;
 }
 
 div.sphinxsidebar a:hover {
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #FC0;
 }
 
 div.sphinxsidebarwrapper {
@@ -121,7 +121,7 @@ div.sphinxsidebar h4 {
 }
 
 div.sphinxsidebar h3 a {
-    color: #444;
+    color: #C90;
 }
 
 div.sphinxsidebar p.logo a,
@@ -218,8 +218,8 @@ a.headerlink {
 }
 
 a.headerlink:hover {
-    color: #444;
-    background: #EAEAEA;
+    color: #FC0;
+    background: ;
 }
 
 div.body p, div.body dd, div.body li {

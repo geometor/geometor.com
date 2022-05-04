@@ -1,8 +1,7 @@
 
 .. _about:
 
-About phi ARCHITECT
+About GEOMETOR
 ============================
 
-The world wants to know more about you.
 
