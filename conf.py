@@ -369,6 +369,7 @@ htmlhelp_basename = "GEOMETORdoc"
 
 html_theme_options = {
     'logo': 'logo.png',
+    'logo_name': True,
     'github_user': 'geometor',
     'github_button': True,
 }
