@@ -12,23 +12,6 @@ exploring the architecture of all that is
 Key Projects
 ------------
 
-Explorer
-~~~~~~~~
-
-- geometor-explorer
-- explorer-constructions
-
-Euclid
-~~~~~~
-
-- use Explorer to script constructions from Euclid's Elements
-
-Fundamentals
-~~~~~~~~~~~~
-
-- use Explorer to document geometric principles discovered after Euclid
-
-.. sidebar:: TEST
 
 Recent Posts
 ------------
@@ -40,5 +23,6 @@ Recent Posts
 .. toctree::
    :hidden:
 
-   MISSION <mission.rst>
+   MISSION <mission/index.rst>
+   PROJECTS <projects.rst>
    ABOUT <about.rst>
