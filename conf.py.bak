@@ -1,36 +1,107 @@
 #!/usr/bin/env python
+
+
+# GEOMETOR build configuration file, created by
+# `ablog start` on Mon May  2 12:05:44 2022.
+#
+# Note that not all possible configuration values are present in this file.
+# All configuration values have a default; values that are commented out
+# serve to show the default.
+
+import os
+import sys
 import ablog
 import photonsphinx
 
-blog_path = 'log'
+# -- General ABlog Options ----------------------------------------------------
+
+# A path relative to the configuration directory for blog archive pages.
+blog_path = 'posts'
+
+# The "title" for the blog, used in active pages.  Default is ``'Blog'``.
 blog_title = "GEOMETOR"
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
 blog_baseurl = ""
 
-#  html_base_url = 'https://phiarchitect.com'
-#  html_baseurl = 'phiarchitect.com'
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
 # blog_archive_titles = False
 
+# -- Blog Authors, Languages, and Locations -----------------------------------
+
+# A dictionary of author names mapping to author full display names and
+# links. Dictionary keys are what should be used in ``post`` directive
+# to refer to the author.  Default is ``{}``.
 blog_authors = {
     "phi ARCHITECT": ("phi ARCHITECT", None),
 }
+
+
+# A dictionary of language code names mapping to full display names and
+# links of these languages. Similar to :confval:`blog_authors`, dictionary
+# keys should be used in ``post`` directive to refer to the locations.
+# Default is ``{}``.
 # blog_languages = {
 #    'en': ('English', None),
 # }
+
+
+# A dictionary of location names mapping to full display names and
+# links of these locations. Similar to :confval:`blog_authors`, dictionary
+# keys should be used in ``post`` directive to refer to the locations.
+# Default is ``{}``.
 # blog_locations = {
 #    'Earth': ('The Blue Planet', 'https://en.wikipedia.org/wiki/Earth),
 # }
 
+# -- Blog Post Related --------------------------------------------------------
+
+# Format date for a post.
+# post_date_format = '%%b %%d, %%Y'
+
+# Number of paragraphs (default is ``1``) that will be displayed as an excerpt
+# from the post. Setting this ``0`` will result in displaying no post excerpt
+# in archive pages.  This option can be set on a per post basis using
 # post_auto_excerpt = 1
+
+# Index of the image that will be displayed in the excerpt of the post.
+# Default is ``0``, meaning no image.  Setting this to ``1`` will include
+# the first image, when available, to the excerpt.  This option can be set
+# on a per post basis using :rst:dir:`post` directive option ``image``.
 # post_auto_image = 0
+
+# Number of seconds (default is ``5``) that a redirect page waits before
+# refreshing the page to redirect to the post.
 # post_redirect_refresh = 5
+
+# When ``True``, post title and excerpt is always taken from the section that
+# contains the :rst:dir:`post` directive, instead of the document. This is the
+# behavior when :rst:dir:`post` is used multiple times in a document. Default
+# is ``False``.
+# post_always_section = False
+
+# When ``True``, links to the previous and next posts will be rendered at the
+# bottom of the page.
+# Default is ``True``
 # post_show_prev_next = True
 
+# When ``False``, the :rst:dir:`orphan` directive is not automatically set
+# for each post. Without this directive, Sphinx will warn about posts that
+# are not explicitly referenced via another document. :rst:dir:`orphan` can
+# be set on a per-post basis as well if this is false. Default is ``True``.
+# post_auto_orphan = True
+
+# -- ABlog Sidebars -------------------------------------------------------
+
+# There are seven sidebars you can include in your HTML output.
+# postcard.html provides information regarding the current post.
+# recentposts.html lists most recent five posts. Others provide
+# a link to a archive pages generated for each tag, category, and year.
+# In addition, there are authors.html, languages.html, and locations.html
+# sidebars that link to author and location archive pages.
 html_sidebars = {
     '**': [ 'about.html',
             'postcard.html', 'navigation.html',
@@ -40,9 +111,20 @@ html_sidebars = {
             ],
     }
 
+# -- Blog Feed Options --------------------------------------------------------
+
+# Turn feeds by setting :confval:`blog_baseurl` configuration variable.
+# Choose to create feeds per author, location, tag, category, and year,
+# default is ``False``.
 # blog_feed_archives = False
+
+# Choose to display full text in blog feeds, default is ``False``.
 # blog_feed_fulltext = False
+
+# Blog feed subtitle, default is ``None``.
 # blog_feed_subtitle = None
+
+# Choose to feed only post titles, default is ``False``.
 # blog_feed_titles = False
 
 # Specify custom Jinja2 templates for feed entry elements:
@@ -106,7 +188,6 @@ needs_sphinx = '1.2'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
     'sphinx.ext.extlinks',
     'sphinx.ext.intersphinx',
     'sphinx.ext.githubpages',
@@ -118,16 +199,16 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates', ablog.get_html_templates_path()]
+templates_path = ["_templates", ablog.get_html_templates_path()]
 
 # The suffix(es) of source filenames.
-source_suffix = '.rst'
+source_suffix = ".rst"
 
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = "index"
 
 # General information about the project.
 project = "GEOMETOR"
@@ -185,7 +266,7 @@ pygments_style = 'sphinx'
 # keep_warnings = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -194,6 +275,12 @@ todo_include_todos = True
 # a list of builtin themes.
 html_theme = 'photonsphinx'
 
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+html_theme_options = {
+    'github_button': True,
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [photonsphinx.get_path()]
@@ -277,19 +364,14 @@ html_static_path = ["_static"]
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "help_doc"
+htmlhelp_basename = "GEOMETORdoc"
 
 
-#  'logo': 'phi-headshot-sqr.jpg',
-    
 html_theme_options = {
     'logo': 'logo.png',
     'logo_name': True,
     'github_user': 'geometor',
-    #  'github_repo': 'geometor-explorer',
     'github_button': True,
 }
 
 ablog_website = 'docs'
-post_date_format = '%y.%j-%H%M%S'
-post_date_format_short = '%y.%j'
