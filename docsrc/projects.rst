@@ -1,11 +1,12 @@
 
 .. _projects:
 
-.. contents::
 
 Projects
 ========
 
+.. contents::
+   :backlinks: false
 
 Explorer
 ~~~~~~~~

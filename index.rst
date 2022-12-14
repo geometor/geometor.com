@@ -23,6 +23,6 @@ Recent Posts
 .. toctree::
    :hidden:
 
-   MISSION <mission/index.rst>
-   PROJECTS <projects.rst>
-   ABOUT <about.rst>
+   MISSION <docsrc/mission/index.rst>
+   PROJECTS <docsrc/projects.rst>
+   ABOUT <docsrc/about.rst>

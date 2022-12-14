@@ -1,0 +1,8 @@
+Welcome to GEOMETOR.com
+=======================
+
+.. post::  22.348-054131
+   :tags: 
+   :category: STATUS
+
+first log entry for the new system
