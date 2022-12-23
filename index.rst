@@ -28,6 +28,7 @@ urgent todos:
 
 
 .. toctree::
+   :maxdepth: 1
    :hidden:
 
    MISSION <mission.rst>
