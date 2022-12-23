@@ -1,6 +1,6 @@
 
-GEOMETOR • foundation
-=====================
+GEOMETOR
+========
 
 exploring the architecture of all that is
 
@@ -9,20 +9,27 @@ exploring the architecture of all that is
    I am in the process of migrating this site from a previous platform. Thanks
    for your patience.
 
-Key Projects
-------------
 
 
-Recent Posts
+recent logs:
 ------------
 
 .. postlist:: 5
    :excerpts:
 
 
+urgent todos:
+-------------
+
+.. postlist:: 
+   :category: TODO
+   :tags: urgent
+   :excerpts:
+
+
 .. toctree::
    :hidden:
 
-   MISSION <docsrc/mission/index.rst>
-   PROJECTS <docsrc/projects.rst>
-   ABOUT <docsrc/about.rst>
+   MISSION <mission.rst>
+   PROJECTS <projects.rst>
+   ABOUT <about.rst>
