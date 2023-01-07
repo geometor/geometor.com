@@ -1,16 +1,9 @@
-phiarchitect.com
-================
-
-this is the content repository for phiarchitect.com
+this is the content repository for geometor.com
 
 .. contents::
+   :local:
    :backlinks: none
 
-
-Mission
--------
-
-Be the primary index for all content related to **phi ARCHITECT**
 
 Configuration
 -------------
