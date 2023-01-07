@@ -1,4 +1,3 @@
-
 GEOMETOR
 ========
 
@@ -29,8 +28,7 @@ urgent todos:
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
 
-   MISSION <mission.rst>
-   PROJECTS <projects.rst>
+   MISSION <mission/index.rst>
+   PROJECTS <projects/index.rst>
    ABOUT <about.rst>
