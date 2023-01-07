@@ -5,13 +5,34 @@ Projects
    :local:
    :backlinks: none
 
-.. include:: explorer.rst
+explorer
+~~~~~~~~
 
-.. include:: divine.rst
+tools for exploring geometric constructions with symbolic algebra
 
-.. include:: euclid.rst
 
-.. include:: polynumbers.rst
+divine
+------
 
-.. include:: fundamentals.rst
+explorations into the Divine Proportion
+
+
+Euclid
+~~~~~~
+
+exploring Euclid's elements as computational structures
+
+
+polynumbers
+-----------
+
+exploring relationships of orthogonal polynomials
+
+
+fundamentals
+~~~~~~~~~~~~
+
+exploration of well known geometric principles
+
+
 
