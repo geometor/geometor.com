@@ -1,5 +1,4 @@
-
-Explorer
+explorer
 ~~~~~~~~
 
 - geometor-explorer
