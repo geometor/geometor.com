@@ -1,6 +1,5 @@
 Euclid
 ~~~~~~
 
-- use Explorer to script constructions from Euclid's Elements
-
+exploring Euclid's elements as computational structures
 

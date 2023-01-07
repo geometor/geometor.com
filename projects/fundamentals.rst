@@ -1,6 +1,4 @@
 fundamentals
 ~~~~~~~~~~~~
 
-- use Explorer to document geometric principles discovered after Euclid
-
-
+exploration of well known geometric principles
