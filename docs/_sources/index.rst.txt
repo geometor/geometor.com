@@ -3,6 +3,7 @@ GEOMETOR
 
 exploring the architecture of all that is
 
+.. image:: _static/splash.png
 
 .. note:: 
    I am in the process of migrating this site from a previous platform. Thanks
