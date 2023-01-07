@@ -1,9 +1,10 @@
 Projects
 ========
 
-.. contents::
+.. contents:: contents
    :local:
    :backlinks: none
+
 
 .. include:: explorer.rst
 
@@ -14,4 +15,5 @@ Projects
 .. include:: polynumbers.rst
 
 .. include:: fundamentals.rst
+
 

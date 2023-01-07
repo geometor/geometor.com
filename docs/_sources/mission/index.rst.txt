@@ -1,13 +1,12 @@
-
-.. _mission:
-
 Mission
 =======
 
 .. contents::
+   :local:
+   :backlinks: none
+
 
    
-.. include:: sub1.rst
 
 
 Summary

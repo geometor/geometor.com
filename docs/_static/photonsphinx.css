@@ -734,3 +734,8 @@ div.sphinxsidebarwrapper h1.logo a:link {
 pre {
   background: #000;
   }
+
+
+nav.contents {
+  float: right;
+}
