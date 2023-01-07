@@ -2,6 +2,7 @@ Projects
 ========
 
 .. contents::
+   :local:
    :backlinks: none
 
 .. include:: explorer.rst
