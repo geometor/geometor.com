@@ -6,7 +6,13 @@ Mission
    :backlinks: none
 
 
-   
-
-
 Summary
+
+goals
+-----
+
+.. postlist:: 
+   :category: GOALS
+   :excerpts:
+
+

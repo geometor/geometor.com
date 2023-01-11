@@ -5,11 +5,6 @@ exploring the architecture of all that is
 
 .. image:: _static/splash.png
 
-.. note:: 
-   I am in the process of migrating this site from a previous platform. Thanks
-   for your patience.
-
-
 
 recent logs:
 ------------
@@ -36,4 +31,5 @@ contents:
    MISSION <mission/index.rst>
    PROJECTS <projects/index.rst>
    LOG </log#http://>
+   REFERENCES <refs/index.rst>
    ABOUT <about.rst>

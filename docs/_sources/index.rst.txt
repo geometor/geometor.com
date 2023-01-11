@@ -35,4 +35,5 @@ contents:
 
    MISSION <mission/index.rst>
    PROJECTS <projects/index.rst>
+   LOG </log#http://>
    ABOUT <about.rst>
