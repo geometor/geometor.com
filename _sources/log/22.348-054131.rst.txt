@@ -1,0 +1,24 @@
+Welcome to GEOMETOR.com
+=======================
+
+.. post::  22.348-054131
+   :tags: 
+   :category: STATUS
+
+first log entry for the new system
+
+
+some math
+
+.. math::
+
+   x^2 - x - 1
+
+some code
+
+.. code:: python
+
+   def my_func()
+       print('we got the func')
+
+
