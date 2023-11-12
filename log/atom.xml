@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>https://geometor.com</id>
+  <id>https://geometor.github.io/geometor.com</id>
   <title>GEOMETOR</title>
-  <updated>2023-11-11T03:35:25.311714+00:00</updated>
-  <link href="https://geometor.com"/>
-  <link href="https://geometor.com/log/atom.xml" rel="self"/>
+  <updated>2023-11-12T23:09:48.497900+00:00</updated>
+  <link href="https://geometor.github.io/geometor.com"/>
+  <link href="https://geometor.github.io/geometor.com/log/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="unknown.dev">ABlog</generator>
   <entry>
-    <id>https://geometor.com/log/22.348-054131/</id>
+    <id>https://geometor.github.io/geometor.com/log/22.348-054131/</id>
     <title>Welcome to GEOMETOR.com</title>
     <updated>2022-12-14T05:41:31+00:00</updated>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;first log entry for the new system&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="https://geometor.com/log/22.348-054131/" rel="alternate"/>
+    <link href="https://geometor.github.io/geometor.com/log/22.348-054131/" rel="alternate"/>
     <summary>first log entry for the new system</summary>
     <published>2022-12-14T05:41:31+00:00</published>
   </entry>
