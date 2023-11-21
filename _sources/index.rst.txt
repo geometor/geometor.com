@@ -5,31 +5,27 @@ exploring the architecture of all that is
 
 .. image:: _static/splash.png
 
+.. include:: overview/intro.rst
 
-recent logs:
-------------
+recent logs
+-----------
 
 .. postlist:: 5
    :excerpts:
 
 
-urgent todos:
--------------
-
-.. postlist:: 
-   :category: TODO
-   :tags: urgent
-   :excerpts:
-
-
-contents:
----------
+contents
+--------
 
 .. toctree::
    :maxdepth: 1
 
-   MISSION <mission/index.rst>
-   PROJECTS <projects/index.rst>
-   LOG </log#http://>
-   REFERENCES <refs/index.rst>
-   ABOUT <about.rst>
+   mission/index.rst
+   overview/index.rst
+   projects/index.rst
+   logs/index.rst
+   refs/index.rst
+   about.rst
+
+   
+.. LOG </log#http://>
