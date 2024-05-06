@@ -1,7 +1,7 @@
 #  from ablog.conf import *
 from photon_platform.sphinxilator.global_conf import *
 
-version = None
+version = ""
 
 org = "geometor"
 org_name = "geometor"
