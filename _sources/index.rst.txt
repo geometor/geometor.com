@@ -1,11 +1,9 @@
 GEOMETOR
 ========
 
-exploring the architecture of all that is
-
 .. image:: _static/splash.png
 
-.. include:: overview/intro.rst
+.. include:: intro.rst
 
 recent logs
 -----------
@@ -14,18 +12,27 @@ recent logs
    :excerpts:
 
 
-contents
---------
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
+   :maxdepth: 2
 
    mission/index.rst
-   overview/index.rst
+   usage/index.rst
+   demos/index.rst
    projects/index.rst
-   logs/index.rst
+   logs.rst
    refs/index.rst
+   glossary.rst
+   connect.rst
+   todos.rst
+   changelog.rst
    about.rst
 
-   
-.. LOG </log#http://>
+
+indices
+-------
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
