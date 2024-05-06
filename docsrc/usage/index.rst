@@ -1,0 +1,4 @@
+usage
+=====
+
+.. include:: installation.rst

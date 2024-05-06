@@ -2,7 +2,9 @@ references
 ==========
 
 .. toctree::
-   :glob:
 
-   *
+   sympy
+   matplotlib
+   textualize
+   
 
