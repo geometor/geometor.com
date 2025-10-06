@@ -1,0 +1,70 @@
+/home/phiarchitect/PROJECTS/geometor/geometor.com
+├── build.sh
+├── CHANGELOG.rst
+├── CNAME
+├── docsrc
+│   ├── about.rst
+│   ├── changelog.rst
+│   ├── conf.py
+│   ├── connect.rst
+│   ├── contribute.rst
+│   ├── demos
+│   │   ├── demo.rst
+│   │   ├── index.rst
+│   │   └── vesica.rst
+│   ├── glossary.rst
+│   ├── index.rst
+│   ├── intro.rst
+│   ├── log
+│   │   ├── 22.348-054131.rst
+│   │   └── 23.324-124954
+│   │       └── index.rst
+│   ├── logs.rst
+│   ├── mission
+│   │   ├── index.rst
+│   │   └── statement.rst
+│   ├── projects
+│   │   ├── divine.rst
+│   │   ├── euclid.rst
+│   │   ├── explorer.rst
+│   │   ├── index.rst
+│   │   ├── model.rst
+│   │   └── render.rst
+│   ├── __pycache__
+│   ├── refs
+│   │   ├── index.rst
+│   │   ├── matplotlib.rst
+│   │   ├── sympy.rst
+│   │   └── textualize.rst
+│   ├── _static
+│   │   ├── css
+│   │   │   └── custom.css
+│   │   ├── logo.png
+│   │   ├── screenshot.png
+│   │   └── splash.png
+│   ├── todos.rst
+│   └── usage
+│       ├── index.rst
+│       └── installation.rst
+├── docsrc.old
+│   ├── about.rst
+│   ├── conf.py
+│   ├── glossary.rst
+│   ├── index.rst
+│   ├── logs
+│   │   └── index.rst
+│   ├── overview
+│   │   ├── index.rst
+│   │   └── intro.rst
+│   ├── __pycache__
+│   ├── refs
+│   │   └── index.rst
+│   └── _static
+│       ├── custom.css
+│       ├── logo.png
+│       ├── root3-harmonics.png
+│       └── splash.png
+├── README.rst
+└── test.sh
+
+17 directories, 50 files

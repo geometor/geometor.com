@@ -1,0 +1,39 @@
+/home/phiarchitect/PROJECTS/geometor/geometor.com
+├── build.sh
+├── CHANGELOG.rst
+├── CNAME
+├── docsrc
+│   ├── about.rst
+│   ├── conf.py
+│   ├── demos
+│   │   └── index.rst
+│   ├── glossary.rst
+│   ├── index.rst
+│   ├── intro.rst
+│   ├── log
+│   │   └── 22.348-054131.rst
+│   ├── mission
+│   │   └── index.rst
+│   ├── modules
+│   │   └── index.rst
+│   ├── projects
+│   │   ├── divine.rst
+│   │   ├── euclid.rst
+│   │   ├── explorer.rst
+│   │   ├── fundamentals.rst
+│   │   ├── index.rst
+│   │   └── polynumbers.rst
+│   ├── __pycache__
+│   ├── refs
+│   │   └── index.rst
+│   ├── _static
+│   │   ├── custom.css
+│   │   ├── logo.png
+│   │   ├── root3-harmonics.png
+│   │   └── splash.png
+│   └── usage
+│       └── index.rst
+├── README.rst
+└── test.sh
+
+10 directories, 26 files
