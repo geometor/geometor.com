@@ -1,7 +1,9 @@
 GEOMETOR
 ========
 
-.. image:: _static/splash.png
+
+.. contents:: contents
+   :local:
 
 .. include:: intro.rst
 
@@ -19,14 +21,11 @@ recent logs
 
    mission/index.rst
    usage/index.rst
-   demos/index.rst
    projects/index.rst
    logs.rst
    refs/index.rst
-   glossary.rst
    connect.rst
    todos.rst
-   changelog.rst
    about.rst
 
 

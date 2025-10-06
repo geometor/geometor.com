@@ -6,23 +6,22 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="" />
 <meta property="og:site_name" content="geometor • geometor.com" />
-<meta property="og:description" content="geometor.model is the foundational library for the GEOMETOR initiative. At the core of the module is the Model class which establishes the field and methods of operation for creating the geometric ..." />
+<meta property="og:description" content="contents: exploring the architecture of all that is, abstraction and reasoning, geometric modeling, patterns in nature, other interesting projects, contribute, recent logs, indices. exploring the a..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_index_d29a7909.png" />
-<meta property="og:image:alt" content="geometor.model is the foundational library for the GEOMETOR initiative. At the core of the module is the Model class which establishes the field and methods..." />
-<meta name="description" content="geometor.model is the foundational library for the GEOMETOR initiative. At the core of the module is the Model class which establishes the field and methods of operation for creating the geometric ..." />
+<meta property="og:image" content="_images/social_previews/summary_index_960277f6.png" />
+<meta property="og:image:alt" content="contents: exploring the architecture of all that is, abstraction and reasoning, geometric modeling, patterns in nature, other interesting projects, contribute, recent logs, indices. exploring the a..." />
+<meta name="description" content="contents: exploring the architecture of all that is, abstraction and reasoning, geometric modeling, patterns in nature, other interesting projects, contribute, recent logs, indices. exploring the a..." />
 <meta name="twitter:card" content="summary_large_image" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GEOMETOR &mdash; GEOMETOR</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=f2e8749c" />
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=ea5fcf70" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="_static/css/rtd-dark.css?v=fcc142e6" />
-      <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=fd3f3429" />
+      <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
 
   
-    <link rel="canonical" href="https://geometor.github.io/geometor.com/index.html" />
+    <link rel="canonical" href="https://geometor.github.io/geometor.com/" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -30,7 +29,7 @@
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
         <script src="_static/documentation_options.js?v=187304be"></script>
-        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/doctools.js?v=9bcbadda"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="author" title="About these documents" href="about/" />
@@ -94,14 +93,11 @@
               <ul>
 <li class="toctree-l1"><a class="reference internal" href="mission/">mission</a></li>
 <li class="toctree-l1"><a class="reference internal" href="usage/">usage</a></li>
-<li class="toctree-l1"><a class="reference internal" href="demos/">demos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="projects/">projects</a></li>
 <li class="toctree-l1"><a class="reference internal" href="logs/">logs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="refs/">references</a></li>
-<li class="toctree-l1"><a class="reference internal" href="glossary/">glossary</a></li>
 <li class="toctree-l1"><a class="reference internal" href="connect/">connect</a></li>
 <li class="toctree-l1"><a class="reference internal" href="todos/">todos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="changelog/">changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="about/">about</a></li>
 </ul>
 
@@ -132,51 +128,90 @@
            <div itemprop="articleBody">
               <section id="geometor">
 <h1>GEOMETOR<a class="headerlink" href="#geometor" title="Link to this heading"></a></h1>
-<img alt="_images/splash.png" src="_images/splash.png" />
-<p><code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> is the foundational library for the <a class="reference external" href="https://geometor.com">GEOMETOR</a> initiative.</p>
-<p>At the core of the module is the <code class="docutils literal notranslate"><span class="pre">Model</span></code> class which establishes the field
-and methods of operation for creating the geometric constructions while maintaining integrity.</p>
-<p>The <strong>field</strong> might be easy to consider as a Cartesian grid. But in reality, it
-is an ordered set of information and operations. Points are the information.
-Lines and circles are the operations.</p>
-<p>In our system, all geometric elements of the <code class="docutils literal notranslate"><span class="pre">Model</span></code> are defined as <a class="reference external" href="https://docs.sympy.org/latest/modules/geometry/index.html">Sympy Geometry</a>
-objects. This means a <code class="docutils literal notranslate"><span class="pre">Point</span></code> can be defined as a pair of any algebraic
-<a class="reference external" href="https://docs.sympy.org/latest/tutorials/intro-tutorial/basic_operations.html">Sympy Expressions</a> that can be evaluated into a floating point value.</p>
-<p><code class="docutils literal notranslate"><span class="pre">Line</span></code> and <code class="docutils literal notranslate"><span class="pre">Circle</span></code> are each defined by two points. So each construction
-must begin with at least two given points at the start. As lines and circles
-are added, intersection points are discovered with previous lines and circles
-and added to the model, so they may be used with new lines and circles.</p>
-<p>There are three main operations of the <code class="docutils literal notranslate"><span class="pre">Model</span></code>:</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">contents</p>
 <ul class="simple">
-<li><p>set_point</p></li>
-<li><p>construct_line</p></li>
-<li><p>construct_circle</p></li>
+<li><p><a class="reference internal" href="#exploring-the-architecture-of-all-that-is" id="id1">exploring the architecture of all that is</a></p></li>
+<li><p><a class="reference internal" href="#abstraction-and-reasoning" id="id2">abstraction and reasoning</a></p></li>
+<li><p><a class="reference internal" href="#geometric-modeling" id="id3">geometric modeling</a></p></li>
+<li><p><a class="reference internal" href="#patterns-in-nature" id="id4">patterns in nature</a></p></li>
+<li><p><a class="reference internal" href="#other-interesting-projects" id="id5">other interesting projects</a></p></li>
+<li><p><a class="reference internal" href="#contribute" id="id6">contribute</a></p></li>
+<li><p><a class="reference internal" href="#recent-logs" id="id7">recent logs</a></p></li>
+<li><p><a class="reference internal" href="#indices" id="id8">indices</a></p></li>
 </ul>
-<p>The major responsibilities of the <code class="docutils literal notranslate"><span class="pre">Model</span></code>:</p>
+</nav>
+<section id="exploring-the-architecture-of-all-that-is">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">exploring the architecture of all that is</a><a class="headerlink" href="#exploring-the-architecture-of-all-that-is" title="Link to this heading"></a></h2>
+<img alt="_images/root3-harmonics-banner.png" class="align-center" src="_images/root3-harmonics-banner.png" />
+<p><strong>GEOMETOR</strong> is an open-source initiative dedicated to the exploration of
+fundamental aspects of geometry, nature, and logic.</p>
+<p>A key mission has been the development of a Python software library to create
+symbolic models of classical geometric constructions</p>
+</section>
+<section id="abstraction-and-reasoning">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">abstraction and reasoning</a><a class="headerlink" href="#abstraction-and-reasoning" title="Link to this heading"></a></h2>
+<img alt="_images/arc-banner.png" class="align-center" src="_images/arc-banner.png" />
+<p>While the emphasis of the <strong>GEOMETOR</strong> project, has been geometry</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/geometor/arcprize">arcprize</a>: code and reference materials</p></li>
+<li><p><a class="reference external" href="https://github.com/geometor/arcprizesessions">arcprizesessions</a>:</p></li>
+</ul>
+</section>
+<section id="geometric-modeling">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">geometric modeling</a><a class="headerlink" href="#geometric-modeling" title="Link to this heading"></a></h2>
+<img alt="_images/geom-banner.png" class="align-center" src="_images/geom-banner.png" />
+<p>All of the research and development for <strong>GEOMETOR</strong> is located here in a
+collection of repositories. There are many, but these establish the foundation for the work:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/geometor/model">model</a>: tools for modeling geometric constructions</p></li>
+<li><p><a class="reference external" href="https://github.com/geometor/render">render</a>: tools for rendering geometric constructions</p></li>
+<li><p><a class="reference external" href="https://github.com/geometor/divine">divine</a>: model and analyze the golden ratio</p></li>
+<li><p><a class="reference external" href="https://github.com/geometor/elements">elements</a>: extract and codify knowledge from the classic work</p></li>
+</ul>
+</section>
+<section id="patterns-in-nature">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">patterns in nature</a><a class="headerlink" href="#patterns-in-nature" title="Link to this heading"></a></h2>
+<img alt="_images/rings-banner.png" src="_images/rings-banner.png" />
 <ul>
-<li><p><strong>deduplicate</strong></p>
-<p>when elements are added to the model, we check to see if they already exist. This is particularly important for intersection points that often coincide with exisitng points.</p>
-</li>
-<li><p><strong>clean values</strong></p></li>
-<li><p>discover <strong>intersections</strong></p></li>
-<li><p><strong>save</strong> to and load from json</p></li>
-<li><p>maintain a set of <strong>related</strong> info for each element:</p>
-<ul class="simple">
-<li><p>ancestral relationships</p></li>
-<li><p>establish labels for elements</p></li>
-<li><p>classes for styles</p></li>
-</ul>
+<li><p>phyllotaxis</p>
+<p>model and investigate geometry of plants</p>
 </li>
 </ul>
-<p>All of the plotting functionality has moved to <strong>GEOMETOR</strong> <a class="reference external" href="https://github.com/geometor/render">render</a>. However, there are several report functions in the this module:</p>
-<ul class="simple">
-<li><p>report_summary</p></li>
-<li><p>report_group_by_type</p></li>
-<li><p>report_sequence</p></li>
+</section>
+<section id="other-interesting-projects">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">other interesting projects</a><a class="headerlink" href="#other-interesting-projects" title="Link to this heading"></a></h2>
+<ul>
+<li><p>pappus</p>
+<p>model and investigate pappus theorem</p>
+</li>
 </ul>
-<img alt="_images/screenshot.png" src="_images/screenshot.png" />
+<p>Each repository has:</p>
+<ul class="simple">
+<li><p>Python source code</p></li>
+<li><p>demo code</p></li>
+<li><p>source for project website</p></li>
+<li><p>discussion group</p></li>
+<li><p>log</p></li>
+<li><p>todo list</p></li>
+<li><p>MIT license</p></li>
+</ul>
+<p>The website for each project is statically-generated and hosted through GitHub.</p>
+</section>
+<section id="contribute">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">contribute</a><a class="headerlink" href="#contribute" title="Link to this heading"></a></h2>
+<p>We welcome contributions from anyone interested in geometry, mathematics,
+nature, or programming. Feel free to contribute to our repositories, raise
+issues, or propose enhancements.</p>
+<p>Check out general info on <strong>GEOMETOR</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://geometor.com">geometor.com</a></p></li>
+<li></li>
+</ul>
+<p><strong>GEOMETOR</strong> is an organization led by <a class="reference external" href="https://github.com/phiarchitect">phi ARCHITECT</a></p>
+</section>
 <section id="recent-logs">
-<h2>recent logs<a class="headerlink" href="#recent-logs" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">recent logs</a><a class="headerlink" href="#recent-logs" title="Link to this heading"></a></h2>
 <ul class="postlist-style-none postlist">
 <li class="ablog-post"><p class="ablog-post-title">23.324 - <a class="reference internal" href="log/23.324-124954/">First Log - Lots of changes</a></p>
 <p class="ablog-post-excerpt">This log entry marks the commencement of the Geometor.model project. After
@@ -195,7 +230,7 @@ components: modeling, rendering, and analyzing complex geometric constructions.<
 </div>
 </section>
 <section id="indices">
-<h2>indices<a class="headerlink" href="#indices" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">indices</a><a class="headerlink" href="#indices" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex/"><span class="std std-ref">Index</span></a></p></li>
 <li><p><a class="reference internal" href="py-modindex/"><span class="std std-ref">Module Index</span></a></p></li>
@@ -217,7 +252,7 @@ components: modeling, rendering, and analyzing complex geometric constructions.<
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, geometor.</p>
+    <p>&#169; Copyright 2025, geometor.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
