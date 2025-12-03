@@ -1,6 +1,0 @@
-com
-===
-
-.. py:module:: com
-
-
