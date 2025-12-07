@@ -2,17 +2,10 @@ GEOMETOR
 ========
 
 
-.. contents:: contents
-   :local:
-
 .. include:: intro.rst
 
 recent logs
 -----------
-
-.. postlist:: 5
-   :excerpts:
-
 
 
 .. toctree::

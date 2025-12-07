@@ -6,8 +6,6 @@ mission
 goals
 -----
 
-.. postlist:: 
-   :category: GOALS
-   :excerpts:
+.. collection:: 
 
 
