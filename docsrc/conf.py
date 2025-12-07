@@ -16,4 +16,5 @@ if 'autoapi.extension' in extensions:
 html_title = "GEOMETOR"
 blog_title = "GEOMETOR"
 
+# this is used for the CNAME file created by sphinx.ext.githubpages
 html_baseurl = 'https://geometor.com/'
