@@ -15,3 +15,5 @@ if 'autoapi.extension' in extensions:
 
 html_title = "GEOMETOR"
 blog_title = "GEOMETOR"
+
+html_baseurl = 'https://geometor.com/'
