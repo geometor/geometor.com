@@ -1,8 +1,0 @@
-
-.. _about:
-
-
-About GEOMETOR
-==============
-
-
