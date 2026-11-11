@@ -1,30 +1,13 @@
-GEOMETOR
-========
-
-
 .. include:: intro.rst
 
-recent logs
------------
+----
 
+Recent Chronicle
+----------------
 
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   mission/index.rst
-   usage/index.rst
-   projects/index.rst
-   logs.rst
-   refs/index.rst
-   connect.rst
-   todos.rst
-   about.rst
-
-
-indices
--------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. collection::
+   :type: log
+   :recursive:
+   :sort: date
+   :reverse:
+   :limit: 3
