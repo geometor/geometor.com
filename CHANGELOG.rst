@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.3.0
+-----
+*2026-11-12*
+
+- Expanded the GEOMETOR *Projects Atlas* and *Masters & Lineage* gallery from 24 to **46 public repositories**, distinguishing **Scholarly Editions (*Book Codices*)** of public-domain treatises from **Mathematical Catalogs** of modern constructive research (``etc``, ``wildberger``, ``divine``, ``knott``, ``codes``).
+- Added Wave 2 Book Codices and Catalogs across all pillars: ``codes``, ``byrne``, ``archimedes``, ``apollonius``, ``heron``, ``menelaus``, ``ptolemy``, ``ceva``, ``feuerbach``, ``staudt``, ``petersen``, ``casey``, ``lemoine``, ``klein``, ``plato``, ``nicomachus``, ``fibonacci``, ``cusa``, ``durer``, ``kepler``, ``poincare``, ``thompson``, and ``knott``, plus expanded ``euclid`` (*Data*), ``pappus`` (*Synagoge*), ``pacioli`` (*Summa* 1494), ``divine`` (*Cut-the-Knot* Golden Constructions), and ``altshiller-court`` (`v0.3.0`).
+
 0.2.0
 -----
 *2026-11-11*
