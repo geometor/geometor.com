@@ -1,21 +1,19 @@
+:type: log
+:date: 22.348-054131
+:excerpt: Initializing the Sphinx documentation portal for GEOMETOR.com and the golden quadratic x² - x - 1 = 0.
+
 Welcome to GEOMETOR.com
 =======================
 
-
-first log entry for the new system
-
-
-some math
+*December 2022* — First log entry initializing the Sphinx-based documentation portal for ``geometor.com``, grounded in the defining quadratic of the Divine Proportion:
 
 .. math::
 
-   x^2 - x - 1
+   x^2 - x - 1 = 0
 
-some code
+.. code-block:: python
 
-.. code:: python
+   import sympy as sp
 
-   def my_func()
-       print('we got the func')
-
-
+   x = sp.Symbol("x")
+   print(sp.solve(x**2 - x - 1, x))

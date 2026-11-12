@@ -1,38 +1,12 @@
-First Log - Lots of changes
-===========================
+:type: log
+:date: 23.324-124954
+:excerpt: Modularizing the symbolic engine into geometor.model, geometor.explorer, and geometor.divine.
 
-.. .. post::  23.324-124954
-   :tags: 
-   :category: status
+Modularizing the Symbolic Engine
+================================
 
+*November 2023* — This log entry marks the architectural transition from the original prototype of **GEOMETOR Explorer** into a modular Python ecosystem built on `SymPy <https://www.sympy.org/>`_.
 
-This log entry marks the commencement of the Geometor.model project. After
-extensive changes in recent months, the project's concepts, though not new, are
-entering a phase of significant development. The primary focus has been on
-refining the Geometor code, transitioning from the original Geometor Explorer,
-which encompassed a broad range of functions, to a more segmented approach.
-This segmentation allows for a clearer division of the project's key
-components: modeling, rendering, and analyzing complex geometric constructions.
+Separating symbolic construction (`model <https://github.com/geometor/model>`_), interactive SVG visualization (`explorer <https://github.com/geometor/explorer>`_), and automated proportional analysis (`divine <https://github.com/geometor/divine>`_) establishes a clean foundation for constructing complex Euclidean models algebraically and discovering golden sections without floating-point approximation.
 
-.. revealjs-section::
-
-The modeling aspect is tasked with creating complex geometric models, drawing
-inspiration from Euclidean techniques but executed algebraically. Following
-this, the rendering component brings these algebraic models to life,
-visualizing them onscreen. Analysis is the next step, with a current emphasis
-on exploring the golden ratio. Each of these segments will be represented
-through dedicated websites.
-
-.. revealjs-section::
-
-Regular updates will be communicated via logs like this, aiming to share the
-exciting developments within the project. The project's interests span
-geometry, symbolic algebra, Python programming, and parallel computing, and we
-eagerly anticipate future advancements.
-
-Contributions and updates will continue in the coming days, weeks, and months,
-detailing our journey with the project and the utilization of AI assistance.
-For those interested in contributing or following the project's progress,
-engagement is encouraged via the GitHub repository (github.com/geometor/model),
-which features a discussion area for community interaction.
-
+Community discussion and ongoing research are hosted across the `GEOMETOR GitHub Organization <https://github.com/geometor>`_.

@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symbolic Precision, Quadrance &amp; Spread &mdash; GEOMETOR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../_static/logo.png" class="logo" alt="Logo"/>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">geometor.com</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="index.html" class="is-active" aria-selected="true" >Mission</a>
+        </li>
+        <li>
+          <a href="../projects/index.html"  >Projects</a>
+        </li>
+        <li>
+          <a href="../foundations/index.html"  >Foundations</a>
+        </li>
+        <li>
+          <a href="../lineage/index.html"  >Lineage</a>
+        </li>
+        <li>
+          <a href="../broadcasts/index.html"  >Broadcasts</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >Chronicle</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; geometor.com</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="index.html">Mission</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="elementrium.html" title="The Elementrium: One Language of Form">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="earned_understanding.html" title="Earned Understanding &amp; Geometric Noetics"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="symbolic-precision-quadrance-spread">
+        <h1>Symbolic Precision, Quadrance &amp; Spread<a class="headerlink" href="#symbolic-precision-quadrance-spread" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Why Exact Algebra Replaces Floating-Point Approximation</p>
+        <p>Most interactive geometry environments represent points as pairs of 64-bit IEEE-754 floating-point numbers. Within two or three nested circle-circle intersections, rounding error accumulates: three lines that ought to concur at a single Steiner or Kirkman point miss one another by <span class="math notranslate nohighlight">\(10^{-15}\)</span>, and a ratio of segments can only be tested as <code class="docutils literal notranslate"><span class="pre">abs(r</span> <span class="pre">-</span> <span class="pre">1.618033988749895)</span> <span class="pre">&lt;</span> <span class="pre">1e-9</span></code>.</p>
+        <p>In <strong>GEOMETOR</strong>, decimal approximations belong to applied engineering—not to pure geometric inquiry.</p>
+        <section class="level-2" id="exact-algebraic-coordinates-in-sympy">
+        <h2>Exact Algebraic Coordinates in <code class="docutils literal notranslate"><span class="pre">SymPy</span></code><a class="headerlink" href="#exact-algebraic-coordinates-in-sympy" title="Link to this heading">¶</a></h2>
+        <p>Inside <a class="reference external" href="https://geometor.github.io/model/">geometor.model</a>, every point, line coefficient, circle equation, and intersection is maintained as a closed-form algebraic expression in <a class="reference external" href="https://www.sympy.org/">SymPy</a>:</p>
+        <div class="math notranslate nohighlight">
+        \[C = \left(\frac{1}{2},\, \frac{\sqrt{3}}{2}\right), \qquad
+        O = \left(\frac{1}{2},\, \frac{\sqrt{3}}{6}\right), \qquad
+        G = \left(\frac{1 + \sqrt{5}}{2},\, 0\right)\]</div>
+        <p>When <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code> or <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code> tests collinearity, concurrency, harmonic conjugacy, or Extreme and Mean Ratio, <code class="docutils literal notranslate"><span class="pre">sp.simplify(expr)</span> <span class="pre">==</span> <span class="pre">0</span></code> proves <strong>exact mathematical identity</strong> across nested quadratic extensions such as <span class="math notranslate nohighlight">\(\mathbb{Q}(\sqrt{3}, \sqrt{5})\)</span>.</p>
+        </section>
+        <section class="level-2" id="rational-trigonometry-invariants">
+        <h2>Rational Trigonometry Invariants<a class="headerlink" href="#rational-trigonometry-invariants" title="Link to this heading">¶</a></h2>
+        <p>Following Norman J. Wildberger’s <em>Divine Proportions: Rational Trigonometry to Universal Geometry</em> (explored in full in <a class="reference external" href="https://geometor.github.io/wildberger/">geometor/wildberger</a> and built directly into <code class="docutils literal notranslate"><span class="pre">geometor.model.invariants</span></code>), GEOMETOR complements Euclidean distance and transcendental angle with purely algebraic quadratic invariants:</p>
+        <ol class="arabic">
+        <li><p><strong>Quadrance</strong> <span class="math notranslate nohighlight">\(Q(A_1, A_2)\)</span> — squared separation without square roots:</p>
+        <div class="math notranslate nohighlight">
+        \[Q(A_1, A_2) = (x_2 - x_1)^2 + (y_2 - y_1)^2\]</div>
+        </li>
+        <li><p><strong>Spread</strong> <span class="math notranslate nohighlight">\(s(\ell_1, \ell_2)\)</span> — rational separation of two lines <span class="math notranslate nohighlight">\(a_1 x + b_1 y + c_1 = 0\)</span> and <span class="math notranslate nohighlight">\(a_2 x + b_2 y + c_2 = 0\)</span> without inverse trigonometric functions:</p>
+        <div class="math notranslate nohighlight">
+        \[s(\ell_1, \ell_2) = \frac{(a_1 b_2 - a_2 b_1)^2}{(a_1^2 + b_1^2)(a_2^2 + b_2^2)} \in [0, 1]\]</div>
+        <p>Parallel lines have spread <span class="math notranslate nohighlight">\(s = 0\)</span>; perpendicular lines have spread <span class="math notranslate nohighlight">\(s = 1\)</span>; the equilateral triangle of the Vesica Piscis has exact rational spread <span class="math notranslate nohighlight">\(s = \frac{3}{4}\)</span>; and the regular pentagon is governed by the golden spread <span class="math notranslate nohighlight">\(s = \frac{5 - \sqrt{5}}{8}\)</span>, satisfying the five-fold spread polynomial <span class="math notranslate nohighlight">\(S_5(s) = s(16s^2 - 20s + 5)^2 = 0\)</span>.</p>
+        </li>
+        <li><p><strong>Projective Cross-Ratio</strong> <span class="math notranslate nohighlight">\((A, B; C, D)\)</span> — the fundamental projective invariant preserved under central projection (<a class="reference external" href="https://geometor.github.io/pappus/">geometor/pappus</a>):</p>
+        <div class="math notranslate nohighlight">
+        \[(A, B; C, D) = \frac{(A - C)(B - D)}{(A - D)(B - C)}\]</div>
+        <p>When <span class="math notranslate nohighlight">\((A, B; C, D) = -1\)</span>, the four collinear points form a <strong>harmonic range</strong>, constructible by unmarked straightedge alone from a complete quadrangle.</p>
+        </li>
+        </ol>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="elementrium.html" title="The Elementrium: One Language of Form">&larr; <span class="nav-label">The Elementrium: One Language of Form</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="earned_understanding.html" title="Earned Understanding &amp; Geometric Noetics"><span class="nav-label">Earned Understanding & Geometric Noetics</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.315-143000/index.html">The Flowering of the Elementrium & Digital Scriptorium</a></li>
+        <li><a href="../log/23.324-124954/index.html">Modularizing the Symbolic Engine</a></li>
+        <li><a href="../log/22.348-054131.html">Welcome to GEOMETOR.com</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../usage/index.html"  >Quickstart</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+        <li><a href="../about.html"  >About</a></li>
+        <li><a href="../connect.html"  >Connect</a></li>
+        <li><a href="../contribute.html"  >Contribute</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 2026, GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

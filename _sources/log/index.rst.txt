@@ -1,8 +1,10 @@
 :navigation: header
-:order: 3
+:order: 6
 
-log
-===
+Chronicle
+=========
+
+.. rubric:: Milestones, Codices & Architectural Logs
 
 .. collection::
    :type: log

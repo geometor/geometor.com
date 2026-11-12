@@ -1,27 +1,33 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-content_root="./">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>glossary &mdash; GEOMETOR</title>
+  <title>Glossary &mdash; GEOMETOR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=bc127b54" />
+  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=66998e95" />
   <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <link rel="stylesheet" href="_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="_static/favicon.ico" />
 </head>
 
-<body>
-    <header>
+<body class="book-theme-classical-serif">
+  <header>
     <div class="logo">
       <a href="index.html">
         <img src="_static/logo.png" class="logo" alt="Logo"/>
       </a>
       <div class="org-repo">
-        <span class="org">geometor</span>
+        <span class="org">GEOMETOR</span>
         •
         <span class="repo">geometor.com</span>
       </div>
@@ -31,95 +37,167 @@
       <label for="nav-Header-toggle" >Header</label>
       <ul>
         <li>
-          <a href="projects/index.html"  >projects</a>
+          <a href="mission/index.html"  >Mission</a>
         </li>
         <li>
-          <a href="log/index.html"  >log</a>
+          <a href="projects/index.html"  >Projects</a>
         </li>
         <li>
-          <a href="modules/index.html"  >modules</a>
+          <a href="foundations/index.html"  >Foundations</a>
+        </li>
+        <li>
+          <a href="lineage/index.html"  >Lineage</a>
+        </li>
+        <li>
+          <a href="broadcasts/index.html"  >Broadcasts</a>
+        </li>
+        <li>
+          <a href="log/index.html"  >Chronicle</a>
         </li>
       </ul>
     </nav>
     <div class="motto"></div>
   </header>
-  <main>
-    
-    <article>
-      <div class="content">
-      <nav class="breadcrumbs">
-        <span><a href="index.html">Home</a></span>
-        <span>/</span>
-        <span>glossary</span>
-      </nav>
-        <nav class="context">
-          <div class="prev">
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="index.html" title="Return to Project Portal">&larr; geometor.com</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="index.html">GEOMETOR</a>
           </div>
-          <div class="next">
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="usage/installation.html" title="Installation &amp; Workspace Setup">&larr; <span class="nav-label">Prev</span></a>
           </div>
-        </nav>
-          <section id="glossary">
-<h1>glossary<a class="headerlink" href="#glossary" title="Link to this heading">¶</a></h1>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>establish glossary entries</p>
-</div>
-<dl class="simple glossary">
-<dt id="term-example">example<a class="headerlink" href="#term-example" title="Link to this term">¶</a></dt><dd><p>an example of how to structure a glossary item</p>
-</dd>
-</dl>
-</section>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="about.html" title="About"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="glossary">
+        <h1>Glossary<a class="headerlink" href="#glossary" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Core Vocabulary of the GEOMETOR Architecture</p>
+        <dl class="simple glossary">
+        <dt id="term-Book-Codex">Book Codex<a class="headerlink" href="#term-Book-Codex" title="Link to this term">¶</a></dt><dd><p>GEOMETOR’s multi-track digital scholarly format powered by <a class="reference external" href="https://github.com/photon-platform/publish">photon-platform/publish</a>, pairing synchronized source languages, formal pseudocode, executable Python, and interactive vector figures on every folio.</p>
+        </dd>
+        <dt id="term-Circle">Circle<a class="headerlink" href="#term-Circle" title="Link to this term">¶</a></dt><dd><p>A closed planar projection <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">)</span></code> swept by rotating radius point <code class="docutils literal notranslate"><span class="pre">B</span></code> perpendicularly around stationary center <code class="docutils literal notranslate"><span class="pre">A</span></code> (<a class="reference external" href="https://geometor.github.io/elements/elements2/G.10/">G.10</a>, <a class="reference external" href="https://geometor.github.io/elements/elements2/G.15/">G.15</a>). Unlike <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">]</span></code>, <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">)</span></code> and <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">B</span> <span class="pre">A</span> <span class="pre">)</span></code> are distinct loci.</p>
+        </dd>
+        <dt id="term-Cross-Ratio">Cross-Ratio<a class="headerlink" href="#term-Cross-Ratio" title="Link to this term">¶</a></dt><dd><p>The fundamental four-point projective invariant <span class="math notranslate nohighlight">\((A, B; C, D) = \frac{(A - C)(B - D)}{(A - D)(B - C)}\)</span>, preserved under central projection (<a class="reference external" href="https://geometor.github.io/pappus/">geometor/pappus</a>).</p>
+        </dd>
+        <dt id="term-Equidistant-Poles">Equidistant Poles<a class="headerlink" href="#term-Equidistant-Poles" title="Link to this term">¶</a></dt><dd><p>The conjugate intersection points <span class="math notranslate nohighlight">\(C\)</span> and <span class="math notranslate nohighlight">\(C'\)</span> of two symmetric circles <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">)</span></code> and <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">B</span> <span class="pre">A</span> <span class="pre">)</span></code>, each equidistant from <code class="docutils literal notranslate"><span class="pre">A</span></code> and <code class="docutils literal notranslate"><span class="pre">B</span></code> and defining the orthogonal axis <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">C</span> <span class="pre">C′</span> <span class="pre">]</span></code> perpendicular to <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">]</span></code>.</p>
+        </dd>
+        <dt id="term-Extreme-and-Mean-Ratio">Extreme and Mean Ratio<a class="headerlink" href="#term-Extreme-and-Mean-Ratio" title="Link to this term">¶</a></dt><dd><p>Euclid’s classical name (<em>Book VI, Def. 3</em>) for the <strong>Golden Ratio</strong> or <strong>Divine Proportion</strong> <span class="math notranslate nohighlight">\(\phi = \frac{1 + \sqrt{5}}{2}\)</span>, satisfying <span class="math notranslate nohighlight">\(\frac{a}{b} = \frac{b}{a + b}\)</span> and <span class="math notranslate nohighlight">\(\phi^2 - \phi - 1 = 0\)</span>.</p>
+        </dd>
+        <dt id="term-G-Index">G-Index<a class="headerlink" href="#term-G-Index" title="Link to this term">¶</a></dt><dd><p>The 601-node topological dependency sequence (<code class="docutils literal notranslate"><span class="pre">G.1</span></code>–<code class="docutils literal notranslate"><span class="pre">G.601</span></code>) in <a class="reference external" href="https://geometor.github.io/elements/">geometor/elements</a> ordering Euclid’s definitions, postulates, common notions, and propositions into a strict directed acyclic graph.</p>
+        </dd>
+        <dt id="term-Golden-Chain">Golden Chain<a class="headerlink" href="#term-Golden-Chain" title="Link to this term">¶</a></dt><dd><p>A sequence of collinear segments on a constructed line whose successive lengths form a geometric progression in powers of <span class="math notranslate nohighlight">\(\phi\)</span> (<span class="math notranslate nohighlight">\(\dots, \phi^{-1}, 1, \phi, \phi^2, \dots\)</span>) while simultaneously obeying the additive Fibonacci recurrence <span class="math notranslate nohighlight">\(\phi^{n+1} = \phi^n + \phi^{n-1}\)</span>.</p>
+        </dd>
+        <dt id="term-Harmonic-Range">Harmonic Range<a class="headerlink" href="#term-Harmonic-Range" title="Link to this term">¶</a></dt><dd><p>Four collinear points <span class="math notranslate nohighlight">\(A, B, C, D\)</span> whose cross-ratio equals <span class="math notranslate nohighlight">\((A, B; C, D) = -1\)</span>, meaning <span class="math notranslate nohighlight">\(C\)</span> and <span class="math notranslate nohighlight">\(D\)</span> divide segment <code class="docutils literal notranslate"><span class="pre">/</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">/</span></code> internally and externally in the same ratio. Constructible by unmarked straightedge alone from a complete quadrangle.</p>
+        </dd>
+        <dt id="term-Intelligible-Matter">Intelligible Matter<a class="headerlink" href="#term-Intelligible-Matter" title="Link to this term">¶</a></dt><dd><p><em>Materia intelligibilis</em> in Aristotle and Thomas Aquinas (<a class="reference external" href="https://geometor.github.io/aquinas/">geometor/aquinas</a>): the pure continuum of spatial extension abstracted from sensible qualities, in which geometric figures are constructed and judged.</p>
+        </dd>
+        <dt id="term-Intuitive-Formal-Abstraction">Intuitive Formal Abstraction<a class="headerlink" href="#term-Intuitive-Formal-Abstraction" title="Link to this term">¶</a></dt><dd><p>Fr. Petrus Hoenen’s epistemological principle (<a class="reference external" href="https://geometor.github.io/hoenen/">geometor/hoenen</a>) that universal geometric necessity is apprehended directly within concrete spatial construction prior to formal axiomatic codification.</p>
+        </dd>
+        <dt id="term-Line">Line<a class="headerlink" href="#term-Line" title="Link to this term">¶</a></dt><dd><p>An infinite straight projection <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">]</span></code> determined symmetrically by two distinct points (<a class="reference external" href="https://geometor.github.io/elements/elements2/G.2/">G.2</a>). Expressed algebraically as <span class="math notranslate nohighlight">\(ax + by + c = 0\)</span> with exact symbolic coefficients.</p>
+        </dd>
+        <dt id="term-Point">Point<a class="headerlink" href="#term-Point" title="Link to this term">¶</a></dt><dd><p>An indivisible location <code class="docutils literal notranslate"><span class="pre">A</span></code> on the planar field (<a class="reference external" href="https://geometor.github.io/elements/elements2/G.1/">Euclid I, Def. 1 / G.1</a>). In <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>, a point represents exact algebraic <em>information</em> <span class="math notranslate nohighlight">\((x, y)\)</span>—either placed as one of the two initial givens or selected by the intersection of two constructed loci.</p>
+        </dd>
+        <dt id="term-Quadrance">Quadrance<a class="headerlink" href="#term-Quadrance" title="Link to this term">¶</a></dt><dd><p>In Rational Trigonometry (<a class="reference external" href="https://geometor.github.io/wildberger/">geometor/wildberger</a>), the exact algebraic square of separation between two points, <span class="math notranslate nohighlight">\(Q(A_1, A_2) = (x_2 - x_1)^2 + (y_2 - y_1)^2\)</span>, avoiding unnecessary square roots.</p>
+        </dd>
+        <dt id="term-Segment">Segment<a class="headerlink" href="#term-Segment" title="Link to this term">¶</a></dt><dd><p>The bounded portion <code class="docutils literal notranslate"><span class="pre">/</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">/</span></code> of a line <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">]</span></code> lying between extremities <code class="docutils literal notranslate"><span class="pre">A</span></code> and <code class="docutils literal notranslate"><span class="pre">B</span></code> (<a class="reference external" href="https://geometor.github.io/elements/elements2/G.4/">G.4</a>).</p>
+        </dd>
+        <dt id="term-Spread">Spread<a class="headerlink" href="#term-Spread" title="Link to this term">¶</a></dt><dd><p>In Rational Trigonometry, the exact rational measure of inclination between two lines, <span class="math notranslate nohighlight">\(s(\ell_1, \ell_2) \in [0, 1]\)</span> (equivalent to <span class="math notranslate nohighlight">\(\sin^2\theta\)</span> in Euclidean space), where <span class="math notranslate nohighlight">\(s = 0\)</span> is parallel, <span class="math notranslate nohighlight">\(s = \tfrac{1}{2}\)</span> is <span class="math notranslate nohighlight">\(45^\circ\)</span>, <span class="math notranslate nohighlight">\(s = \tfrac{3}{4}\)</span> is <span class="math notranslate nohighlight">\(60^\circ\)</span>, and <span class="math notranslate nohighlight">\(s = 1\)</span> is perpendicular.</p>
+        </dd>
+        <dt id="term-Vesica-Piscis">Vesica Piscis<a class="headerlink" href="#term-Vesica-Piscis" title="Link to this term">¶</a></dt><dd><p>The symmetric lens formed by two congruent circles <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">)</span></code> and <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">B</span> <span class="pre">A</span> <span class="pre">)</span></code> each passing through the other’s center. Their intersections select the <strong>Equidistant Poles</strong>, generating the equilateral triangle, perpendicular bisection, and <span class="math notranslate nohighlight">\(\sqrt{3}\)</span>.</p>
+        </dd>
+        </dl>
+        </section>
 
       </div>
-      <footer>
-
-
-        <nav class="context">
-          <div class="prev">
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="usage/installation.html" title="Installation &amp; Workspace Setup">&larr; <span class="nav-label">Installation & Workspace Setup</span></a>
           </div>
-          <div class="next">
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="index.html">GEOMETOR</a>
           </div>
-        </nav></footer>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="about.html" title="About"><span class="nav-label">About</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
     </article>
-
   </main>
-
   <div class="asides">
-    <aside>
-        <h3>Search</h3>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
     </aside>
-    
-    
-
-    
-
-    
-
-</div>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="log/26.315-143000/index.html">The Flowering of the Elementrium & Digital Scriptorium</a></li>
+        <li><a href="log/23.324-124954/index.html">Modularizing the Symbolic Engine</a></li>
+        <li><a href="log/22.348-054131.html">Welcome to GEOMETOR.com</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
   <footer>
-    <hr/>
-    <div role="contentinfo">
-        <p>
-                &copy; Copyright .
-        </p>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="usage/index.html"  >Quickstart</a></li>
+        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">Glossary</a></li>
+        <li><a href="about.html"  >About</a></li>
+        <li><a href="connect.html"  >Connect</a></li>
+        <li><a href="contribute.html"  >Contribute</a></li>
+        <li><a href="changelog.html"  >Changelog</a></li>
+      </ul>
     </div>
-</footer>
-  
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 2026, GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
   <script src="_static/jquery.js?v=5d32c60e"></script>
   <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="_static/documentation_options.js?v=5929fcd5"></script>
-  <script src="_static/doctools.js?v=9bcbadda"></script>
-  <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+  <script src="_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="_static/js/collection_controls.js?v=b6b5297a"></script>
-  
+  <script src="_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="_static/js/search_highlight.js"></script>
 
 </body>
-
 </html>

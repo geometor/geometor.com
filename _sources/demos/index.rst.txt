@@ -1,7 +1,0 @@
-demos
-=====
-
-.. toctree::
-
-   demo
-   vesica

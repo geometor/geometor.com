@@ -1,27 +1,33 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-content_root="../">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome to GEOMETOR.com &mdash; GEOMETOR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=bc127b54" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
   <link rel="icon" href="../_static/favicon.ico" />
 </head>
 
-<body>
-    <header>
+<body class="book-theme-classical-serif">
+  <header>
     <div class="logo">
       <a href="../index.html">
         <img src="../_static/logo.png" class="logo" alt="Logo"/>
       </a>
       <div class="org-repo">
-        <span class="org">geometor</span>
+        <span class="org">GEOMETOR</span>
         •
         <span class="repo">geometor.com</span>
       </div>
@@ -31,97 +37,148 @@
       <label for="nav-Header-toggle" >Header</label>
       <ul>
         <li>
-          <a href="../projects/index.html"  >projects</a>
+          <a href="../mission/index.html"  >Mission</a>
         </li>
         <li>
-          <a href="index.html"  >log</a>
+          <a href="../projects/index.html"  >Projects</a>
         </li>
         <li>
-          <a href="../modules/index.html"  >modules</a>
+          <a href="../foundations/index.html"  >Foundations</a>
+        </li>
+        <li>
+          <a href="../lineage/index.html"  >Lineage</a>
+        </li>
+        <li>
+          <a href="../broadcasts/index.html"  >Broadcasts</a>
+        </li>
+        <li>
+          <a href="index.html" class="is-active" aria-selected="true" >Chronicle</a>
         </li>
       </ul>
     </nav>
     <div class="motto"></div>
   </header>
-  <main>
-    
-    <article>
-      <div class="content">
-      <nav class="breadcrumbs">
-        <span><a href="../index.html">Home</a></span>
-        <span>/</span>
-        <span>Welcome to GEOMETOR.com</span>
-      </nav>
-        <nav class="context">
-          <div class="prev">
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; geometor.com</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR</a>
           </div>
-          <div class="next">
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <span class="book-badge canonical-badge">22.348-054131</span>
           </div>
-        </nav>
-          <section id="welcome-to-geometor-com">
-<h1>Welcome to GEOMETOR.com<a class="headerlink" href="#welcome-to-geometor-com" title="Link to this heading">¶</a></h1>
-<p>first log entry for the new system</p>
-<p>some math</p>
-<div class="math notranslate nohighlight">
-\[x^2 - x - 1\]</div>
-<p>some code</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">my_func</span><span class="p">()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;we got the func&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</section>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="23.324-124954/index.html" title="Modularizing the Symbolic Engine">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../mission/index.html" title="Mission"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="welcome-to-geometor-com">
+        <h1>Welcome to GEOMETOR.com<a class="headerlink" href="#welcome-to-geometor-com" title="Link to this heading">¶</a></h1>
+        <p><em>December 2022</em> — First log entry initializing the Sphinx-based documentation portal for <code class="docutils literal notranslate"><span class="pre">geometor.com</span></code>, grounded in the defining quadratic of the Divine Proportion:</p>
+        <div class="math notranslate nohighlight">
+        \[x^2 - x - 1 = 0\]</div>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>
+
+        <span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">Symbol</span><span class="p">(</span><span class="s2">"x"</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
+        </pre></div>
+        </div>
+        </section>
 
       </div>
-      <footer>
+      <footer class="book-footer">
 
-
-        <nav class="context">
-          <div class="prev">
+        <div class="meta">
+          <span class="date">22.348-054131</span>
+        </div>
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="23.324-124954/index.html" title="Modularizing the Symbolic Engine">&larr; <span class="nav-label">Modularizing the Symbolic Engine</span></a>
           </div>
-          <div class="next">
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR</a>
           </div>
-        </nav></footer>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../mission/index.html" title="Mission"><span class="nav-label">Mission</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
     </article>
-
   </main>
-
   <div class="asides">
-    <aside>
-        <h3>Search</h3>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
     </aside>
-    
-    
-
-    
-
-    
-
-</div>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="26.315-143000/index.html">The Flowering of the Elementrium & Digital Scriptorium</a></li>
+        <li><a href="23.324-124954/index.html">Modularizing the Symbolic Engine</a></li>
+        <li><a href="#" class="is-active" aria-current="page" aria-selected="true">Welcome to GEOMETOR.com</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
   <footer>
-    <hr/>
-    <div role="contentinfo">
-        <p>
-                &copy; Copyright .
-        </p>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../usage/index.html"  >Quickstart</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+        <li><a href="../about.html"  >About</a></li>
+        <li><a href="../connect.html"  >Connect</a></li>
+        <li><a href="../contribute.html"  >Contribute</a></li>
+        <li><a href="../changelog.html"  >Changelog</a></li>
+      </ul>
     </div>
-</footer>
-  
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 2026, GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-  <script src="../_static/doctools.js?v=9bcbadda"></script>
-  <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+  <script src="../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
-  <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
 
 </body>
-
 </html>
