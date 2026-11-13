@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>I. The Symbolic Core &amp; Discovery Engine &mdash; GEOMETOR</title>
+  <title>I. The Symbolic Core, Discovery &amp; Software Catalog &mdash; GEOMETOR</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -78,15 +78,15 @@
           <div class="book-nav-center">
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="elementrium.html" title="II. The Unfolding Canon (The Elementrium)"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="elementrium.html" title="II. The Unfolding Canon (The Elementrium &amp; Constructive Geometry)"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="i-the-symbolic-core-discovery-engine">
-        <h1>I. The Symbolic Core &amp; Discovery Engine<a class="headerlink" href="#i-the-symbolic-core-discovery-engine" title="Link to this heading">¶</a></h1>
-        <p class="rubric">Exact Algebraic Modeling, Interactive Visualization &amp; Automated Discovery</p>
-        <p>The symbolic core provides the mathematical substrate on which every GEOMETOR construction, verification script, and studio broadcast runs.</p>
+        <section class="level-1" id="i-the-symbolic-core-discovery-software-catalog">
+        <h1>I. The Symbolic Core, Discovery &amp; Software Catalog<a class="headerlink" href="#i-the-symbolic-core-discovery-software-catalog" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Exact Algebraic Modeling, Interactive Visualization, Golden Discovery &amp; Prover Catalog</p>
+        <p>The symbolic core provides the mathematical substrate on which every GEOMETOR construction, verification script, and studio broadcast runs—paired with structured catalogs of golden constructions and open-source geometric proving engines.</p>
         <hr class="docutils" />
         <section class="level-2" id="model-the-symbolic-construction-engine">
         <h2><code class="docutils literal notranslate"><span class="pre">model</span></code> — The Symbolic Construction Engine<a class="headerlink" href="#model-the-symbolic-construction-engine" title="Link to this heading">¶</a></h2>
@@ -98,7 +98,7 @@
         <ul class="simple">
         <li><p><strong>Exact Primitives &amp; Closed-Form 2D Intersections</strong>: Points, infinite lines <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">]</span></code>, circles <code class="docutils literal notranslate"><span class="pre">(</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">)</span></code>, segments <code class="docutils literal notranslate"><span class="pre">/</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">/</span></code>, polygons <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">C</span> <span class="pre">&gt;</span></code>, wedges, and polynomial loci—with fast closed-form algebraic intersection deduplication and scoped subconstructions.</p></li>
         <li><p><strong>Rational &amp; Projective Invariants (`invariants.py`)</strong>: Exact symbolic <code class="docutils literal notranslate"><span class="pre">quadrance</span></code>, <code class="docutils literal notranslate"><span class="pre">line_spread</span></code>, <code class="docutils literal notranslate"><span class="pre">vertex_spread</span></code>, <code class="docutils literal notranslate"><span class="pre">cross</span></code>, <code class="docutils literal notranslate"><span class="pre">cross_ratio</span></code>, and <code class="docutils literal notranslate"><span class="pre">is_harmonic</span></code> verification without transcendental rounding error.</p></li>
-        <li><p><strong>Constructive Proof &amp; Ancestral DAGs (`proof.py`, `ancestors.py`)</strong>: Every derived point records the exact ancestral chain of givens, lines, and circles required to construct it, plus JSON serialization for downstream rendering and analysis.</p></li>
+        <li><p><strong>Constructive Proof &amp; Ancestral DAGs (`proof.py`, `ancestors.py`)</strong>: Every derived point records the exact ancestral chain of givens, lines, and circles required to construct it, paired with <code class="docutils literal notranslate"><span class="pre">&#64;proposition</span></code> deductive step ledgers and JSON serialization.</p></li>
         </ul>
         </section>
         <hr class="docutils" />
@@ -108,23 +108,36 @@
         <li><p><strong>Documentation</strong>: <a class="reference external" href="https://geometor.github.io/explorer/">geometor.github.io/explorer</a></p></li>
         <li><p><strong>Repository</strong>: <a class="reference external" href="https://github.com/geometor/explorer">github.com/geometor/explorer</a></p></li>
         </ul>
-        <p><code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code> unifies visual inspection, interactive construction, and print/video SVG export (superseding the earlier standalone <code class="docutils literal notranslate"><span class="pre">render</span></code> prototype):</p>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code> unifies visual inspection, interactive construction, and print/video SVG export:</p>
         <ul class="simple">
         <li><p><strong>Web Canvas &amp; Symbolic CLI</strong>: Construct and inspect <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> figures interactively in the browser with pan/zoom SVG viewports, KaTeX algebraic coordinate inspection, and ancestral highlighting.</p></li>
         <li><p><strong>Step-by-Step Timeline &amp; Sheet Export</strong>: Scrub through construction history step by step or export publication-grade vector figures for Sphinx Book Codices and QHD broadcasts.</p></li>
         </ul>
         </section>
         <hr class="docutils" />
-        <section class="level-2" id="divine-golden-ratio-harmonic-discovery">
-        <h2><code class="docutils literal notranslate"><span class="pre">divine</span></code> — Golden Ratio &amp; Harmonic Discovery<a class="headerlink" href="#divine-golden-ratio-harmonic-discovery" title="Link to this heading">¶</a></h2>
+        <section class="level-2" id="divine-golden-ratio-discovery-cut-the-knot-construction-catalog">
+        <h2><code class="docutils literal notranslate"><span class="pre">divine</span></code> — Golden Ratio Discovery &amp; <em>Cut-the-Knot</em> Construction Catalog<a class="headerlink" href="#divine-golden-ratio-discovery-cut-the-knot-construction-catalog" title="Link to this heading">¶</a></h2>
         <ul class="simple">
-        <li><p><strong>Documentation</strong>: <a class="reference external" href="https://geometor.github.io/divine/">geometor.github.io/divine</a></p></li>
+        <li><p><strong>Documentation &amp; Catalog</strong>: <a class="reference external" href="https://geometor.github.io/divine/">geometor.github.io/divine</a> (<a class="reference external" href="https://geometor.github.io/divine/constructions/">Constructions Catalog</a>)</p></li>
         <li><p><strong>Repository</strong>: <a class="reference external" href="https://github.com/geometor/divine">github.com/geometor/divine</a> · <strong>PyPI</strong>: <a class="reference external" href="https://pypi.org/project/geometor-divine/">geometor-divine</a></p></li>
         </ul>
-        <p>Once a model is constructed, <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code> scans every collinear point set on every line in the field to uncover emergent proportional structures:</p>
+        <p>Once a model is constructed, <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code> scans every collinear point set on every line in the field to uncover emergent proportional structures—and now pairs the discovery engine with a structured <strong>Mathematical Catalog</strong> inspired by Alexander Bogomolny’s <em>Cut-the-Knot</em> golden ratio archive:</p>
         <ul class="simple">
-        <li><p><strong>Exact Golden Sections</strong>: Identifies collinear triples <span class="math notranslate nohighlight">\((A, B, C)\)</span> whose segment ratios simplify algebraically to <span class="math notranslate nohighlight">\(\phi = \frac{1 + \sqrt{5}}{2}\)</span> or <span class="math notranslate nohighlight">\(\frac{1}{\phi} = \phi - 1\)</span>.</p></li>
-        <li><p><strong>Golden Chains &amp; Harmonic Ranges</strong>: Groups contiguous golden sections into self-similar geometric progressions (<em>golden chains</em>) and detects projective harmonic quadruples <span class="math notranslate nohighlight">\((A, B; C, D) = -1\)</span>.</p></li>
+        <li><p><strong>Exact Golden Sections &amp; Chains</strong>: Identifies collinear triples <span class="math notranslate nohighlight">\((A, B, C)\)</span> whose segment ratios simplify algebraically to <span class="math notranslate nohighlight">\(\phi = \frac{1 + \sqrt{5}}{2}\)</span> or <span class="math notranslate nohighlight">\(\phi^{-1}\)</span>, grouping contiguous golden sections into self-similar chains and harmonic quadruples <span class="math notranslate nohighlight">\((A, B; C, D) = -1\)</span>.</p></li>
+        <li><p><strong>Catalog of Classical &amp; Modern Golden Constructions</strong>: One-item-per-page <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> constructions and proofs spanning Euclid II.11/VI.30, Ptolemy’s pentagon-decagon, George Odom’s equilateral midline, Kurt Hofstetter’s 5-step compass constructions, and Tran Quang Hung / Michel Bataille circle configurations.</p></li>
+        </ul>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="codes-catalog-of-geometric-computing-theorem-proving-engines">
+        <h2><code class="docutils literal notranslate"><span class="pre">codes</span></code> — Catalog of Geometric Computing &amp; Theorem-Proving Engines<a class="headerlink" href="#codes-catalog-of-geometric-computing-theorem-proving-engines" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Live Catalog</strong>: <a class="reference external" href="https://geometor.github.io/codes/">geometor.github.io/codes</a></p></li>
+        <li><p><strong>Repository</strong>: <a class="reference external" href="https://github.com/geometor/codes">github.com/geometor/codes</a></p></li>
+        </ul>
+        <p>A structured architectural <strong>Catalog</strong> surveying the landscape of open-source deductive provers, algebraic geometry kernels, and dynamic geometry systems alongside <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>:</p>
+        <ul class="simple">
+        <li><p><strong>Formal &amp; Synthetic Provers</strong>: <em>GeoCoq</em> (Tarski &amp; Hilbert axiomatics in Coq/Rocq), <em>Java Geometry Expert (JGEX)</em> (Chou–Gao–Zhang Area &amp; Full-Angle Methods producing human-readable proofs), and Wu’s Characteristic Set / Gröbner Basis elimination (<em>GeoGebra Discovery</em>).</p></li>
+        <li><p><strong>Exact &amp; Computational Kernels</strong>: <em>SymPy Geometry</em>, <em>CGAL</em> (exact geometric predicates), <em>Cinderella</em> (projective Riemann-sphere continuity), and Rational Trigonometry algebra.</p></li>
         </ul>
         </section>
         <hr class="docutils" />
@@ -148,7 +161,7 @@
             <a class="book-toc-link" href="../index.html">GEOMETOR</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="elementrium.html" title="II. The Unfolding Canon (The Elementrium)"><span class="nav-label">II. The Unfolding Canon (The Elementrium)</span> &rarr;</a>
+            <a class="book-nav-btn" href="elementrium.html" title="II. The Unfolding Canon (The Elementrium &amp; Constructive Geometry)"><span class="nav-label">II. The Unfolding Canon (The Elementrium & Constructive Geometry)</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -176,6 +189,7 @@
     <aside class="aside-recent-logs">
       <h3>Recent Logs</h3>
       <ul>
+        <li><a href="../log/26.316-143500/index.html">Scholarly Editions & Mathematical Catalogs: The 46-Repository Canon</a></li>
         <li><a href="../log/26.315-143000/index.html">The Flowering of the Elementrium & Digital Scriptorium</a></li>
         <li><a href="../log/23.324-124954/index.html">Modularizing the Symbolic Engine</a></li>
         <li><a href="../log/22.348-054131.html">Welcome to GEOMETOR.com</a></li>
@@ -209,7 +223,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../_static/documentation_options.js?v=e259d695"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
