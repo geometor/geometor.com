@@ -1,7 +1,70 @@
 Modern Axiomatics, Synthetic Mastery & Geometric Noetics
 ========================================================
 
-.. rubric:: David Hilbert · Bertrand Russell · Nathan Altshiller-Court · Petrus Hoenen · Fred W. Seelig
+.. rubric:: Byrne · von Staudt · Petersen · Casey · Lemoine · Klein · Poincaré · Hilbert · Bertrand Russell · Altshiller-Court · Hoenen · Seelig
+
+----
+
+Oliver Byrne (1810–1880)
+------------------------
+
+* **GEOMETOR Edition**: `byrne — The First Six Books of the Elements of Euclid (1847) <https://geometor.github.io/byrne/>`_ (`Repo <https://github.com/geometor/byrne>`_)
+
+Civil engineer and mathematician whose 1847 Pickering edition replaced traditional lettered labels (*AB*, *∠ABC*) with primary-colored Bauhaus-avant-la-lettre visual tokens—transforming Euclidean deduction into **color-coded geometric pseudocode** where identical visual glyphs bind directly to constructive data structures.
+
+----
+
+Karl Georg Christian von Staudt (1798–1867)
+-------------------------------------------
+
+* **GEOMETOR Edition**: `staudt — Geometrie der Lage (1847) <https://geometor.github.io/staudt/>`_ (`Repo <https://github.com/geometor/staudt>`_)
+
+Architect of pure synthetic projective geometry. In *Geometrie der Lage* (1847), von Staudt liberated projective space from metric length by defining the **fourth harmonic point** purely via the complete quadrangle and constructing addition and multiplication of points on a line (**von Staudt's Throw Algebra**, *Würfe*) without compass or ruler ticks.
+
+----
+
+Julius Petersen (1839–1910)
+---------------------------
+
+* **GEOMETOR Edition**: `petersen — Methods and Theories for Geometrical Problems of Construction (1879) <https://geometor.github.io/petersen/>`_ (`Repo <https://github.com/geometor/petersen>`_)
+
+Danish geometer and graph-theorist whose 1879 handbook codified compass-and-straightedge problem solving into systematic **two-locus intersection** (*Method of Loci*) and **geometric transformations** (translation, rotation, homothety/similitude, and circular inversion).
+
+----
+
+John Casey (1820–1891)
+----------------------
+
+* **GEOMETOR Edition**: `casey — A Sequel to the First Six Books of the Elements of Euclid (1888) <https://geometor.github.io/casey/>`_ (`Repo <https://github.com/geometor/casey>`_)
+
+Irish geometer who bridged classical Euclid and late-nineteenth-century triangle and circle geometry, discovering **Casey's Generalized Ptolemy Theorem** (:math:`t_{12} t_{34} \pm t_{13} t_{24} \pm t_{14} t_{23} = 0` for four circles tangent to a fifth circle, providing a pure tangent-length proof of Feuerbach's theorem) and co-founding the theory of symmedians and Brocard circles.
+
+----
+
+Émile Lemoine (1840–1912)
+-------------------------
+
+* **GEOMETOR Edition**: `lemoine — Symmedian Point & Géométrographie (1873–1902) <https://geometor.github.io/lemoine/>`_ (`Repo <https://github.com/geometor/lemoine>`_)
+
+Discoverer of the **Symmedian / Lemoine Point** :math:`X(6)` (1873) and creator of ***Géométrographie*** (*La Géométrographie ou l'art des constructions géométriques*, 1902)—the first quantitative **operational complexity calculus** (:math:`R_1, R_2, C_1, C_2, C_3`, *simplicity*, and *exactitude*) measuring the algorithmic cost of ruler-and-compass constructions.
+
+----
+
+Felix Klein (1849–1925)
+-----------------------
+
+* **GEOMETOR Edition**: `klein — Erlangen Program (1872) & Famous Problems (1895) <https://geometor.github.io/klein/>`_ (`Repo <https://github.com/geometor/klein>`_)
+
+In his *Erlangen Program* (1872), Klein unified Euclidean, affine, elliptic, hyperbolic, inversive, and projective geometries as **invariant theories of nested transformation groups**. In *Famous Problems of Elementary Geometry* (1895/1897), he synthesized Galois's quadratic-tower criterion for the **Gauss–Wantzel 17-gon**, impossibility proofs for cube duplication and angle trisection, and Hermite–Lindemann transcendence of :math:`e` and :math:`\pi`.
+
+----
+
+Henri Poincaré (1854–1912)
+--------------------------
+
+* **GEOMETOR Edition**: `poincare — Science and Hypothesis (1902/1905) <https://geometor.github.io/poincare/>`_ (`Repo <https://github.com/geometor/poincare>`_)
+
+Universal mathematician whose philosophy of **geometric conventionalism** traced perceptual space to Lie groups of rigid displacements and introduced the **Poincaré conformal disk dictionary**—translating every hyperbolic postulate into an exact Euclidean circle-orthogonality theorem to prove the relative consistency of non-Euclidean geometry.
 
 ----
 
@@ -28,7 +91,7 @@ Nathan Altshiller-Court (1881–1968)
 
 * **GEOMETOR Edition**: `altshiller-court — College Geometry <https://geometor.github.io/altshiller-court/>`_ (`Repo <https://github.com/geometor/altshiller-court>`_)
 
-Master pedagogue of modern synthetic geometry whose *College Geometry* (1925; expanded 2nd ed., 1952) systematically trains the geometer in the four-part constructive discipline (*Analysis, Construction, Proof, Discussion*), connecting Euclid directly to the Nine-Point Circle, Feuerbach's tangency theorem, Simson lines, harmonic bundles, inversion, and Lemoine–Brocard triangle geometry.
+Master pedagogue of modern synthetic geometry whose *College Geometry* (1925) systematically trains the geometer in the four-part constructive discipline (*Analysis, Construction, Proof, Discussion*), parsed one item per page across loci, similitude, harmonic division, the Nine-Point Circle, Feuerbach's theorem, Simson lines, and circular inversion.
 
 ----
 
