@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    mission/index
+   books/index
    projects/index
    foundations/index
    lineage/index

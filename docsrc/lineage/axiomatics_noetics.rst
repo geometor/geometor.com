@@ -1,7 +1,16 @@
 Modern Axiomatics, Synthetic Mastery & Geometric Noetics
 ========================================================
 
-.. rubric:: Byrne · von Staudt · Petersen · Casey · Lemoine · Klein · Poincaré · Hilbert · Bertrand Russell · Altshiller-Court · Hoenen · Seelig
+.. rubric:: Steiner · Byrne · von Staudt · Petersen · Pasch · Casey · Lemoine · Klein · Poincaré · Hilbert · Bertrand Russell · Altshiller-Court · Hoenen · Seelig
+
+----
+
+Jakob Steiner (1796–1863)
+-------------------------
+
+* **GEOMETOR Edition**: `steiner — Die geometrischen Constructionen (1833) <https://geometor.github.io/steiner/>`_ (`Repo <https://github.com/geometor/steiner>`_)
+
+Swiss synthetic geometer whose 1833 Berlin treatise proved the **Poncelet–Steiner Theorem**: given a single fixed circle and its center drawn once on the plane, every Euclidean ruler-and-compass construction can be executed with an **unmarked straightedge alone** via harmonic conjugates and conic polarities.
 
 ----
 
@@ -17,18 +26,27 @@ Civil engineer and mathematician whose 1847 Pickering edition replaced tradition
 Karl Georg Christian von Staudt (1798–1867)
 -------------------------------------------
 
-* **GEOMETOR Edition**: `staudt — Geometrie der Lage (1847) <https://geometor.github.io/staudt/>`_ (`Repo <https://github.com/geometor/staudt>`_)
+* **GEOMETOR Editions**: `staudt — Geometrie der Lage (1847) & Beiträge (1857) <https://geometor.github.io/staudt/>`_ (`Repo <https://github.com/geometor/staudt>`_)
 
-Architect of pure synthetic projective geometry. In *Geometrie der Lage* (1847), von Staudt liberated projective space from metric length by defining the **fourth harmonic point** purely via the complete quadrangle and constructing addition and multiplication of points on a line (**von Staudt's Throw Algebra**, *Würfe*) without compass or ruler ticks.
+Architect of pure synthetic projective geometry. In *Geometrie der Lage* (1847) and *Beiträge* (1857), von Staudt liberated projective space from metric length by defining the **fourth harmonic point** purely via the complete quadrangle and constructing addition and multiplication of points on a line (**von Staudt's Throw Algebra**, *Würfe*) without compass or ruler ticks.
 
 ----
 
 Julius Petersen (1839–1910)
 ---------------------------
 
-* **GEOMETOR Edition**: `petersen — Methods and Theories for Geometrical Problems of Construction (1879) <https://geometor.github.io/petersen/>`_ (`Repo <https://github.com/geometor/petersen>`_)
+* **GEOMETOR Edition**: `petersen — Methods and Theories for Geometrical Constructions (1879) <https://geometor.github.io/petersen/>`_ (`Repo <https://github.com/geometor/petersen>`_)
 
 Danish geometer and graph-theorist whose 1879 handbook codified compass-and-straightedge problem solving into systematic **two-locus intersection** (*Method of Loci*) and **geometric transformations** (translation, rotation, homothety/similitude, and circular inversion).
+
+----
+
+Moritz Pasch (1843–1930)
+------------------------
+
+* **GEOMETOR Edition**: `pasch — Vorlesungen über neuere Geometrie (1882) <https://geometor.github.io/pasch/>`_ (`Repo <https://github.com/geometor/pasch>`_)
+
+Pioneer of modern axiomatic rigor whose *Vorlesungen über neuere Geometrie* (1882) exposed Euclid's unstated planar order assumptions—formulating **Pasch's Axiom** (a line meeting one side of a triangle and missing the vertices must meet one of the other two sides) and demanding that deduction rely strictly on explicit axioms rather than diagrammatic intuition.
 
 ----
 

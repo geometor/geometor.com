@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.4.0
+-----
+*2026-11-16*
+
+- Added first-class **Books & Catalogs** header directory (`geometor.com/books/ <https://geometor.com/books/>`_) listing all **74 working historical Book Codices** across **39 author scriptoria** and all **11 Mathematical Catalogs** with direct treatise-level URLs.
+- Expanded the *Projects Atlas* and *Lineage* dossiers from 46 to **61 public repositories**, adding standalone editions and catalogs for ``piero``, ``pascal``, ``euler``, ``mascheroni``, ``steiner``, ``pasch``, ``hambidge``, ``polyhedra``, ``huntley``, ``livio``, ``posamentier``, ``elementarium``, ``press``, and ``animations``.
+
 0.3.0
 -----
 *2026-11-12*

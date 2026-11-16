@@ -1,5 +1,5 @@
 :navigation: header
-:order: 6
+:order: 7
 
 Chronicle
 =========
