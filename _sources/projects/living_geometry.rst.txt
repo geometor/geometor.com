@@ -54,3 +54,24 @@ Structured one-item-per-page **GEOMETOR Mathematical Catalog** documenting the n
 * **Fibonacci & Lucas Number Theory**: Exact Binet :math:`\mathbb{Z}[\phi]` arithmetic, Cassini/Catalan/d'Ocagne identities, GCD divisibility (:math:`\gcd(F_m, F_n) = F_{\gcd(m, n)}`), modular **Pisano periods** :math:`\pi(m)`, and **Zeckendorf** / Fibonacci-base representations.
 * **Pythagorean Triples & Golden Dissections**: Fibonacci-generated Pythagorean triples :math:`(F_n F_{n+3},\; 2 F_{n+1} F_{n+2},\; F_{n+1}^2 + F_{n+2}^2)`, Golden Triangle & Golden Gnomon Robinson-style dissections, and regular pentagon chord lattices.
 * **Continued Fractions & Wythoff's Game**: Convergents of :math:`[1; 1, 1, \dots]` and **Beatty's complementary spectrum theorem** partitioning :math:`\mathbb{Z}_{>0}` into :math:`(\lfloor n\phi \rfloor, \lfloor n\phi^2 \rfloor)` cold positions of Wythoff's Nim.
+
+----
+
+``hambidge`` — Jay Hambidge's *The Elements of Dynamic Symmetry* (1920)
+-----------------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/hambidge <https://geometor.github.io/hambidge/>`_ (`The Elements of Dynamic Symmetry <https://geometor.github.io/hambidge/dynamic_symmetry/>`_)
+* **Repository**: `github.com/geometor/hambidge <https://github.com/geometor/hambidge>`_
+
+3-Track Book Codex (**174 tracked primary-source folios** from Hambidge's 1919–1920 *The Diagonal* & *Elements*) reconstructing **Dynamic Symmetry** in exact ``SymPy`` quadrance algebra: commensurable-in-power root rectangles (:math:`\sqrt{2}, \sqrt{3}, \sqrt{4}, \sqrt{5}`), the **Whirling Square Rectangle** (:math:`\phi`), and the :math:`\sqrt{\phi}` and :math:`\frac{\sqrt{5}+1}{4}` design canons of Greek vases and botanical phyllotaxis.
+
+----
+
+``huntley``, ``livio`` & ``posamentier`` — Modern Golden Ratio Mathematical Catalogs
+------------------------------------------------------------------------------------
+
+* **H. E. Huntley (*The Divine Proportion*)**: `geometor.github.io/huntley <https://geometor.github.io/huntley/>`_ (`Catalog <https://geometor.github.io/huntley/catalog/>`_ · `GitHub <https://github.com/geometor/huntley>`_)
+* **Mario Livio (*The Golden Ratio & Myth Triage*)**: `geometor.github.io/livio <https://geometor.github.io/livio/>`_ (`Catalog <https://geometor.github.io/livio/catalog/>`_ · `GitHub <https://github.com/geometor/livio>`_)
+* **Posamentier & Lehmann (*The Glorious Golden Ratio*)**: `geometor.github.io/posamentier <https://geometor.github.io/posamentier/>`_ (`Catalog <https://geometor.github.io/posamentier/catalog/>`_ · `GitHub <https://github.com/geometor/posamentier>`_)
+
+Three complementary one-item-per-page **GEOMETOR Mathematical Catalogs** modeling every mathematical construction, Fibonacci matrix identity, *spira mirabilis* gnomon, circle-chord golden ratio theorem, Penrose tiling inflation, and historical primary-source claim triage over exact :math:`\mathbb{Q}(\phi)`.

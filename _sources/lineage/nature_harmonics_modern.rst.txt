@@ -1,7 +1,7 @@
 Living Form, Harmonics & Symbolic Catalogs Today
 ================================================
 
-.. rubric:: Haeckel · D'Arcy Thompson · Kayser · Walter & Lao Russell · Odom · Jean · Bogomolny · Knott · Kimberling · Wildberger
+.. rubric:: Haeckel · D'Arcy Thompson · Hambidge · Kayser · Walter & Lao Russell · Huntley · Odom · Jean · Bogomolny · Knott · Livio · Posamentier & Lehmann · Kimberling · Wildberger
 
 ----
 
@@ -21,6 +21,15 @@ Scottish biologist, mathematician, and classical scholar whose *On Growth and Fo
 
 ----
 
+Jay Hambidge (1867–1924)
+------------------------
+
+* **GEOMETOR Edition**: `hambidge — The Elements of Dynamic Symmetry (1920) <https://geometor.github.io/hambidge/>`_ (`Repo <https://github.com/geometor/hambidge>`_)
+
+Artist and scholar of classical design who distinguished passive **static symmetry** (rational linear grids) from **dynamic symmetry**—proportions commensurable *in square* (*potentia*, Euclid Book X): root-:math:`2`, root-:math:`3`, and root-:math:`5` rectangles alongside the **Whirling Square Rectangle** (:math:`\phi`), measured across fifth-century Greek kraters, temple plans, and living phyllotaxis.
+
+----
+
 Hans Kayser (1891–1964)
 -----------------------
 
@@ -31,9 +40,18 @@ Founder of modern **Pythagorean Harmonics** (*Akróasis: The Theory of World Har
 Walter Russell (1871–1963) & Lao Russell (1904–1988)
 ----------------------------------------------------
 
-* **GEOMETOR Edition**: `russell — Home Study Course <https://geometor.github.io/russell/>`_ (`Repo <https://github.com/geometor/russell>`_)
+* **GEOMETOR Editions**: `russell — Home Study Course & Wave-Field Cosmogony <https://geometor.github.io/russell/>`_ (`Repo <https://github.com/geometor/russell>`_)
 
-Artist, sculptor, and natural philosopher Walter Russell and co-author Lao Russell articulated a geometric wave-field cosmogony built on the **interpenetrating cube and sphere**—modeling compression and expansion as rhythmic optical projections between cubic zero-curvature boundaries and spherical wave-centers across 180 reconstructed vector figures.
+Artist, sculptor, and natural philosopher Walter Russell and co-author Lao Russell articulated a geometric wave-field cosmogony built on the **interpenetrating cube and sphere**—modeling compression and expansion as rhythmic optical projections between cubic zero-curvature boundaries and spherical wave-centers across 519 archival folios and 180 reconstructed vector figures.
+
+----
+
+H. E. Huntley, Mario Livio & Alfred S. Posamentier / Ingmar Lehmann
+-------------------------------------------------------------------
+
+* **GEOMETOR Catalogs**: `huntley <https://geometor.github.io/huntley/catalog/>`_ · `livio <https://geometor.github.io/livio/catalog/>`_ · `posamentier <https://geometor.github.io/posamentier/catalog/>`_
+
+Across *The Divine Proportion* (Huntley, 1970), *The Golden Ratio* (Livio, 2002), and *The Glorious Golden Ratio* (Posamentier & Lehmann, 2011), modern mathematical expositors synthesized Fibonacci matrix algebra, *spira mirabilis* gnomons, Penrose quasicrystalline tilings, circle-chord golden sections, and primary-source historical myth triage—modeled one mathematical claim per page in three dedicated GEOMETOR **Mathematical Catalogs**.
 
 ----
 

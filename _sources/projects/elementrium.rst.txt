@@ -87,13 +87,23 @@ Multi-track edition of Books I–III of Menelaus's *Sphaerica*: intrinsic geomet
 
 ----
 
-``pappus`` — Pappus of Alexandria's *Synagoge* & *Hexagrammum Mysticum*
------------------------------------------------------------------------
+``pappus`` — Pappus of Alexandria's *Synagoge* (*Collection*)
+-------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/pappus <https://geometor.github.io/pappus/>`_
+* **Live Book Codex**: `geometor.github.io/pappus <https://geometor.github.io/pappus/>`_ (`Synagoge <https://geometor.github.io/pappus/synagoge/>`_ · `Theorems <https://geometor.github.io/pappus/theorems/>`_)
 * **Repository**: `github.com/geometor/pappus <https://github.com/geometor/pappus>`_
 
-Unites a 4-Track Greek/English Book Codex of Pappus's *Synagoge* (*Collection*, Hultsch 1876–1878: Book III Three Means in a Semicircle, Book IV Generalized Pythagoras & Arbelos Circle Chain :math:`h_n = n d_n`, Book V Honeycomb Isoperimetry, Book VII *Domain of Analysis* & Cross-Ratio, Book VIII Mechanics) with exact ``SymPy`` proofs of all **6 :math:`S_3` Pappus–Steiner lines** and **Pascal's 60-line *Hexagrammum Mysticum***.
+4-Track Greek/English Book Codex of Pappus's *Synagoge* (Hultsch 1876–1878, **445 folios**): Book III Three Means in a Semicircle, Book IV Generalized Pythagoras & Arbelos Circle Chain :math:`h_n = n d_n`, Book V Honeycomb Isoperimetry, Book VII *Domain of Analysis*, Cross-Ratio & Hexagon Lemma, and Book VIII Mechanics, paired with exact ``SymPy`` projective configurations.
+
+----
+
+``pascal`` — Blaise Pascal's *Essay pour les Coniques* (1640)
+-------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/pascal <https://geometor.github.io/pascal/>`_ (`Essay pour les Coniques <https://geometor.github.io/pascal/essay_coniques_1640/>`_)
+* **Repository**: `github.com/geometor/pascal <https://github.com/geometor/pascal>`_
+
+4-Track French/English Book Codex of Pascal's 1640 Paris broadside generalizing Pappus's hexagon theorem to any six points inscribed on a conic section, accompanied by exact symbolic verification of the **60 Pascal lines**, **20 Steiner points**, and **60 Kirkman points** of the *Hexagrammum Mysticum*.
 
 ----
 
@@ -103,17 +113,47 @@ Unites a 4-Track Greek/English Book Codex of Pappus's *Synagoge* (*Collection*, 
 * **Live Book Codex**: `geometor.github.io/ceva <https://geometor.github.io/ceva/>`_
 * **Repository**: `github.com/geometor/ceva <https://github.com/geometor/ceva>`_
 
-4-Track Latin/English Codex of Ceva's 1678 Milan quarto treatise elevating Archimedes' Law of the Lever into a universal engine of projective concurrency: **Ceva's Theorem** for interior and exterior cevians (:math:`X_1, X_2, X_4, X_6, X_7, X_8`), static rediscovery of Menelaus's Theorem, odd-polygon ratio products, and 4-weight 3D tetrahedron concurrency.
+4-Track Latin/English Codex (**126 folios**) of Ceva's 1678 Milan quarto treatise elevating Archimedes' Law of the Lever into a universal engine of projective concurrency: **Ceva's Theorem** for interior and exterior cevians (:math:`X_1, X_2, X_4, X_6, X_7, X_8`), static rediscovery of Menelaus's Theorem, odd-polygon ratio products, and 4-weight 3D tetrahedron concurrency.
 
 ----
 
-``feuerbach`` — Euler (*E325*, 1765) & Feuerbach (*Eigenschaften*, 1822)
+``euler`` — Leonhard Euler's *Solutio facilis* (*E325*, 1765)
+-------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/euler <https://geometor.github.io/euler/>`_ (`Solutio facilis <https://geometor.github.io/euler/solutio_facilis_1765/>`_)
+* **Repository**: `github.com/geometor/euler <https://github.com/geometor/euler>`_
+
+4-Track Latin/English Codex (**38 folios** from the *Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae*) deriving the exact algebraic quadrances between orthocenter, centroid, circumcenter, and incenter—proving the :math:`2:1` collinearity of the **Euler Line** (:math:`X_4, X_2, X_3`) and **Euler's Incenter–Circumcenter Theorem** :math:`OI^2 = R^2 - 2Rr`.
+
+----
+
+``mascheroni`` — Lorenzo Mascheroni's *La Geometria del Compasso* (1797)
 ------------------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/feuerbach <https://geometor.github.io/feuerbach/>`_
+* **Live Book Codex**: `geometor.github.io/mascheroni <https://geometor.github.io/mascheroni/>`_ (`La Geometria del Compasso <https://geometor.github.io/mascheroni/geometria_del_compasso/>`_)
+* **Repository**: `github.com/geometor/mascheroni <https://github.com/geometor/mascheroni>`_
+
+4-Track Italian/English Codex (**181 folios**, Pavia 1797) proving the **Mohr–Mascheroni Theorem**: every compass-and-straightedge construction of Euclidean geometry—including circle bisection, regular polygon division, and line-circle/line-line intersection—can be executed with the **compass alone**.
+
+----
+
+``feuerbach`` — Karl Wilhelm Feuerbach's *Eigenschaften* (1822)
+---------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/feuerbach <https://geometor.github.io/feuerbach/>`_ (`Eigenschaften <https://geometor.github.io/feuerbach/feuerbach_1822/>`_)
 * **Repository**: `github.com/geometor/feuerbach <https://github.com/geometor/feuerbach>`_
 
-Bilingual Latin/German/English Codex uniting Leonhard Euler's 1765 St. Petersburg memoir (*E325*, proving collinearity and :math:`2:1` division of the **Euler Line** and :math:`OI^2 = R^2 - 2Rr`) with Karl Wilhelm Feuerbach's 1822 Nuremberg monograph proving that the **Nine-Point Circle** (:math:`X_5`) touches the incircle internally at **Feuerbach's Point (:math:`X_{11}`)** and all three excircles externally.
+4-Track German/English Codex (**76 folios**, Nuremberg 1822) proving that the **Nine-Point Circle** (center :math:`X_5`, radius :math:`R/2`) touches the incircle internally at **Feuerbach's Point (:math:`X_{11}`)** and all three excircles externally.
+
+----
+
+``steiner`` — Jakob Steiner's *Die geometrischen Constructionen* (1833)
+-----------------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/steiner <https://geometor.github.io/steiner/>`_ (`Die geometrischen Constructionen <https://geometor.github.io/steiner/constructionen_1833/>`_)
+* **Repository**: `github.com/geometor/steiner <https://github.com/geometor/steiner>`_
+
+4-Track German/English Codex (**94 folios**, Berlin 1833 / Ostwald's Klassiker 1895) proving the **Poncelet–Steiner Theorem**: given a single fixed circle and its center drawn once on the plane, every Euclidean construction can be performed with the **unmarked straightedge alone** via harmonic ranges and polarities.
 
 ----
 

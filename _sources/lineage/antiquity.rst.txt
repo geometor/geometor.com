@@ -26,9 +26,9 @@ In *Posterior Analytics*, *Physics*, *De Anima*, and *Metaphysics* IX.9 (1051a21
 Euclid of Alexandria (fl. c. 300 BC)
 ------------------------------------
 
-* **GEOMETOR Editions**: `euclid <https://geometor.github.io/euclid/>`_ (Heath 13-Book Critical Codex + *Data* & *Optics*) · `elements <https://geometor.github.io/elements/>`_ (601-Node G-Index) · `YouTube Playlist <https://www.youtube.com/playlist?list=PLUXlBs_QySgw>`_
+* **GEOMETOR Editions**: `euclid <https://geometor.github.io/euclid/>`_ (`Elements <https://geometor.github.io/euclid/heath/>`_ & `Data <https://geometor.github.io/euclid/data/>`_) · `elements <https://geometor.github.io/elements/>`_ (601-Node G-Index) · `YouTube Playlist <https://www.youtube.com/playlist?list=PLUXlBs_QySgw>`_
 
-Euclid's thirteen books of the *Elements*—paired in ``geometor/euclid`` with his **94-proposition *Data*** (governing constructive *givens* in geometric analysis) and **58-proposition *Optics*** (visual cones and angular perspective)—established the enduring paradigm of deductive architecture, culminating in **Extreme and Mean Ratio** (*II.11*, *VI.30*) and the **five Platonic solids** (*Book XIII*).
+Euclid's thirteen books of the *Elements*—paired in ``geometor/euclid`` with his **94-proposition *Data*** (*Δεδομένα*, governing constructive *givens* in geometric analysis)—established the enduring paradigm of deductive architecture, culminating in **Extreme and Mean Ratio** (*II.11*, *VI.30*) and the **five Platonic solids** (*Book XIII*).
 
 ----
 

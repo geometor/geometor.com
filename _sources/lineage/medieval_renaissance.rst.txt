@@ -26,9 +26,18 @@ In *Super Boetium De Trinitate* (Questions 5 and 6) and his commentaries on Aris
 Nicholas of Cusa (1401–1464)
 ----------------------------
 
-* **GEOMETOR Edition**: `cusa — De Docta Ignorantia (1440) <https://geometor.github.io/cusa/>`_ (`Repo <https://github.com/geometor/cusa>`_)
+* **GEOMETOR Editions**: `cusa — De Docta Ignorantia (1440) & De Mathematicis Complementis (1453) <https://geometor.github.io/cusa/>`_ (`Repo <https://github.com/geometor/cusa>`_)
 
 German cardinal, jurist, and philosopher whose *De Docta Ignorantia* (*On Learned Ignorance*, Book I) employed exact **transsumptive mathematical symbolism** to contemplate the Infinite: as radius grows without bound, the curved circumference approaches coincidence with its straight tangent (*coincidentia oppositorum*)—inspiring Kepler (*"divinus mihi Cusanus"*), Desargues's points at infinity, and modern limiting geometry.
+
+----
+
+Piero della Francesca (c. 1415–1492)
+------------------------------------
+
+* **GEOMETOR Edition**: `piero — Libellus de Quinque Corporibus Regularibus <https://geometor.github.io/piero/>`_ (`Repo <https://github.com/geometor/piero>`_)
+
+Master painter and mathematician of Borgo Sansepolcro whose *Libellus de Quinque Corporibus Regularibus* (*Codex Vaticanus Urbinas latinus 632*) computed exact quadratic and golden radical coordinates, reciprocal dual inscriptions, and Archimedean truncations of the five Platonic solids.
 
 ----
 
@@ -68,9 +77,9 @@ Kepler nested the five Platonic solids among the planetary spheres, discovered t
 Blaise Pascal (1623–1662)
 -------------------------
 
-* **Featured in**: `pappus (Hexagrammum Mysticum) <https://geometor.github.io/pappus/>`_
+* **GEOMETOR Edition**: `pascal — Essay pour les Coniques (1640) <https://geometor.github.io/pascal/>`_ (`Repo <https://github.com/geometor/pascal>`_)
 
-At age sixteen, Pascal generalized Pappus's two-line hexagon theorem to any six points inscribed on a non-degenerate conic (*Essai pour les coniques*, 1640): opposite sides of an inscribed hexagon meet in three collinear points along a **Pascal line**. Permuting six vertices yields the **60 Pascal lines**, **20 Steiner points**, **60 Kirkman points**, and **15 Plücker lines** of the *Hexagrammum Mysticum*—verified symbolically in exact ``SymPy`` algebra inside ``geometor/pappus``.
+At age sixteen, Pascal generalized Pappus's two-line hexagon theorem to any six points inscribed on a non-degenerate conic (*Essay pour les Coniques*, 1640): opposite sides of an inscribed hexagon meet in three collinear points along a **Pascal line**. Permuting six vertices yields the **60 Pascal lines**, **20 Steiner points**, **60 Kirkman points**, and **15 Plücker lines** of the *Hexagrammum Mysticum*.
 
 ----
 
@@ -83,9 +92,27 @@ Milanese and Mantuan geometer who elevated Archimedes' Law of the Lever into pur
 
 ----
 
-Leonhard Euler (1707–1783) & Karl Wilhelm Feuerbach (1800–1834)
----------------------------------------------------------------
+Leonhard Euler (1707–1783)
+--------------------------
 
-* **GEOMETOR Edition**: `feuerbach — Founding Trilogy of Triangle Geometry <https://geometor.github.io/feuerbach/>`_ (`Repo <https://github.com/geometor/feuerbach>`_)
+* **GEOMETOR Edition**: `euler — Solutio facilis (E325, 1765) <https://geometor.github.io/euler/>`_ (`Repo <https://github.com/geometor/euler>`_)
 
-In memoir *E325* (*Solutio facilis*, 1765), **Leonhard Euler** computed the exact algebraic distances among the four classical centers of any scalene triangle—discovering :math:`OI^2 = R^2 - 2Rr` and the **Euler Line** (:math:`X_4, X_2, X_3`). Fifty-seven years later in Nuremberg (*Eigenschaften*, 1822), **Karl Wilhelm Feuerbach** proved that the circle through the side-midpoints and altitude-feet (center :math:`X_5`, radius :math:`R/2`) **touches the incircle internally at the Feuerbach point** :math:`X_{11}` and all three excircles externally—inaugurating modern triangle geometry.
+In St. Petersburg memoir *E325* (*Solutio facilis*, 1765), Euler computed the exact algebraic distances among the four classical centers of any scalene triangle—discovering :math:`OI^2 = R^2 - 2Rr` and proving the :math:`2:1` collinearity of the **Euler Line** (:math:`X_4, X_2, X_3`).
+
+----
+
+Lorenzo Mascheroni (1750–1800)
+------------------------------
+
+* **GEOMETOR Edition**: `mascheroni — La Geometria del Compasso (1797) <https://geometor.github.io/mascheroni/>`_ (`Repo <https://github.com/geometor/mascheroni>`_)
+
+Pavian mathematician and poet whose *La Geometria del Compasso* (1797) proved that every Euclidean ruler-and-compass construction—including circle division and straight-line intersection—can be executed cleanly with the **compass alone**.
+
+----
+
+Karl Wilhelm Feuerbach (1800–1834)
+----------------------------------
+
+* **GEOMETOR Edition**: `feuerbach — Eigenschaften (1822) <https://geometor.github.io/feuerbach/>`_ (`Repo <https://github.com/geometor/feuerbach>`_)
+
+In Nuremberg (*Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks*, 1822), Feuerbach proved that the circle through the side-midpoints and altitude-feet (center :math:`X_5`, radius :math:`R/2`) **touches the incircle internally at the Feuerbach point** :math:`X_{11}` and all three excircles externally—inaugurating modern triangle geometry.

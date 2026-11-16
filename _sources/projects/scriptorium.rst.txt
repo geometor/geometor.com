@@ -3,7 +3,7 @@ III. Historical, Epistemological & Axiomatic Scriptorium
 
 .. rubric:: Primary Philosophical, Renaissance, Axiomatic & Cosmogonic Editions
 
-To understand *what* geometric objects are and *how* the mind knows their necessity, Pillar III publishes critical multi-language Book Codices of the fifteen thinkers and traditions that shaped the philosophy, harmonic theory, aesthetics, and axiomatics of space.
+To understand *what* geometric objects are and *how* the mind knows their necessity, Pillar III publishes critical multi-language Book Codices of the seventeen thinkers and traditions that shaped the philosophy, harmonic theory, aesthetics, and axiomatics of space.
 
 ----
 
@@ -67,25 +67,35 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 
 ----
 
-``cusa`` — Nicholas of Cusa's *De Docta Ignorantia* (1440)
-----------------------------------------------------------
+``cusa`` — Nicholas of Cusa's *De Docta Ignorantia* (1440) & *Complementis* (1453)
+----------------------------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/cusa <https://geometor.github.io/cusa/>`_
+* **Live Book Codices**: `geometor.github.io/cusa <https://geometor.github.io/cusa/>`_ (`De Docta Ignorantia <https://geometor.github.io/cusa/de_docta_ignorantia/>`_ · `De Mathematicis Complementis <https://geometor.github.io/cusa/de_mathematicis_complementis/>`_)
 * **Repository**: `github.com/geometor/cusa <https://github.com/geometor/cusa>`_
 
-4-Track Book Codex (*1514 Paris / Heidelberg Latin*, *Original English*, *Summary*, *Notes*) of Book I of Cardinal Nicholas of Cusa's *On Learned Ignorance*, modeling the **Coincidence of Opposites** (*coincidentia oppositorum*) through exact limiting transformations in ``geometor.model``—where an infinite circle coincides with its straight tangent, an infinite triangle collapses into a line, and center and circumference become one.
+4-Track Latin/English Codices of Cardinal Nicholas of Cusa's *On Learned Ignorance* (1440) and *De Mathematicis Complementis* (1453), modeling the **Coincidence of Opposites** (*coincidentia oppositorum*) and isoperimetric transformations through exact limiting constructions in ``geometor.model``.
+
+----
+
+``piero`` — Piero della Francesca's *Libellus de Quinque Corporibus Regularibus*
+--------------------------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/piero <https://geometor.github.io/piero/>`_ (`Libellus <https://geometor.github.io/piero/quinque_corporibus/>`_)
+* **Repository**: `github.com/geometor/piero <https://github.com/geometor/piero>`_
+
+4-Track Latin/English Codex (**166 tracked folios** from Mancini's 1916 critical edition of *Codex Vaticanus Urbinas latinus 632*) restoring Piero della Francesca's original Renaissance treatise on the five regular solids, reciprocal dual inscriptions, and Archimedean truncations over :math:`\mathbb{Q}(\phi)`.
 
 ----
 
 ``pacioli`` — Fra Luca Pacioli's *De Divina Proportione* (1509) & *Summa* (1494)
 --------------------------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/pacioli <https://geometor.github.io/pacioli/>`_ · `Summa de Arithmetica (1494) <https://geometor.github.io/pacioli/summa_1494/>`_
+* **Live Book Codices**: `geometor.github.io/pacioli <https://geometor.github.io/pacioli/>`_ · `Summa de Arithmetica (1494) <https://geometor.github.io/pacioli/summa_1494/>`_
 * **Repository**: `github.com/geometor/pacioli <https://github.com/geometor/pacioli>`_
 
 Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 
-* ***De Divina Proportione* (1509 / Winterberg 1889)**: 5-Track Codex (*English*, *Italiano 1509*, *Deutsch 1889*, *Latin/Greek*, *Notes*) spanning **318 archival folios** and **482 recalibrated woodcuts**, including the thirteen effects of the Divine Proportion, Roman architectural letterforms, Piero della Francesca's *Libellus*, and **all 60 solid and skeletal polyhedra plates drawn by Leonardo da Vinci**.
+* ***De Divina Proportione* (1509 / Winterberg 1889)**: 5-Track Codex (*English*, *Italiano 1509*, *Deutsch 1889*, *Latin/Greek*, *Notes*) spanning **318 archival folios** and **482 recalibrated woodcuts**, including the thirteen effects of the Divine Proportion, Roman architectural letterforms, and **all 60 solid and skeletal polyhedra plates drawn by Leonardo da Vinci**.
 * ***Summa de Arithmetica, Geometria, Proportioni et Proportionalita* (1494)**: 4-Track Codex (*English*, *Italiano 1494*, *Summary*, *Notes*) covering speculative arithmetic, Cossic surds, Boethian/Euclidean proportions, Venetian double-entry *Quaderno*, and the *Tractatus Geometriae*.
 
 ----
@@ -103,10 +113,20 @@ Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 ``kepler`` — Kepler's *Mysterium* (1596), *Strena* (1611) & *Harmonices Mundi* (1619)
 -------------------------------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/kepler <https://geometor.github.io/kepler/>`_
+* **Live Book Codices**: `geometor.github.io/kepler <https://geometor.github.io/kepler/>`_
 * **Repository**: `github.com/geometor/kepler <https://github.com/geometor/kepler>`_
 
-4-Track Bilingual Book Codex (*Latin*, *Original English*, *Summary*, *Notes*) + exact ``SymPy`` / ``geometor.model`` engine uniting Johannes Kepler's geometric trilogy: the **five nested Platonic solids** separating the six Copernican planetary spheres (*Mysterium Cosmographicum*), the **six-cornered snowflake**, rhombic dodecahedron, sphere-packing conjecture :math:`\pi/(3\sqrt{2})`, and Fibonacci phyllotaxis (*Strena*), and constructive polygon epistemology (*Scibilia* vs. *Inscibilia*), the 11 Archimedean tilings, the **Kepler Right Triangle** :math:`(1, \sqrt{\phi}, \phi)`, and the **Harmonic Third Law** :math:`T^2 \propto a^3` (*Harmonices Mundi*).
+4-Track Bilingual Book Codices (*Latin*, *Original English*, *Summary*, *Notes*) uniting Johannes Kepler's geometric trilogy: the **five nested Platonic solids** separating the six Copernican planetary spheres (*Mysterium Cosmographicum*), the **six-cornered snowflake**, rhombic dodecahedron, sphere-packing conjecture :math:`\pi/(3\sqrt{2})`, and Fibonacci phyllotaxis (*Strena*), and constructive polygon epistemology (*Scibilia* vs. *Inscibilia*), the 11 Archimedean tilings, the **Kepler Right Triangle** :math:`(1, \sqrt{\phi}, \phi)`, and the **Harmonic Third Law** :math:`T^2 \propto a^3` (*Harmonices Mundi*).
+
+----
+
+``pasch`` — Moritz Pasch's *Vorlesungen über neuere Geometrie* (1882)
+---------------------------------------------------------------------
+
+* **Live Book Codex**: `geometor.github.io/pasch <https://geometor.github.io/pasch/>`_ (`Vorlesungen <https://geometor.github.io/pasch/vorlesungen_1882/>`_)
+* **Repository**: `github.com/geometor/pasch <https://github.com/geometor/pasch>`_
+
+4-Track German/English Codex (**212 tracked folios**, Leipzig 1882) inaugurating modern rigorous axiomatics: **Pasch's Axiom** of planar triangle separation, linear betweenness (*Kernsätze* & *Stammbegriffe*), and the purely deductive derivation of projective incidence without tacit diagrammatic assumptions.
 
 ----
 
@@ -126,17 +146,17 @@ Multi-track edition (German original, E. J. Townsend English translation, and me
 * **Live Book Codex**: `geometor.github.io/poincare <https://geometor.github.io/poincare/>`_
 * **Repository**: `github.com/geometor/poincare <https://github.com/geometor/poincare>`_
 
-4-Track Bilingual Book Codex (*1902 Flammarion French*, *1905 Halsted/Greenstreet English*, *Summary*, *Notes*) of Part II (*Space*) of *La Science et l'Hypothèse*, paired with exact symbolic Möbius/conformal disk models proving the **relative consistency of Lobachevskian hyperbolic geometry** via Poincaré's famous Euclidean–hyperbolic dictionary.
+4-Track Bilingual Book Codex (*1902 Flammarion French*, *1905 Halsted/Greenstreet English*, *Summary*, *Notes*) of Parts I–II (*Number, Magnitude & Space*) of *La Science et l'Hypothèse*, paired with exact symbolic Möbius/conformal disk models proving the **relative consistency of Lobachevskian hyperbolic geometry** via Poincaré's famous Euclidean–hyperbolic dictionary.
 
 ----
 
 ``bertrand-russell`` — *Foundations of Geometry* & *Principles of Mathematics*
 ------------------------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/bertrand-russell <https://geometor.github.io/bertrand-russell/>`_
+* **Live Book Codices**: `geometor.github.io/bertrand-russell <https://geometor.github.io/bertrand-russell/>`_
 * **Repository**: `github.com/geometor/bertrand-russell <https://github.com/geometor/bertrand-russell>`_
 
-Scholarly edition of Bertrand Russell's two foundational works on geometric space—*An Essay on the Foundations of Geometry* (1897) and Part VI (*Space*) of *The Principles of Mathematics* (1903)—examining the philosophical transition from Kantian intuition through projective and Cayley–Klein non-Euclidean geometries to pure relational logic. *(Distinct from Walter & Lao Russell's cosmogonic edition below.)*
+Scholarly editions of Bertrand Russell's two foundational works on geometric space—*An Essay on the Foundations of Geometry* (1897) and Part VI (*Space*) of *The Principles of Mathematics* (1903)—examining the philosophical transition from Kantian intuition through projective and Cayley–Klein non-Euclidean geometries to pure relational logic. *(Distinct from Walter & Lao Russell's cosmogonic edition below.)*
 
 ----
 
@@ -146,14 +166,14 @@ Scholarly edition of Bertrand Russell's two foundational works on geometric spac
 * **Live Book Codex**: `geometor.github.io/hoenen <https://geometor.github.io/hoenen/>`_
 * **Repository**: `github.com/geometor/hoenen <https://github.com/geometor/hoenen>`_
 
-First complete digital edition and facing Latin–English translation of Fr. Petrus Hoenen, S.J.'s *De Noetica Geometriae Origine Theoriae Cognitionis* (Analecta Gregoriana, Rome, 1954). Answering modern axiomatic formalism, Hoenen demonstrates through Aristotle, Euclid, Proclus, Aquinas, Hilbert, and Russell that universal geometric nexus is first grasped through **intuitive formal abstraction** directly within constructed spatial continua.
+First complete digital edition (**300 folios**) and facing Latin–English translation of Fr. Petrus Hoenen, S.J.'s *De Noetica Geometriae Origine Theoriae Cognitionis* (Analecta Gregoriana, Rome, 1954). Answering modern axiomatic formalism, Hoenen demonstrates through Aristotle, Euclid, Proclus, Aquinas, Pasch, Hilbert, and Russell that universal geometric nexus is first grasped through **intuitive formal abstraction** directly within constructed spatial continua.
 
 ----
 
-``russell`` — Walter & Lao Russell's *Home Study Course* (1950–1952)
---------------------------------------------------------------------
+``russell`` — Walter & Lao Russell's *Home Study Course* & *Wave-Field Cosmogony*
+---------------------------------------------------------------------------------
 
-* **Live Book Codex**: `geometor.github.io/russell <https://geometor.github.io/russell/>`_
+* **Live Book Codices**: `geometor.github.io/russell <https://geometor.github.io/russell/>`_ (`Home Study Course <https://geometor.github.io/russell/home_study_course/>`_ · `Cosmogony <https://geometor.github.io/russell/cosmogony/>`_)
 * **Repository**: `github.com/geometor/russell <https://github.com/geometor/russell>`_
 
-Complete 12-Unit, 48-Lesson digital codex of Walter and Lao Russell's *Home Study Course in Universal Law, Natural Science and Living Philosophy*, featuring **180 vector-reconstructed scientific diagrams** and interactive 3D visualizations of the Russells' cube-sphere optical wave-field cosmogony.
+Complete 12-Part, 48-Lesson digital codex (**519 tracked folios**) of Walter and Lao Russell's *Home Study Course in Universal Law, Natural Science and Living Philosophy*, paired with **180 vector-reconstructed chalkboard diagrams** and interactive 3D visualizations of the Russells' cube-sphere optical wave-field cosmogony.

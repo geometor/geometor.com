@@ -60,9 +60,40 @@ A structured architectural **Catalog** surveying the landscape of open-source de
 
 ----
 
-``trees`` — Monotone Planar Tree Drawings
------------------------------------------
+``polyhedra`` — Symbolic 3D Polyhedra & Leonardo's 1509 Plates Catalog
+----------------------------------------------------------------------
 
-* **Repository**: `github.com/geometor/trees <https://github.com/geometor/trees>`_
+* **Live Catalog**: `geometor.github.io/polyhedra <https://geometor.github.io/polyhedra/>`_ (`Solids <https://geometor.github.io/polyhedra/solids/>`_ · `Leonardo Plates <https://geometor.github.io/polyhedra/leonardo/>`_)
+* **Repository**: `github.com/geometor/polyhedra <https://github.com/geometor/polyhedra>`_
 
-Investigates straight-line monotone planar drawings of arbitrary rooted trees on compact integer grids using **Stern–Brocot mediant trees** and **Farey rational sequences**—connecting discrete number-theoretic mediants directly to crossing-free geometric graph layouts.
+Exact symbolic 3D coordinate models over quadratic and golden fields (:math:`\mathbb{Q}(\sqrt{2}, \sqrt{3}, \phi)`) spanning the Platonic, Archimedean, Catalan, and Kepler–Poinsot polyhedra, paired with interactive reconstructions of Leonardo da Vinci's 60 *solido* and *vacuo* plates from Luca Pacioli's 1509 *De Divina Proportione*.
+
+----
+
+``elementarium`` — Passive Optical Archive & Zero-Context Bootstrap
+-------------------------------------------------------------------
+
+* **Documentation**: `geometor.github.io/elementarium <https://geometor.github.io/elementarium/>`_
+* **Repository**: `github.com/geometor/elementarium <https://github.com/geometor/elementarium>`_
+
+Investigates 100,000-year knowledge preservation on fused-silica optical plates: bootstrapping number, rational spread, the Vesica Piscis, and Euclidean deduction from zero linguistic context using purely geometric optical invariants.
+
+----
+
+``press`` — Digital Scriptorium Press & Master Shelf
+----------------------------------------------------
+
+* **Documentation**: `geometor.github.io/press <https://geometor.github.io/press/>`_
+* **Repository**: `github.com/geometor/press <https://github.com/geometor/press>`_
+
+Curates the master bibliographic census, typographic grid, cover geometry, and print-edition specifications across the GEOMETOR Digital Scriptorium.
+
+----
+
+``animations`` & ``trees`` — Proportional Studies & Monotone Tree Layouts
+-------------------------------------------------------------------------
+
+* **Live Sites**: `geometor.github.io/animations <https://geometor.github.io/animations/>`_ · `geometor.github.io/trees <https://geometor.github.io/trees/>`_
+* **Repositories**: `github.com/geometor/animations <https://github.com/geometor/animations>`_ · `github.com/geometor/trees <https://github.com/geometor/trees>`_
+
+``animations`` documents classical golden-section studies, root-:math:`3` and root-:math:`5` grids, and star polygon sequences; ``trees`` implements crossing-free monotone planar drawings of rooted dependency trees grounded in **Stern–Brocot mediant trees** and **Farey rational sequences**.
