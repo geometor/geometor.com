@@ -1,9 +1,14 @@
+.. container:: author-overline
+
+   semantic digital archive • central portal
+
+========
 GEOMETOR
 ========
 
 .. rubric:: Exploring the Architecture of All That Is
 
-**GEOMETOR** is an open-source research initiative, symbolic software engine, and digital scriptorium investigating **geometry as humanity's most concise language for documenting nature, proportion, and deductive truth**.
+**GEOMETOR** is the central portal and gateway to the interconnected **semantic digital archive**, symbolic software engine, and digital scriptorium investigating **geometry as humanity's most concise language for documenting nature, proportion, and deductive truth**.
 
 When we watch a botanical meristem pack florets at the golden angle, examine crystal lattices, or trace projective collineations, one foundational question recurs: *How do the simplest axiomatic relationships unfold into the full complexity of form and mind?*
 
