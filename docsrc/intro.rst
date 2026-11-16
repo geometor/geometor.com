@@ -72,7 +72,7 @@ I. The Symbolic Core, Discovery & Software Catalog
 * `explorer <https://geometor.github.io/explorer/>`_ (`GitHub <https://github.com/geometor/explorer>`_): Interactive SVG workbench, symbolic CLI, scrubbable construction timeline, and publication sheet exporter.
 * `divine <https://geometor.github.io/divine/>`_ (`GitHub <https://github.com/geometor/divine>`_ · `PyPI <https://pypi.org/project/geometor-divine/>`_): Automated golden-section & harmonic-range scanner paired with a **Catalog** of *Cut-the-Knot* golden ratio constructions (Odom, Hofstetter, Bogomolny).
 * `codes <https://geometor.github.io/codes/>`_ (`GitHub <https://github.com/geometor/codes>`_): **Catalog** of open-source geometric computing and theorem-proving engines (*GeoCoq*, *JGEX / Area Method*, *GeoGebra Discovery*, *SymPy Geometry*, *CGAL*).
-* `trees <https://github.com/geometor/trees>`_: Monotone planar tree drawing algorithms grounded in Stern–Brocot trees and Farey rational sequences.
+* `trees <https://geometor.github.io/trees/>`_ (`GitHub <https://github.com/geometor/trees>`_): Monotone planar tree drawing algorithms grounded in Stern–Brocot trees and Farey rational sequences.
 
 II. The Unfolding Canon (*The Elementrium* & Constructive Geometry)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

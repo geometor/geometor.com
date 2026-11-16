@@ -26,9 +26,10 @@ intersphinx_mapping.pop("python", None)
 intersphinx_mapping.pop("sympy", None)
 
 html_theme = "foundation"
-html_title = "GEOMETOR"
-blog_title = "GEOMETOR"
-project = "GEOMETOR"
+site_title = "GEOMETOR"
+project = site_title
+html_title = site_title
+blog_title = site_title
 
 # Used for canonical URLs and the CNAME file created by sphinx.ext.githubpages
 html_baseurl = "https://geometor.com/"

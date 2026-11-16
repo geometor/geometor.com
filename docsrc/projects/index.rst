@@ -46,7 +46,7 @@ Quick Reference Directory
      - `GitHub <https://github.com/geometor/codes>`_
    * - ``trees``
      - Stern–Brocot & Farey monotone tree drawings
-     - —
+     - `Docs <https://geometor.github.io/trees/>`_
      - `GitHub <https://github.com/geometor/trees>`_
    * - ``euclid``
      - Heath's 13-Book *Elements* (1,416 folios, 831 SVGs) & Euclid's *Data*
