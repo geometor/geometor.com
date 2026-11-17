@@ -1,0 +1,772 @@
+[
+  {
+    "name": "Plato",
+    "lifespan": "c. 427–347 BC",
+    "death_year": -347,
+    "death_label": "347 BC",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "plato",
+    "site_url": "https://geometor.github.io/plato/",
+    "github_url": "https://github.com/geometor/plato",
+    "hero": "../_static/heroes/plato.svg",
+    "summary": "Across Meno (doubling the square via the diagonal), Republic VI–VII (the Divided Line and the four mathematical sciences lifting the soul toward Being), and Timaeus (the harmonic World-Soul scale and construction of…"
+  },
+  {
+    "name": "Aristotle",
+    "lifespan": "384–322 BC",
+    "death_year": -322,
+    "death_label": "322 BC",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "aristotle",
+    "site_url": "https://geometor.github.io/aristotle/",
+    "github_url": "https://github.com/geometor/aristotle",
+    "hero": "",
+    "summary": "In Posterior Analytics, Physics, De Anima, and Metaphysics IX.9 (1051a21–33), Aristotle formulated the classical theory of demonstrative science (episteme) and observed how latent geometric relations are brought from…"
+  },
+  {
+    "name": "Euclid of Alexandria",
+    "lifespan": "fl. c. 300 BC",
+    "death_year": -270,
+    "death_label": "fl. c. 300 BC",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "euclid",
+    "site_url": "https://geometor.github.io/euclid/",
+    "github_url": "https://github.com/geometor/euclid",
+    "hero": "../_static/heroes/euclid.svg",
+    "summary": "Euclid's thirteen books of the Elements—paired in geometor/euclid with his *94-proposition Data** (Δεδομένα, governing constructive givens in geometric analysis)—established the enduring paradigm of deductive…"
+  },
+  {
+    "name": "Archimedes of Syracuse",
+    "lifespan": "c. 287–212 BC",
+    "death_year": -212,
+    "death_label": "212 BC",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "archimedes",
+    "site_url": "https://geometor.github.io/archimedes/",
+    "github_url": "https://github.com/geometor/archimedes",
+    "hero": "../_static/heroes/archimedes.svg",
+    "summary": "Greatest mathematician of antiquity. In Measurement of a Circle (), Quadrature of the Parabola (exact triangle ratio), On the Sphere and Cylinder ( volume and surface ratio), On Spirals, Book of Lemmas (arbelos,…"
+  },
+  {
+    "name": "Apollonius of Perga",
+    "lifespan": "c. 240 – c. 190 BC",
+    "death_year": -190,
+    "death_label": "190 BC",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "apollonius",
+    "site_url": "https://geometor.github.io/apollonius/",
+    "github_url": "https://github.com/geometor/apollonius",
+    "hero": "../_static/heroes/apollonius.svg",
+    "summary": "\"The Great Geometer,\" whose Conics derived the parabola, ellipse, and hyperbola from a single oblique circular cone through symptomata of application of areas (parabole, elleipsis, hyperbole), conjugate diameters,…"
+  },
+  {
+    "name": "Nicomachus of Gerasa",
+    "lifespan": "c. 60–120 AD",
+    "death_year": 120,
+    "death_label": "120",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "nicomachus",
+    "site_url": "https://geometor.github.io/nicomachus/",
+    "github_url": "https://github.com/geometor/nicomachus",
+    "hero": "../_static/heroes/nicomachus.svg",
+    "summary": "Neo-Pythagorean philosopher whose Introductio Arithmetica codified the fourfold Quadrivium (Arithmetic, Music, Geometry, Astronomy), proved that all superparticular and superpartient ratios unfold deductively from…"
+  },
+  {
+    "name": "Menelaus of Alexandria",
+    "lifespan": "c. 70–140 AD",
+    "death_year": 140,
+    "death_label": "140",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Latin",
+      "Greek",
+      "English"
+    ],
+    "repo": "menelaus",
+    "site_url": "https://geometor.github.io/menelaus/",
+    "github_url": "https://github.com/geometor/menelaus",
+    "hero": "../_static/heroes/menelaus.svg",
+    "summary": "Founder of intrinsic spherical geometry. Defining the spherical triangle formed by arcs of three great circles (Sphaerica Book I, where angle sums strictly exceed two right angles without parallel lines) and proving…"
+  },
+  {
+    "name": "Claudius Ptolemy",
+    "lifespan": "c. 100–170 AD",
+    "death_year": 170,
+    "death_label": "170",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "Latin",
+      "English"
+    ],
+    "repo": "ptolemy",
+    "site_url": "https://geometor.github.io/ptolemy/",
+    "github_url": "https://github.com/geometor/ptolemy",
+    "hero": "../_static/heroes/ptolemy.svg",
+    "summary": "In Almagest Book I.10, Ptolemy gave antiquity's most economical single-circle construction of both the regular decagon and regular pentagon via the Golden Section alongside Ptolemy's Cyclic Quadrilateral Theorem ()…"
+  },
+  {
+    "name": "Pappus of Alexandria",
+    "lifespan": "c. 290 – c. 350 AD",
+    "death_year": 350,
+    "death_label": "350",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "pappus",
+    "site_url": "https://geometor.github.io/pappus/",
+    "github_url": "https://github.com/geometor/pappus",
+    "hero": "../_static/heroes/pappus.svg",
+    "summary": "Last great synthesist of the Alexandrian mathematical school. Across Books III–VIII of his Synagoge (Mathematical Collection), Pappus united the three classical means in one semicircle (Book III), generalized…"
+  },
+  {
+    "name": "Proclus Lycius",
+    "lifespan": "412–485 AD",
+    "death_year": 485,
+    "death_label": "485",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "proclus",
+    "site_url": "https://geometor.github.io/proclus/",
+    "github_url": "https://github.com/geometor/proclus",
+    "hero": "../_static/heroes/proclus.svg",
+    "summary": "Head (diadochus) of the Athenian Academy whose Commentary on the First Book of Euclid's Elements preserves both Eudemus's lost history of early Greek geometry and a profound philosophy of mathematical imagination…"
+  },
+  {
+    "name": "Leonardo Pisano — Fibonacci",
+    "lifespan": "c. 1170 – c. 1250",
+    "death_year": 1250,
+    "death_label": "1250",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "fibonacci",
+    "site_url": "https://geometor.github.io/fibonacci/",
+    "github_url": "https://github.com/geometor/fibonacci",
+    "hero": "../_static/heroes/fibonacci.svg",
+    "summary": "Pisan mathematician whose Liber Abaci introduced Hindu–Arabic positional arithmetic, unit-fraction decompositions, and the additive Fibonacci recurrence to Latin Europe, while his Practica Geometriae transmitted…"
+  },
+  {
+    "name": "St. Thomas Aquinas",
+    "lifespan": "1225–1274",
+    "death_year": 1274,
+    "death_label": "1274",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "aquinas",
+    "site_url": "https://geometor.github.io/aquinas/",
+    "github_url": "https://github.com/geometor/aquinas",
+    "hero": "../_static/heroes/aquinas.svg",
+    "summary": "In Super Boetium De Trinitate (Questions 5 and 6) and his commentaries on Aristotle's Posterior Analytics, Physics, De Anima, and Metaphysics, Aquinas articulated how mathematics stands uniquely poised between…"
+  },
+  {
+    "name": "Nicholas of Cusa",
+    "lifespan": "1401–1464",
+    "death_year": 1464,
+    "death_label": "1464",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "cusa",
+    "site_url": "https://geometor.github.io/cusa/",
+    "github_url": "https://github.com/geometor/cusa",
+    "hero": "../_static/heroes/cusa.svg",
+    "summary": "German cardinal, jurist, and philosopher whose De Docta Ignorantia (On Learned Ignorance, Book I) employed exact transsumptive mathematical symbolism to contemplate the Infinite: as radius grows without bound, the…"
+  },
+  {
+    "name": "Piero della Francesca",
+    "lifespan": "c. 1415–1492",
+    "death_year": 1492,
+    "death_label": "1492",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "piero",
+    "site_url": "https://geometor.github.io/piero/",
+    "github_url": "https://github.com/geometor/piero",
+    "hero": "",
+    "summary": "Master painter and mathematician of Borgo Sansepolcro whose Libellus de Quinque Corporibus Regularibus (Codex Vaticanus Urbinas latinus 632) computed exact quadratic and golden radical coordinates, reciprocal dual…"
+  },
+  {
+    "name": "Fra Luca Pacioli & Leonardo da Vinci",
+    "lifespan": "c. 1447–1517",
+    "death_year": 1517,
+    "death_label": "1517",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "repo": "pacioli",
+    "site_url": "https://geometor.github.io/pacioli/",
+    "github_url": "https://github.com/geometor/pacioli",
+    "hero": "../_static/heroes/pacioli.svg",
+    "summary": "Franciscan mathematician Luca Pacioli—steward of Piero della Francesca's polyhedral geometry and mathematical collaborator with Leonardo da Vinci at the court of Milan—published both the encyclopedic Summa (1494) and…"
+  },
+  {
+    "name": "Albrecht Dürer",
+    "lifespan": "1471–1528",
+    "death_year": 1528,
+    "death_label": "1528",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "durer",
+    "site_url": "https://geometor.github.io/durer/",
+    "github_url": "https://github.com/geometor/durer",
+    "hero": "../_static/heroes/durer.svg",
+    "summary": "Master printmaker and geometer of Nuremberg whose Underweysung der Messung mit dem Zirckel und Richtscheyt (1525) founded German constructive geometry: introducing parallel-projection conic sections (anticipating…"
+  },
+  {
+    "name": "Johannes Kepler",
+    "lifespan": "1571–1630",
+    "death_year": 1630,
+    "death_label": "1630",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "kepler",
+    "site_url": "https://geometor.github.io/kepler/",
+    "github_url": "https://github.com/geometor/kepler",
+    "hero": "../_static/heroes/kepler.svg",
+    "summary": "In Mysterium Cosmographicum (1596), Strena seu de Nive Sexangula (1611), and Harmonices Mundi (1619), Kepler famously declared: .. epigraph:: Kepler nested the five Platonic solids among the planetary spheres,…"
+  },
+  {
+    "name": "Blaise Pascal",
+    "lifespan": "1623–1662",
+    "death_year": 1662,
+    "death_label": "1662",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "repo": "pascal",
+    "site_url": "https://geometor.github.io/pascal/",
+    "github_url": "https://github.com/geometor/pascal",
+    "hero": "../_static/heroes/pascal.svg",
+    "summary": "At age sixteen, Pascal generalized Pappus's two-line hexagon theorem to any six points inscribed on a non-degenerate conic (Essay pour les Coniques, 1640): opposite sides of an inscribed hexagon meet in three…"
+  },
+  {
+    "name": "Giovanni Ceva",
+    "lifespan": "1647–1734",
+    "death_year": 1734,
+    "death_label": "1734",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "ceva",
+    "site_url": "https://geometor.github.io/ceva/",
+    "github_url": "https://github.com/geometor/ceva",
+    "hero": "../_static/heroes/ceva.svg",
+    "summary": "Milanese and Mantuan geometer who elevated Archimedes' Law of the Lever into pure incidence geometry: by placing virtual statical weights at the vertices of a triangle (and tetrahedron), Ceva proved Ceva's…"
+  },
+  {
+    "name": "Leonhard Euler",
+    "lifespan": "1707–1783",
+    "death_year": 1783,
+    "death_label": "1783",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "euler",
+    "site_url": "https://geometor.github.io/euler/",
+    "github_url": "https://github.com/geometor/euler",
+    "hero": "../_static/heroes/euler.svg",
+    "summary": "In St. Petersburg memoir E325 (Solutio facilis, 1765), Euler computed the exact algebraic distances among the four classical centers of any scalene triangle—discovering and proving the collinearity of the Euler Line ()."
+  },
+  {
+    "name": "Lorenzo Mascheroni",
+    "lifespan": "1750–1800",
+    "death_year": 1800,
+    "death_label": "1800",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "repo": "mascheroni",
+    "site_url": "https://geometor.github.io/mascheroni/",
+    "github_url": "https://github.com/geometor/mascheroni",
+    "hero": "../_static/heroes/mascheroni.svg",
+    "summary": "Pavian mathematician and poet whose La Geometria del Compasso (1797) proved that every Euclidean ruler-and-compass construction—including circle division and straight-line intersection—can be executed cleanly with…"
+  },
+  {
+    "name": "Karl Wilhelm Feuerbach",
+    "lifespan": "1800–1834",
+    "death_year": 1834,
+    "death_label": "1834",
+    "era": "Medieval & Renaissance",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "feuerbach",
+    "site_url": "https://geometor.github.io/feuerbach/",
+    "github_url": "https://github.com/geometor/feuerbach",
+    "hero": "../_static/heroes/feuerbach.svg",
+    "summary": "In Nuremberg (Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, 1822), Feuerbach proved that the circle through the side-midpoints and altitude-feet (center , radius ) touches the incircle…"
+  },
+  {
+    "name": "Jakob Steiner",
+    "lifespan": "1796–1863",
+    "death_year": 1863,
+    "death_label": "1863",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "steiner",
+    "site_url": "https://geometor.github.io/steiner/",
+    "github_url": "https://github.com/geometor/steiner",
+    "hero": "../_static/heroes/steiner.svg",
+    "summary": "Swiss synthetic geometer whose 1833 Berlin treatise proved the Poncelet–Steiner Theorem: given a single fixed circle and its center drawn once on the plane, every Euclidean ruler-and-compass construction can be…"
+  },
+  {
+    "name": "Karl Georg Christian von Staudt",
+    "lifespan": "1798–1867",
+    "death_year": 1867,
+    "death_label": "1867",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "staudt",
+    "site_url": "https://geometor.github.io/staudt/",
+    "github_url": "https://github.com/geometor/staudt",
+    "hero": "../_static/heroes/staudt.svg",
+    "summary": "Architect of pure synthetic projective geometry. In Geometrie der Lage (1847) and Beiträge (1857), von Staudt liberated projective space from metric length by defining the fourth harmonic point purely via the…"
+  },
+  {
+    "name": "Oliver Byrne",
+    "lifespan": "1810–1880",
+    "death_year": 1880,
+    "death_label": "1880",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "English"
+    ],
+    "repo": "byrne",
+    "site_url": "https://geometor.github.io/byrne/",
+    "github_url": "https://github.com/geometor/byrne",
+    "hero": "../_static/heroes/byrne.svg",
+    "summary": "Civil engineer and mathematician whose 1847 Pickering edition replaced traditional lettered labels (AB, ∠ABC) with primary-colored Bauhaus-avant-la-lettre visual tokens—transforming Euclidean deduction into…"
+  },
+  {
+    "name": "John Casey",
+    "lifespan": "1820–1891",
+    "death_year": 1891,
+    "death_label": "1891",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "English"
+    ],
+    "repo": "casey",
+    "site_url": "https://geometor.github.io/casey/",
+    "github_url": "https://github.com/geometor/casey",
+    "hero": "../_static/heroes/casey.svg",
+    "summary": "Irish geometer who bridged classical Euclid and late-nineteenth-century triangle and circle geometry, discovering Casey's Generalized Ptolemy Theorem ( for four circles tangent to a fifth circle, providing a pure…"
+  },
+  {
+    "name": "Julius Petersen",
+    "lifespan": "1839–1910",
+    "death_year": 1910,
+    "death_label": "1910",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "English"
+    ],
+    "repo": "petersen",
+    "site_url": "https://geometor.github.io/petersen/",
+    "github_url": "https://github.com/geometor/petersen",
+    "hero": "../_static/heroes/petersen.svg",
+    "summary": "Danish geometer and graph-theorist whose 1879 handbook codified compass-and-straightedge problem solving into systematic two-locus intersection (Method of Loci) and geometric transformations (translation, rotation,…"
+  },
+  {
+    "name": "Henri Poincaré",
+    "lifespan": "1854–1912",
+    "death_year": 1912,
+    "death_label": "1912",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "repo": "poincare",
+    "site_url": "https://geometor.github.io/poincare/",
+    "github_url": "https://github.com/geometor/poincare",
+    "hero": "../_static/heroes/poincare.svg",
+    "summary": "Universal mathematician whose philosophy of geometric conventionalism traced perceptual space to Lie groups of rigid displacements and introduced the Poincaré conformal disk dictionary—translating every hyperbolic…"
+  },
+  {
+    "name": "Émile Lemoine",
+    "lifespan": "1840–1912",
+    "death_year": 1912,
+    "death_label": "1912",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "repo": "lemoine",
+    "site_url": "https://geometor.github.io/lemoine/",
+    "github_url": "https://github.com/geometor/lemoine",
+    "hero": "../_static/heroes/lemoine.svg",
+    "summary": "Discoverer of the Symmedian / Lemoine Point (1873) and creator of Géométrographie (La Géométrographie ou l'art des constructions géométriques, 1902)—the first quantitative operational complexity calculus (,…"
+  },
+  {
+    "name": "Ernst Haeckel",
+    "lifespan": "1834–1919",
+    "death_year": 1919,
+    "death_label": "1919",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "",
+    "site_url": "",
+    "github_url": "",
+    "hero": "",
+    "summary": "Naturalist, marine biologist, and scientific illustrator whose Kunstformen der Natur (Art Forms in Nature, 1899–1904) revealed icosahedral, dodecahedral, hexagonal, and logarithmic spiral geometries in radiolarians,…"
+  },
+  {
+    "name": "Jay Hambidge",
+    "lifespan": "1867–1924",
+    "death_year": 1924,
+    "death_label": "1924",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "hambidge",
+    "site_url": "https://geometor.github.io/hambidge/",
+    "github_url": "https://github.com/geometor/hambidge",
+    "hero": "../_static/heroes/hambidge.svg",
+    "summary": "Artist and scholar of classical design who distinguished passive static symmetry (rational linear grids) from dynamic symmetry—proportions commensurable in square (potentia, Euclid Book X): root-, root-, and root-…"
+  },
+  {
+    "name": "Felix Klein",
+    "lifespan": "1849–1925",
+    "death_year": 1925,
+    "death_label": "1925",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "klein",
+    "site_url": "https://geometor.github.io/klein/",
+    "github_url": "https://github.com/geometor/klein",
+    "hero": "../_static/heroes/klein.svg",
+    "summary": "In his Erlangen Program (1872), Klein unified Euclidean, affine, elliptic, hyperbolic, inversive, and projective geometries as invariant theories of nested transformation groups. In Famous Problems of Elementary…"
+  },
+  {
+    "name": "Moritz Pasch",
+    "lifespan": "1843–1930",
+    "death_year": 1930,
+    "death_label": "1930",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "pasch",
+    "site_url": "https://geometor.github.io/pasch/",
+    "github_url": "https://github.com/geometor/pasch",
+    "hero": "../_static/heroes/pasch.svg",
+    "summary": "Pioneer of modern axiomatic rigor whose Vorlesungen über neuere Geometrie (1882) exposed Euclid's unstated planar order assumptions—formulating Pasch's Axiom (a line meeting one side of a triangle and missing the…"
+  },
+  {
+    "name": "David Hilbert",
+    "lifespan": "1862–1943",
+    "death_year": 1943,
+    "death_label": "1943",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "hilbert",
+    "site_url": "https://geometor.github.io/hilbert/",
+    "github_url": "https://github.com/geometor/hilbert",
+    "hero": "../_static/heroes/hilbert.svg",
+    "summary": "In Grundlagen der Geometrie (1899), Hilbert completed Euclid's deductive program for the modern era by making explicit the order (betweenness) and continuity postulates tacitly read off diagrams since antiquity,…"
+  },
+  {
+    "name": "Sir D'Arcy Wentworth Thompson",
+    "lifespan": "1860–1948",
+    "death_year": 1948,
+    "death_label": "1948",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "thompson",
+    "site_url": "https://geometor.github.io/thompson/",
+    "github_url": "https://github.com/geometor/thompson",
+    "hero": "../_static/heroes/thompson.svg",
+    "summary": "Scottish biologist, mathematician, and classical scholar whose On Growth and Form (1917) revealed physical forces and geometric invariance across living structures: Plateau's and minimal-surface junctions, Maraldi's…"
+  },
+  {
+    "name": "Petrus Hoenen, S.J.",
+    "lifespan": "1880–1961",
+    "death_year": 1961,
+    "death_label": "1961",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "Latin",
+      "English"
+    ],
+    "repo": "hoenen",
+    "site_url": "https://geometor.github.io/hoenen/",
+    "github_url": "https://github.com/geometor/hoenen",
+    "hero": "",
+    "summary": "Dutch Jesuit physicist and philosopher at the Pontifical Gregorian University in Rome. In De Noetica Geometriae Origine Theoriae Cognitionis (1954), Hoenen engaged Hilbert, Russell, and non-Euclidean geometry…"
+  },
+  {
+    "name": "Walter Russell & Lao Russell",
+    "lifespan": "1871–1963",
+    "death_year": 1963,
+    "death_label": "1963",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "russell",
+    "site_url": "https://geometor.github.io/russell/",
+    "github_url": "https://github.com/geometor/russell",
+    "hero": "../_static/heroes/walter-russell.png",
+    "summary": "Artist, sculptor, and natural philosopher Walter Russell and co-author Lao Russell articulated a geometric wave-field cosmogony built on the interpenetrating cube and sphere—modeling compression and expansion as…"
+  },
+  {
+    "name": "Hans Kayser",
+    "lifespan": "1891–1964",
+    "death_year": 1964,
+    "death_label": "1964",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "repo": "",
+    "site_url": "",
+    "github_url": "",
+    "hero": "",
+    "summary": "Founder of modern Pythagorean Harmonics (Akróasis: The Theory of World Harmonics, Lehrbuch der Harmonik). Kayser investigated integer and superparticular string ratios, the lambdoma matrix, crystallographic…"
+  },
+  {
+    "name": "Nathan Altshiller-Court",
+    "lifespan": "1881–1968",
+    "death_year": 1968,
+    "death_label": "1968",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "English"
+    ],
+    "repo": "altshiller-court",
+    "site_url": "https://geometor.github.io/altshiller-court/",
+    "github_url": "https://github.com/geometor/altshiller-court",
+    "hero": "../_static/heroes/altshiller-court.svg",
+    "summary": "Master pedagogue of modern synthetic geometry whose College Geometry (1925) systematically trains the geometer in the four-part constructive discipline (Analysis, Construction, Proof, Discussion), parsed one item per…"
+  },
+  {
+    "name": "Bertrand Russell",
+    "lifespan": "1872–1970",
+    "death_year": 1970,
+    "death_label": "1970",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "English"
+    ],
+    "repo": "bertrand-russell",
+    "site_url": "https://geometor.github.io/bertrand-russell/",
+    "github_url": "https://github.com/geometor/bertrand-russell",
+    "hero": "../_static/heroes/bertrand-russell.svg",
+    "summary": "Across An Essay on the Foundations of Geometry (1897) and Part VI (Space) of The Principles of Mathematics (1903), Bertrand Russell analyzed the philosophical relationship between projective order, Cayley–Klein…"
+  },
+  {
+    "name": "H. E. Huntley, Mario Livio & Alfred S. Posamentier / Ingmar Lehmann",
+    "lifespan": "1978",
+    "death_year": 1978,
+    "death_label": "1978",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "huntley",
+    "site_url": "https://geometor.github.io/huntley/",
+    "github_url": "https://github.com/geometor/huntley",
+    "hero": "",
+    "summary": "Across The Divine Proportion (Huntley, 1970), The Golden Ratio (Livio, 2002), and The Glorious Golden Ratio (Posamentier & Lehmann, 2011), modern mathematical expositors synthesized Fibonacci matrix algebra, spira…"
+  },
+  {
+    "name": "Fred W. Seelig",
+    "lifespan": "20th c.",
+    "death_year": 1995,
+    "death_label": "20th c.",
+    "era": "Modern Axiomatics & Noetics",
+    "languages": [
+      "English"
+    ],
+    "repo": "fundamentals",
+    "site_url": "https://geometor.github.io/fundamentals/",
+    "github_url": "https://github.com/geometor/fundamentals",
+    "hero": "../_static/heroes/fundamentals.svg",
+    "summary": "Independent geometric researcher whose meticulous 353-folio manuscript archive and 59 analytical spreadsheets explore triangle concurrency, harmonic duality, circle–square proportions, and classical ratios from first…"
+  },
+  {
+    "name": "George Odom",
+    "lifespan": "1941–2010",
+    "death_year": 2010,
+    "death_label": "2010",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "divine",
+    "site_url": "https://geometor.github.io/divine/",
+    "github_url": "https://github.com/geometor/divine",
+    "hero": "../_static/heroes/divine.png",
+    "summary": "Artist and geometer who discovered one of the simplest golden section constructions in history (published as Problem E3007 in the American Mathematical Monthly, 1983, proved by H. S. M. Coxeter): joining the…"
+  },
+  {
+    "name": "Roger V. Jean",
+    "lifespan": "c. 2015",
+    "death_year": 2015,
+    "death_label": "c. 2015",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "phyllotaxis",
+    "site_url": "https://geometor.github.io/phyllotaxis/",
+    "github_url": "https://github.com/geometor/phyllotaxis",
+    "hero": "../_static/heroes/phyllotaxis.png",
+    "summary": "Mathematician whose treatise Phyllotaxis: A Systemic Study in Plant Morphogenesis (Cambridge University Press, 1994) unified continued-fraction divergence theory, visible opposed parastichy pairs, allometric growth…"
+  },
+  {
+    "name": "Alexander Bogomolny — Cut-the-Knot",
+    "lifespan": "1948–2018",
+    "death_year": 2018,
+    "death_label": "2018",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "divine",
+    "site_url": "https://geometor.github.io/divine/",
+    "github_url": "https://github.com/geometor/divine",
+    "hero": "../_static/heroes/divine.png",
+    "summary": "Mathematician and master expositor whose encyclopedic portal Interactive Mathematics Miscellany and Puzzles (Cut-the-Knot) curated dozens of elegant golden section constructions discovered by Odom, Hofstetter, Tran…"
+  },
+  {
+    "name": "Clark Kimberling & Forum Geometricorum",
+    "lifespan": "Living",
+    "death_year": 9999,
+    "death_label": "Living",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "etc",
+    "site_url": "https://geometor.github.io/etc/",
+    "github_url": "https://github.com/geometor/etc",
+    "hero": "../_static/heroes/etc.svg",
+    "summary": "Through the Encyclopedia of Triangle Centers (ETC, initiated 1994/1998 and now surpassing 53,000 centers) and the open-access journal Forum Geometricorum (founded by Paul Yiu), Clark Kimberling and collaborators…"
+  },
+  {
+    "name": "Heron of Alexandria",
+    "lifespan": "c. 10–70 AD",
+    "death_year": 9999,
+    "death_label": "Contemporary",
+    "era": "Classical Antiquity",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "repo": "heron",
+    "site_url": "https://geometor.github.io/heron/",
+    "github_url": "https://github.com/geometor/heron",
+    "hero": "../_static/heroes/heron.svg",
+    "summary": "Synthesist of Alexandrian pure proof and algorithmic engineering. In Metrica (rediscovered in 1896 in the Codex Constantinopolitanus), Heron proved Heron's Area Formula via cyclic quadrilaterals alongside iterative…"
+  },
+  {
+    "name": "Norman J. Wildberger",
+    "lifespan": "Living",
+    "death_year": 9999,
+    "death_label": "Living",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "wildberger",
+    "site_url": "https://geometor.github.io/wildberger/",
+    "github_url": "https://github.com/geometor/wildberger",
+    "hero": "../_static/heroes/wildberger.svg",
+    "summary": "Author of Divine Proportions: Rational Trigonometry to Universal Geometry (2005). By replacing distance with quadrance and transcendental angle with spread , Wildberger stripped trigonometry of infinite power series…"
+  },
+  {
+    "name": "Ron Knott — Fibonacci Numbers & the Golden Section",
+    "lifespan": "Living",
+    "death_year": 9999,
+    "death_label": "Living",
+    "era": "Natural Systems & Contemporary",
+    "languages": [
+      "English"
+    ],
+    "repo": "knott",
+    "site_url": "https://geometor.github.io/knott/",
+    "github_url": "https://github.com/geometor/knott",
+    "hero": "../_static/heroes/knott.svg",
+    "summary": "Mathematician at the University of Surrey whose acclaimed educational corpus connected Fibonacci recurrences, Lucas identities, Pisano modular periods, Pythagorean triple generators, Zeckendorf representations,…"
+  }
+]
