@@ -42,3 +42,4 @@ Part of the GEOMETOR Knowledge Archive
 --------------------------------------
 
 Explore all **74 Book Codices** and **11 Mathematical Catalogs** at https://geometor.com/books/.
+
