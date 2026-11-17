@@ -1,0 +1,165 @@
+<svg class="euclid-graphic" viewBox="0 0 740 272" role="img" aria-label="Whirling-square golden gnomon and Euclid IV.10 golden triangle" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .euclid-graphic {
+      font-family: Georgia, 'Times New Roman', serif;
+      --fg: #18181b;
+      --fg-muted: #52525b;
+      --grid: #a1a1aa;
+      --panel-bg: #fafaf9;
+      --accent-blue: #1d4ed8;
+      --accent-amber: #b45309;
+      --accent-green: #15803d;
+      --accent-crimson: #b91c1c;
+      --fill-soft: rgba(29, 78, 216, 0.08);
+      --fill-gold: rgba(180, 83, 9, 0.11);
+      --fill-green: rgba(21, 128, 61, 0.09);
+    }
+    @media (prefers-color-scheme: dark) {
+      .euclid-graphic {
+        --fg: #f4f4f5;
+        --fg-muted: #a1a1aa;
+        --grid: #52525b;
+        --panel-bg: #18181b;
+        --accent-blue: #60a5fa;
+        --accent-amber: #fbbf24;
+        --accent-green: #4ade80;
+        --accent-crimson: #f87171;
+        --fill-soft: rgba(96, 165, 250, 0.13);
+        --fill-gold: rgba(251, 191, 36, 0.15);
+        --fill-green: rgba(74, 222, 128, 0.13);
+      }
+    }
+    .geom-line {
+      stroke: var(--fg);
+      stroke-width: 1.7;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-aux {
+      stroke: var(--fg-muted);
+      stroke-width: 1.1;
+      stroke-dasharray: 4 3;
+      fill: none;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-grid {
+      stroke: var(--grid);
+      stroke-width: 0.9;
+      fill: none;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-blue {
+      stroke: var(--accent-blue);
+      stroke-width: 2.0;
+      fill: none;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-amber {
+      stroke: var(--accent-amber);
+      stroke-width: 2.1;
+      fill: none;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-green {
+      stroke: var(--accent-green);
+      stroke-width: 1.9;
+      fill: none;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-crimson {
+      stroke: var(--accent-crimson);
+      stroke-width: 1.9;
+      stroke-dasharray: 5 3;
+      fill: none;
+      stroke-linecap: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .geom-fill-soft { fill: var(--fill-soft); stroke: none; }
+    .geom-fill-gold { fill: var(--fill-gold); stroke: none; }
+    .geom-fill-green { fill: var(--fill-green); stroke: none; }
+    .geom-pt { fill: var(--fg); stroke: none; }
+    .geom-pt-amber { fill: var(--accent-amber); stroke: none; }
+    .geom-pt-blue { fill: var(--accent-blue); stroke: none; }
+    .geom-label {
+      fill: var(--fg);
+      font-size: 13px;
+      font-style: italic;
+    }
+    .geom-note {
+      fill: var(--fg-muted);
+      font-size: 11.5px;
+      font-style: normal;
+    }
+    .geom-title {
+      fill: var(--fg);
+      font-size: 13.5px;
+      font-weight: bold;
+      font-style: normal;
+    }
+  </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="context-stroke" stroke-width="1.3"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="context-stroke" stroke-width="1.3"/>
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="context-stroke" stroke-width="1.3"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="context-stroke" stroke-width="1.3"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="context-stroke" stroke-width="1.3"/>
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="context-stroke" stroke-width="1.3"/>
+    </marker>
+  </defs>
+  <text class="geom-title" x="215.00" y="26.00" text-anchor="middle">A. Whirling-Square Golden Gnomons (Fig. 252)</text>
+  <text class="geom-title" x="575.00" y="26.00" text-anchor="middle">B. Euclid IV.10 Golden Triangle 36°–72°–72° (Fig. 254)</text>
+  <path class="geom-fill-soft" d="M 55.00 48.00 L 343.01 48.00 L 343.01 226.00 L 55.00 226.00 Z"/>
+  <path class="geom-fill-gold" d="M 55.00 48.00 L 233.00 48.00 L 233.00 226.00 L 55.00 226.00 Z"/>
+  <path class="geom-grid" d="M 233.00 48.00 L 233.00 137.00 L 233.00 226.00"/>
+  <path class="geom-grid" d="M 233.00 158.01 L 288.01 158.01 L 343.01 158.01"/>
+  <path class="geom-grid" d="M 275.02 158.01 L 275.02 192.01 L 275.02 226.00"/>
+  <path class="geom-grid" d="M 233.00 183.98 L 254.01 183.98 L 275.02 183.98"/>
+  <path class="geom-grid" d="M 258.97 158.01 L 258.97 170.99 L 258.97 183.98"/>
+  <path class="geom-grid" d="M 258.97 174.06 L 266.99 174.06 L 275.02 174.06"/>
+  <path class="geom-grid" d="M 265.10 174.06 L 265.10 179.02 L 265.10 183.98"/>
+  <path class="geom-line" d="M 55.00 48.00 L 199.01 48.00 L 343.01 48.00"/>
+  <path class="geom-line" d="M 343.01 48.00 L 343.01 137.00 L 343.01 226.00"/>
+  <path class="geom-line" d="M 343.01 226.00 L 199.01 226.00 L 55.00 226.00"/>
+  <path class="geom-line" d="M 55.00 226.00 L 55.00 137.00 L 55.00 48.00"/>
+  <path class="geom-aux" data-ref="diag1" d="M 55.00 226.00 L 199.01 137.00 L 343.01 48.00"/>
+  <path class="geom-aux" data-ref="diag2" d="M 233.00 48.00 L 288.01 137.00 L 343.01 226.00"/>
+  <path class="geom-amber" d="M 55.00 226.00 A 178.00 178.00 0 0 1 233.00 48.00"/>
+  <path class="geom-amber" d="M 233.00 48.00 A 110.01 110.01 0 0 1 343.01 158.01"/>
+  <path class="geom-amber" d="M 343.01 158.01 A 67.99 67.99 0 0 1 275.02 226.00"/>
+  <path class="geom-amber" d="M 275.02 226.00 A 42.02 42.02 0 0 1 233.00 183.98"/>
+  <path class="geom-amber" d="M 233.00 183.98 A 25.97 25.97 0 0 1 258.97 158.01"/>
+  <path class="geom-amber" d="M 258.97 158.01 A 16.05 16.05 0 0 1 275.02 174.06"/>
+  <path class="geom-amber" d="M 275.02 174.06 A 9.92 9.92 0 0 1 265.10 183.98"/>
+  <circle class="geom-pt-blue" data-ref="O" cx="263.41" cy="97.20" r="3.60"/>
+  <text class="geom-label" data-ref="O" x="277.41" y="89.20" text-anchor="middle">O</text>
+  <text class="geom-note" x="200.00" y="252.00" text-anchor="middle">Square gnomons leave self-similar φ rectangles</text>
+  <path class="geom-fill-soft" d="M 574.00 27.03 L 510.00 224.00 L 638.00 224.00 Z"/>
+  <path class="geom-fill-gold" d="M 574.00 27.03 L 510.00 224.00 L 613.55 148.76 Z"/>
+  <path class="geom-blue" data-ref="bisect_0" d="M 510.00 224.00 L 561.78 186.38 L 613.55 148.76"/>
+  <circle class="geom-pt" cx="613.55" cy="148.76" r="2.80"/>
+  <path class="geom-blue" data-ref="bisect_1" d="M 613.55 148.76 L 581.55 125.51 L 549.55 102.26"/>
+  <circle class="geom-pt" cx="549.55" cy="102.26" r="2.80"/>
+  <path class="geom-blue" data-ref="bisect_2" d="M 549.55 102.26 L 549.55 148.76 L 549.55 195.26"/>
+  <circle class="geom-pt" cx="549.55" cy="195.26" r="2.80"/>
+  <path class="geom-blue" data-ref="bisect_3" d="M 549.55 195.26 L 569.33 163.13 L 589.11 131.00"/>
+  <circle class="geom-pt" cx="589.11" cy="131.00" r="2.80"/>
+  <path class="geom-blue" data-ref="bisect_4" d="M 589.11 131.00 L 569.33 134.39 L 549.55 137.79"/>
+  <circle class="geom-pt" cx="549.55" cy="137.79" r="2.80"/>
+  <path class="geom-line" data-ref="AB" d="M 574.00 27.03 L 542.00 125.51 L 510.00 224.00"/>
+  <path class="geom-line" data-ref="BC" d="M 510.00 224.00 L 574.00 224.00 L 638.00 224.00"/>
+  <path class="geom-line" data-ref="CA" d="M 638.00 224.00 L 606.00 125.51 L 574.00 27.03"/>
+  <text class="geom-label" x="574.00" y="19.03" text-anchor="middle">A (36°)</text>
+  <text class="geom-label" x="494.00" y="228.00" text-anchor="middle">B (72°)</text>
+  <text class="geom-label" x="656.00" y="228.00" text-anchor="middle">C (72°)</text>
+  <text class="geom-note" x="575.00" y="252.00" text-anchor="middle">Obtuse 108° gnomon + similar 36°–72°–72° triangle</text>
+</svg>

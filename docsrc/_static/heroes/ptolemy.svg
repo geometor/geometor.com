@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 560 440" role="img" aria-label="Almagest Book I Chs. 1-8 Celestial Sphere and Oblique Ecliptic">
+  <style>
+    svg {
+      --svg-bg: #fafaf9;
+      --geom-fg: #1c1917;
+      --geom-muted: #64748b;
+      --geom-halo: rgba(250, 250, 249, 0.92);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background-color: var(--svg-bg);
+    }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --svg-bg: #141417;
+        --geom-fg: #f4f4f5;
+        --geom-muted: #94a3b8;
+        --geom-halo: rgba(20, 20, 23, 0.92);
+      }
+    }
+    .svg-bg { fill: var(--svg-bg); }
+    .geom-line, .geom-circle, .geom-arc { fill: none; stroke: var(--geom-fg); stroke-linecap: round; stroke-linejoin: round; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--svg-bg); stroke-width: 1.2; }
+    .geom-label { fill: var(--geom-fg); font-size: 13px; font-weight: 600; paint-order: stroke; stroke: var(--geom-halo); stroke-width: 3.5px; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="560" height="440" />
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="280.00" cy="220.00" r="165.00" fill="none" data-ref="cABGD" stroke-width="1.80"/>
+    <ellipse class="geom-dashed" cx="280.00" cy="220.00" rx="165.00" ry="44.00" fill="none" data-ref="cHOR" stroke-dasharray="6 4"/>
+    <ellipse class="geom-circle" cx="280.00" cy="220.00" rx="165.00" ry="52.00" fill="none" data-ref="cEQ" transform="rotate(-26.00 280.00 220.00)" stroke="var(--geom-assert, #2563eb)" stroke-width="1.80"/>
+    <ellipse class="geom-bold" cx="280.00" cy="220.00" rx="165.00" ry="52.00" fill="none" data-ref="cECL" transform="rotate(-2.15 280.00 220.00)" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+    <path class="geom-dashed" d="M 207.67 71.70 L 280.00 220.00 L 352.33 368.30" fill="none" data-ref="PPprime" stroke-dasharray="5 4"/>
+    <path class="geom-line" d="M 131.70 292.33 L 280.00 220.00 L 428.30 147.67" fill="none" data-ref="AG" stroke="var(--geom-assert, #2563eb)" stroke-width="1.30"/>
+    <path class="geom-line" d="M 115.12 226.19 L 280.00 220.00 L 444.88 213.81" fill="none" data-ref="BD" stroke="var(--geom-accent, #d97706)" stroke-width="1.50"/>
+    <path class="geom-dashed" d="M 280.00 55.00 L 280.00 220.00 L 280.00 385.00" fill="none" data-ref="ZN" stroke-dasharray="3 4"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-ang-arc" d="M 347.95 217.45 A 68.00 68.00 0 0 0 341.12 190.19" fill="none" data-ref="angEps" stroke="var(--geom-accent, #d97706)" stroke-width="1.50"/>
+  </g>
+  <g id="highlights">
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="280.00" cy="220.00" r="3.60" data-ref="O"/>
+    <circle class="geom-point" cx="207.67" cy="71.70" r="3.60" data-ref="P"/>
+    <circle class="geom-point" cx="352.33" cy="368.30" r="3.60" data-ref="Pprime"/>
+    <circle class="geom-point" cx="131.70" cy="292.33" r="3.60" data-ref="A"/>
+    <circle class="geom-point" cx="428.30" cy="147.67" r="3.60" data-ref="G"/>
+    <circle class="geom-point" cx="115.12" cy="226.19" r="3.60" data-ref="B"/>
+    <circle class="geom-point" cx="444.88" cy="213.81" r="3.60" data-ref="D"/>
+    <circle class="geom-point" cx="280.00" cy="55.00" r="3.60" data-ref="Z"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="268.00" y="235.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 15px;" data-ref="O">O</text>
+    <text class="geom-label" x="169.67" y="59.70" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P">P (North Pole)</text>
+    <text class="geom-label" x="394.33" y="380.30" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="Pprime">P' (South Pole)</text>
+    <text class="geom-label" x="115.70" y="286.33" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 15px;" data-ref="A">A</text>
+    <text class="geom-label" x="472.30" y="139.67" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="G">Γ (Equator)</text>
+    <text class="geom-label" x="99.12" y="232.19" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 15px;" data-ref="B">B</text>
+    <text class="geom-label" x="488.88" y="221.81" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="D">Δ (Ecliptic)</text>
+    <text class="geom-label" x="280.00" y="41.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="Z">Z (Zenith)</text>
+    <text class="geom-label" x="360.00" y="204.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="angEps">ε</text>
+  </g>
+</svg>

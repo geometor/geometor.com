@@ -3,6 +3,11 @@ GEOMETOR • geometor.com
 
 **Visit the Online Archive:** https://geometor.com
 
+.. image:: docsrc/_static/root3-harmonics-banner.png
+   :alt: GEOMETOR • geometor.com featured geometric construction
+   :target: https://geometor.com
+   :align: center
+
 **GEOMETOR • Central portal to the interconnected semantic digital archive**
 
 Mission

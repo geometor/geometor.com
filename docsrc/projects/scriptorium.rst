@@ -13,6 +13,12 @@ To understand *what* geometric objects are and *how* the mind knows their necess
 * **Live Book Codex**: `geometor.github.io/plato <https://geometor.github.io/plato/>`_
 * **Repository**: `github.com/geometor/plato <https://github.com/geometor/plato>`_
 
+.. image:: ../_static/heroes/plato.svg
+   :alt: GEOMETOR plato featured construction
+   :target: https://geometor.github.io/plato/
+   :width: 280px
+   :align: right
+
 4-Track Book Codex (*Burnet Greek*, *Jowett English*, *Summary*, *Notes*) of the Platonic mathematical canon: *Meno* (82b–85e, *anamnesis* and doubling the square via the diagonal), *Republic* Books VI–VIII (the **Divided Line**, the Quadrivium ascent from *dianoia* to *noesis*, and the Geometric Number), and *Timaeus* (31b–57d, the proportional World-Soul scale and elemental right triangles composing the five cosmic solids), paired with exact ``geometor.model`` constructions.
 
 ----
@@ -33,6 +39,12 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 * **Live Book Codex**: `geometor.github.io/nicomachus <https://geometor.github.io/nicomachus/>`_
 * **Repository**: `github.com/geometor/nicomachus <https://github.com/geometor/nicomachus>`_
 
+.. image:: ../_static/heroes/nicomachus.svg
+   :alt: GEOMETOR nicomachus featured construction
+   :target: https://geometor.github.io/nicomachus/
+   :width: 280px
+   :align: right
+
 4-Track Book Codex (*Hoche 1866 Greek*, *D'Ooge 1926 English*, *Summary*, *Notes*) of Nicomachus of Gerasa's Neo-Pythagorean treatise (Books I–II): the canonical division of **Multitude** and **Magnitude** into the **Four *Mathemata* (*Quadrivium*)**, **Nicomachus's Rule of Three Terms** unfolding every species of inequality deductively from pure Equality :math:`(1, 1, 1)`, polygonal gnomon lattices, the sum-of-cubes theorem, the ten classical means, and the **"Most Perfect" Cube Proportion** :math:`6 : 8 :: 9 : 12`.
 
 ----
@@ -42,6 +54,12 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 
 * **Live Book Codex**: `geometor.github.io/proclus <https://geometor.github.io/proclus/>`_
 * **Repository**: `github.com/geometor/proclus <https://github.com/geometor/proclus>`_
+
+.. image:: ../_static/heroes/proclus.svg
+   :alt: GEOMETOR proclus featured construction
+   :target: https://geometor.github.io/proclus/
+   :width: 280px
+   :align: right
 
 4-Track Book Codex (*English*, *Friedlein Greek 1873*, *Summary*, *Notes*) of Proclus Lycius's fifth-century philosophical and mathematical commentary on Euclid Book I, paired with a **164-locus concordance**. Preserves the Eudemian history of Greek geometry, the six classical parts of a Euclidean proposition (*protasis*, *ekthesis*, *diorismos*, *kataskeue*, *apodeixis*, *symperasma*), and the doctrine of imaginative projection (*probole*) onto the screen of *phantasia*.
 
@@ -53,6 +71,12 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 * **Live Book Codex**: `geometor.github.io/fibonacci <https://geometor.github.io/fibonacci/>`_
 * **Repository**: `github.com/geometor/fibonacci <https://github.com/geometor/fibonacci>`_
 
+.. image:: ../_static/heroes/fibonacci.svg
+   :alt: GEOMETOR fibonacci featured construction
+   :target: https://geometor.github.io/fibonacci/
+   :width: 280px
+   :align: right
+
 4-Track Book Codex (*Boncompagni 1857–1862 Latin*, *Original English*, *Summary*, *Notes*) of Leonardo Pisano's dual masterworks transmitting Hindu–Arabic numerals, continued-fraction unit-fraction decompositions, the **rabbit recurrence** :math:`F_{n} = F_{n-1} + F_{n-2}`, algebraic *Regula Rectae* equations (Ch. 15), and exact Euclidean/Ptolemaic measurement of the regular pentagon, decagon, and icosahedron over :math:`\mathbb{Q}(\sqrt{5})`.
 
 ----
@@ -63,6 +87,12 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 * **Live Book Codex**: `geometor.github.io/aquinas <https://geometor.github.io/aquinas/>`_
 * **Repository**: `github.com/geometor/aquinas <https://github.com/geometor/aquinas>`_
 
+.. image:: ../_static/heroes/aquinas.svg
+   :alt: GEOMETOR aquinas featured construction
+   :target: https://geometor.github.io/aquinas/
+   :width: 280px
+   :align: right
+
 4-Track Book Codex (*Latin*, *English*, *Summary*, *Notes*) across 5 Parts and 37 sections collecting St. Thomas Aquinas's decisive texts on the epistemology of mathematics—centered on *Super Boetium De Trinitate* (qq. 5–6) on **intelligible matter** (*materia intelligibilis*) and *terminatio ad imaginationem*, alongside selections from *In Posteriora Analytica*, *In De Anima*, *In Physicorum*, and *In Metaphysicorum*, cross-linked via a **78-locus Hoenen concordance**.
 
 ----
@@ -72,6 +102,12 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 
 * **Live Book Codices**: `geometor.github.io/cusa <https://geometor.github.io/cusa/>`_ (`De Docta Ignorantia <https://geometor.github.io/cusa/de_docta_ignorantia/>`_ · `De Mathematicis Complementis <https://geometor.github.io/cusa/de_mathematicis_complementis/>`_)
 * **Repository**: `github.com/geometor/cusa <https://github.com/geometor/cusa>`_
+
+.. image:: ../_static/heroes/cusa.svg
+   :alt: GEOMETOR cusa featured construction
+   :target: https://geometor.github.io/cusa/
+   :width: 280px
+   :align: right
 
 4-Track Latin/English Codices of Cardinal Nicholas of Cusa's *On Learned Ignorance* (1440) and *De Mathematicis Complementis* (1453), modeling the **Coincidence of Opposites** (*coincidentia oppositorum*) and isoperimetric transformations through exact limiting constructions in ``geometor.model``.
 
@@ -93,6 +129,12 @@ Curated multi-track edition (*Bekker Greek*, *Oxford English*, *Summary*, *Notes
 * **Live Book Codices**: `geometor.github.io/pacioli <https://geometor.github.io/pacioli/>`_ · `Summa de Arithmetica (1494) <https://geometor.github.io/pacioli/summa_1494/>`_
 * **Repository**: `github.com/geometor/pacioli <https://github.com/geometor/pacioli>`_
 
+.. image:: ../_static/heroes/pacioli.svg
+   :alt: GEOMETOR pacioli featured construction
+   :target: https://geometor.github.io/pacioli/
+   :width: 280px
+   :align: right
+
 Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 
 * ***De Divina Proportione* (1509 / Winterberg 1889)**: 5-Track Codex (*English*, *Italiano 1509*, *Deutsch 1889*, *Latin/Greek*, *Notes*) spanning **318 archival folios** and **482 recalibrated woodcuts**, including the thirteen effects of the Divine Proportion, Roman architectural letterforms, and **all 60 solid and skeletal polyhedra plates drawn by Leonardo da Vinci**.
@@ -106,6 +148,12 @@ Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 * **Live Book Codex**: `geometor.github.io/durer <https://geometor.github.io/durer/>`_
 * **Repository**: `github.com/geometor/durer <https://github.com/geometor/durer>`_
 
+.. image:: ../_static/heroes/durer.svg
+   :alt: GEOMETOR durer featured construction
+   :target: https://geometor.github.io/durer/
+   :width: 280px
+   :align: right
+
 4-Track Book Codex (*1525 Nuremberg Early New High German*, *Original English*, *Summary*, *Notes*) of Dürer's four-book manual of constructive geometry for artists and architects: Archimedean and logarithmic shell spirals, **conic sections by parallel descriptive projection**, Dürer's celebrated **rusty-compass pentagon** (*fünfeck mit unverrücktem Zirkel*), **unfolded polyhedral nets** (*Netze*), modular Roman & Fraktur typography, and linear perspective machines.
 
 ----
@@ -115,6 +163,12 @@ Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 
 * **Live Book Codices**: `geometor.github.io/kepler <https://geometor.github.io/kepler/>`_
 * **Repository**: `github.com/geometor/kepler <https://github.com/geometor/kepler>`_
+
+.. image:: ../_static/heroes/kepler.svg
+   :alt: GEOMETOR kepler featured construction
+   :target: https://geometor.github.io/kepler/
+   :width: 280px
+   :align: right
 
 4-Track Bilingual Book Codices (*Latin*, *Original English*, *Summary*, *Notes*) uniting Johannes Kepler's geometric trilogy: the **five nested Platonic solids** separating the six Copernican planetary spheres (*Mysterium Cosmographicum*), the **six-cornered snowflake**, rhombic dodecahedron, sphere-packing conjecture :math:`\pi/(3\sqrt{2})`, and Fibonacci phyllotaxis (*Strena*), and constructive polygon epistemology (*Scibilia* vs. *Inscibilia*), the 11 Archimedean tilings, the **Kepler Right Triangle** :math:`(1, \sqrt{\phi}, \phi)`, and the **Harmonic Third Law** :math:`T^2 \propto a^3` (*Harmonices Mundi*).
 
@@ -126,6 +180,12 @@ Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 * **Live Book Codex**: `geometor.github.io/pasch <https://geometor.github.io/pasch/>`_ (`Vorlesungen <https://geometor.github.io/pasch/vorlesungen_1882/>`_)
 * **Repository**: `github.com/geometor/pasch <https://github.com/geometor/pasch>`_
 
+.. image:: ../_static/heroes/pasch.svg
+   :alt: GEOMETOR pasch featured construction
+   :target: https://geometor.github.io/pasch/
+   :width: 280px
+   :align: right
+
 4-Track German/English Codex (**212 tracked folios**, Leipzig 1882) inaugurating modern rigorous axiomatics: **Pasch's Axiom** of planar triangle separation, linear betweenness (*Kernsätze* & *Stammbegriffe*), and the purely deductive derivation of projective incidence without tacit diagrammatic assumptions.
 
 ----
@@ -135,6 +195,12 @@ Multi-track scholarly codices of Fra Luca Pacioli's two Venetian monuments:
 
 * **Live Book Codex**: `geometor.github.io/hilbert <https://geometor.github.io/hilbert/>`_
 * **Repository**: `github.com/geometor/hilbert <https://github.com/geometor/hilbert>`_
+
+.. image:: ../_static/heroes/hilbert.svg
+   :alt: GEOMETOR hilbert featured construction
+   :target: https://geometor.github.io/hilbert/
+   :width: 280px
+   :align: right
 
 Multi-track edition (German original, E. J. Townsend English translation, and metamathematical commentary) of David Hilbert's *Foundations of Geometry*—reorganizing Euclidean geometry into five rigorous axiom groups (*Incidence*, *Order*, *Congruence*, *Parallels*, *Continuity*), building the **algebra of segments** from Desargues's and Pascal's theorems, and proving axiom consistency and independence through explicit algebraic coordinate fields.
 
@@ -146,6 +212,12 @@ Multi-track edition (German original, E. J. Townsend English translation, and me
 * **Live Book Codex**: `geometor.github.io/poincare <https://geometor.github.io/poincare/>`_
 * **Repository**: `github.com/geometor/poincare <https://github.com/geometor/poincare>`_
 
+.. image:: ../_static/heroes/poincare.svg
+   :alt: GEOMETOR poincare featured construction
+   :target: https://geometor.github.io/poincare/
+   :width: 280px
+   :align: right
+
 4-Track Bilingual Book Codex (*1902 Flammarion French*, *1905 Halsted/Greenstreet English*, *Summary*, *Notes*) of Parts I–II (*Number, Magnitude & Space*) of *La Science et l'Hypothèse*, paired with exact symbolic Möbius/conformal disk models proving the **relative consistency of Lobachevskian hyperbolic geometry** via Poincaré's famous Euclidean–hyperbolic dictionary.
 
 ----
@@ -155,6 +227,12 @@ Multi-track edition (German original, E. J. Townsend English translation, and me
 
 * **Live Book Codices**: `geometor.github.io/bertrand-russell <https://geometor.github.io/bertrand-russell/>`_
 * **Repository**: `github.com/geometor/bertrand-russell <https://github.com/geometor/bertrand-russell>`_
+
+.. image:: ../_static/heroes/bertrand-russell.svg
+   :alt: GEOMETOR bertrand-russell featured construction
+   :target: https://geometor.github.io/bertrand-russell/
+   :width: 280px
+   :align: right
 
 Scholarly editions of Bertrand Russell's two foundational works on geometric space—*An Essay on the Foundations of Geometry* (1897) and Part VI (*Space*) of *The Principles of Mathematics* (1903)—examining the philosophical transition from Kantian intuition through projective and Cayley–Klein non-Euclidean geometries to pure relational logic. *(Distinct from Walter & Lao Russell's cosmogonic edition below.)*
 
@@ -175,5 +253,11 @@ First complete digital edition (**300 folios**) and facing Latin–English trans
 
 * **Live Book Codices**: `geometor.github.io/russell <https://geometor.github.io/russell/>`_ (`Home Study Course <https://geometor.github.io/russell/home_study_course/>`_ · `Cosmogony <https://geometor.github.io/russell/cosmogony/>`_)
 * **Repository**: `github.com/geometor/russell <https://github.com/geometor/russell>`_
+
+.. image:: ../_static/heroes/walter-russell.png
+   :alt: GEOMETOR russell featured construction
+   :target: https://geometor.github.io/russell/
+   :width: 280px
+   :align: right
 
 Complete 12-Part, 48-Lesson digital codex (**519 tracked folios**) of Walter and Lao Russell's *Home Study Course in Universal Law, Natural Science and Living Philosophy*, paired with **180 vector-reconstructed chalkboard diagrams** and interactive 3D visualizations of the Russells' cube-sphere optical wave-field cosmogony.

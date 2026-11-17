@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="g4" role="img" aria-label="Golden Hexagrammum Mysticum in Q(phi) — Emergent Section / M25 P4 P0 /">
+  <title>Golden Hexagrammum Mysticum in Q(phi) — Emergent Section / M25 P4 P0 /</title>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --conic: #0284c7;
+    --cross: #0e7490;
+    --quad: #4338ca;
+    --pappus-even: #d97706;
+    --pappus-odd: #db2777;
+    --steiner: #7c3aed;
+    --harmonic: #059669;
+    --golden: #b45309;
+    --pt-given: #0f172a;
+    --pt-a: #0369a1;
+    --pt-b: #0f766e;
+    --pt-meet-even: #d97706;
+    --pt-meet-odd: #db2777;
+    --pt-steiner: #7c3aed;
+    --pt-harmonic: #059669;
+    --tri-square: #d97706;
+    --tri-circle: #0284c7;
+    --tri-diamond: #db2777;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --conic: #38bdf8;
+      --cross: #38bdf8;
+      --quad: #818cf8;
+      --pappus-even: #fbbf24;
+      --pappus-odd: #f472b6;
+      --steiner: #c084fc;
+      --harmonic: #34d399;
+      --golden: #facc15;
+      --pt-given: #e2e8f0;
+      --pt-a: #38bdf8;
+      --pt-b: #2dd4bf;
+      --pt-meet-even: #fbbf24;
+      --pt-meet-odd: #f472b6;
+      --pt-steiner: #c084fc;
+      --pt-harmonic: #34d399;
+      --tri-square: #fbbf24;
+      --tri-circle: #38bdf8;
+      --tri-diamond: #f472b6;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--svg-bg); }
+  .euclid-graphic .geom-circle.conic-curve { fill: none; stroke: var(--conic); stroke-width: 2.15; opacity: 0.88; }
+  .euclid-graphic .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.6; stroke-linecap: round; }
+  .euclid-graphic .carrier-line { stroke: var(--carrier); stroke-width: 2.1; opacity: 0.92; }
+  .euclid-graphic .cross-line { stroke: var(--cross); stroke-width: 1.25; stroke-opacity: 0.58; }
+  .euclid-graphic .quad-line { stroke: var(--quad); stroke-width: 1.45; stroke-opacity: 0.78; }
+  .euclid-graphic .diagonal-line { stroke-dasharray: 5 3.5; }
+  .euclid-graphic .pappus-line { stroke-width: 2.7; opacity: 0.96; }
+  .euclid-graphic .pappus-even { stroke: var(--pappus-even); }
+  .euclid-graphic .pappus-odd { stroke: var(--pappus-odd); }
+  .euclid-graphic .steiner-line { stroke: var(--steiner); stroke-width: 2.5; stroke-dasharray: 7 4; }
+  .euclid-graphic .harmonic-line { stroke: var(--harmonic); stroke-width: 2.5; }
+  .euclid-graphic .geom-segment.golden-segment { fill: none; stroke: var(--golden); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85; }
+  .euclid-graphic .geom-segment.harmonic-segment { fill: none; stroke: var(--harmonic); stroke-width: 3.2; stroke-linecap: round; opacity: 0.75; }
+  .euclid-graphic .geom-polygon.hexagon-poly { fill: var(--cross); fill-opacity: 0.06; stroke: var(--cross); stroke-width: 1.5; stroke-opacity: 0.4; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.tri-square { fill: var(--tri-square); fill-opacity: 0.09; stroke: var(--tri-square); stroke-width: 1.9; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.tri-circle { fill: var(--tri-circle); fill-opacity: 0.09; stroke: var(--tri-circle); stroke-width: 1.9; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.tri-diamond { fill: var(--tri-diamond); fill-opacity: 0.09; stroke: var(--tri-diamond); stroke-width: 1.9; stroke-linejoin: round; }
+  .euclid-graphic .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .pt-a { fill: var(--pt-a); }
+  .euclid-graphic .pt-b { fill: var(--pt-b); }
+  .euclid-graphic .meet-point.pappus-even { fill: var(--pt-meet-even); }
+  .euclid-graphic .meet-point.pappus-odd { fill: var(--pt-meet-odd); }
+  .euclid-graphic .steiner-point { fill: var(--pt-steiner); stroke-width: 2.0; }
+  .euclid-graphic .harmonic-point { fill: var(--pt-harmonic); stroke-width: 1.8; }
+  .euclid-graphic .aux-point { opacity: 0.78; }
+  .euclid-graphic .geom-label {
+    fill: var(--ink);
+    font-size: 13.5px;
+    font-weight: 600;
+    paint-order: stroke fill;
+    stroke: var(--label-halo);
+    stroke-width: 3.6px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 10px; font-weight: 600; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" fill="none" />
+  <g id="elements">
+    <g id="graphics">
+      <circle class="geom-circle conic-curve" cx="340" cy="206.83" r="120.62" data-ref="( O P0 )" data-aliases="( O P1 ) | ( O P2 ) | ( O P3 ) | ( O P4 ) | ( O P5 ) | ( P0 P1 P2 )" fill="none"><title>( O P0 ): x**2 + y**2 - 1 = 0</title></circle>
+      <polygon class="geom-polygon hexagon-poly" points="460.62,206.83 286.06,98.95 286.06,314.71 340,86.22 250.1,126.42 340,327.45" data-ref="&lt; P0 P2 P5 P1 P3 P4 &gt;" fill="none" />
+      <path class="geom-line cross-line" d="M 666 333.77 L 407.3 173.88 L 148.61 14" data-ref="[ P0 P2 ]" data-aliases="[ P0 M03 ] | [ P2 M03 ]" fill="none"><title>[ P0 P2 ]: -2*sqrt(5)*x/5 + y*(-1 - sqrt(5)/5) + 2*sqrt(5)/5 = 0</title></path>
+      <path class="geom-line cross-line" d="M 286.06 466 L 286.06 240 L 286.06 14" data-ref="[ P2 P5 ]" data-aliases="[ P2 M14 ] | [ P5 M14 ]" fill="none"><title>[ P2 P5 ]: x + sqrt(5)/5 = 0</title></path>
+      <path class="geom-line cross-line" d="M 250.35 466 L 303.7 240 L 357.05 14" data-ref="[ P5 P1 ]" data-aliases="[ P1 P5 ] | [ P1 M25 ] | [ P5 M25 ]" fill="none"><title>[ P5 P1 ]: x*(-1 - 2*sqrt(5)/5) + sqrt(5)*y/5 - sqrt(5)/5 = 0</title></path>
+      <path class="geom-line cross-line" d="M 14 232.01 L 257.74 123 L 501.48 14" data-ref="[ P1 P3 ]" data-aliases="[ P1 M03 ] | [ P3 M03 ]" fill="none"><title>[ P1 P3 ]: x/3 - sqrt(5)*y/3 + sqrt(5)/3 = 0</title></path>
+      <path class="geom-line cross-line" d="M 401.96 466 L 300.89 240 L 199.82 14" data-ref="[ P3 P4 ]" data-aliases="[ P3 M14 ] | [ P4 M14 ]" fill="none"><title>[ P3 P4 ]: 5*x/3 + sqrt(5)*y/3 + sqrt(5)/3 = 0</title></path>
+      <path class="geom-line cross-line" d="M 201.45 466 L 427.45 240 L 653.45 14" data-ref="[ P4 P0 ]" data-aliases="[ P0 P4 ] | [ P0 M25 ] | [ P4 M25 ]" fill="none"><title>[ P4 P0 ]: -x + y + 1 = 0</title></path>
+      <path class="geom-line pappus-line pappus-even" d="M 258.7 466 L 282.56 240 L 306.42 14" data-ref="[ M03 M14 ]" data-aliases="[ M03 M25 ] | [ M14 M25 ]" fill="none"><title>[ M03 M14 ]: x*(sqrt(5)/11 + 7/11) + y*(-5/11 + 9*sqrt(5)/55) + 1/11 + 7*sqrt(5)/55 = 0</title></path>
+      <path class="geom-segment golden-segment" d="M 265.46 401.99 L 363.04 304.41 L 460.62 206.83" data-ref="/ M25 P4 P0 /" fill="none" />
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point" cx="340" cy="206.83" r="3.8" data-ref="O" data-latex-x="0" data-latex-y="0"><title>O = (0, 0)</title></circle>
+      <circle class="geom-point-halo" cx="460.62" cy="206.83" r="8.4" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point given-point" cx="460.62" cy="206.83" r="4.2" data-ref="P0" data-latex-x="1" data-latex-y="0"><title>P0 = (1, 0)</title></circle>
+      <circle class="geom-point given-point" cx="340" cy="86.22" r="4.2" data-ref="P1" data-latex-x="0" data-latex-y="1"><title>P1 = (0, 1)</title></circle>
+      <circle class="geom-point given-point" cx="286.06" cy="98.95" r="4.2" data-ref="P2" data-latex-x="- \frac{\sqrt{5}}{5}" data-latex-y="\frac{2 \sqrt{5}}{5}"><title>P2 = (-sqrt(5)/5, 2*sqrt(5)/5)</title></circle>
+      <circle class="geom-point given-point" cx="250.1" cy="126.42" r="4.2" data-ref="P3" data-latex-x="- \frac{\sqrt{5}}{3}" data-latex-y="\frac{2}{3}"><title>P3 = (-sqrt(5)/3, 2/3)</title></circle>
+      <circle class="geom-point-halo" cx="340" cy="327.45" r="8.4" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point given-point" cx="340" cy="327.45" r="4.2" data-ref="P4" data-latex-x="0" data-latex-y="-1"><title>P4 = (0, -1)</title></circle>
+      <circle class="geom-point given-point" cx="286.06" cy="314.71" r="4.2" data-ref="P5" data-latex-x="- \frac{\sqrt{5}}{5}" data-latex-y="- \frac{2 \sqrt{5}}{5}"><title>P5 = (-sqrt(5)/5, -2*sqrt(5)/5)</title></circle>
+      <circle class="geom-point-halo" cx="296.75" cy="105.56" r="8.9" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point meet-point pappus-even" cx="296.75" cy="105.56" r="4.7" data-ref="M03" data-latex-x="\frac{5}{11} - \frac{4 \sqrt{5}}{11}" data-latex-y="\frac{\sqrt{5}}{11} + \frac{7}{11}"><title>M03 = (5/11 - 4*sqrt(5)/11, sqrt(5)/11 + 7/11)</title></circle>
+      <circle class="geom-point-halo" cx="286.06" cy="206.83" r="8.9" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point meet-point pappus-even" cx="286.06" cy="206.83" r="4.7" data-ref="M14" data-latex-x="- \frac{\sqrt{5}}{5}" data-latex-y="0"><title>M14 = (-sqrt(5)/5, 0)</title></circle>
+      <circle class="geom-point-halo" cx="265.46" cy="401.99" r="8.9" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point meet-point pappus-even" cx="265.46" cy="401.99" r="4.7" data-ref="M25" data-latex-x="\frac{1}{2} - \frac{\sqrt{5}}{2}" data-latex-y="- \frac{\sqrt{5}}{2} - \frac{1}{2}"><title>M25 = (1/2 - sqrt(5)/2, -sqrt(5)/2 - 1/2)</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="334.15" y="192.79" data-ref="O">O</text>
+      <text class="geom-label" x="451.98" y="192.39" data-ref="P0">P<tspan class="geom-label-sub" dy="3">0</tspan></text>
+      <text class="geom-label" x="317.07" y="76.18" data-ref="P1">P<tspan class="geom-label-sub" dy="3">1</tspan></text>
+      <text class="geom-label" x="255" y="103.71" data-ref="P2">P<tspan class="geom-label-sub" dy="3">2</tspan></text>
+      <text class="geom-label" x="263.88" y="131.18" data-ref="P3">P<tspan class="geom-label-sub" dy="3">3</tspan></text>
+      <text class="geom-label" x="353.78" y="332.21" data-ref="P4">P<tspan class="geom-label-sub" dy="3">4</tspan></text>
+      <text class="geom-label" x="291.71" y="334.27" data-ref="P5">P<tspan class="geom-label-sub" dy="3">5</tspan></text>
+      <text class="geom-label" x="310.41" y="110.32" data-ref="M03">M<tspan class="geom-label-sub" dy="3">03</tspan></text>
+      <text class="geom-label" x="290.62" y="196.41" data-ref="M14">M<tspan class="geom-label-sub" dy="3">14</tspan></text>
+      <text class="geom-label" x="238.03" y="391.57" data-ref="M25">M<tspan class="geom-label-sub" dy="3">25</tspan></text>
+    </g>
+  </g>
+</svg>

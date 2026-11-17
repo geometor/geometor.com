@@ -15,6 +15,12 @@ Nature makes visible what symbolic algebra proves: when growing primordia emerge
 * **3D Recursive Propagation Studio**: `propagation_3d.html <https://geometor.github.io/phyllotaxis/demos/propagation_3d.html>`_
 * **Repository**: `github.com/geometor/phyllotaxis <https://github.com/geometor/phyllotaxis>`_
 
+.. image:: ../_static/heroes/phyllotaxis.png
+   :alt: GEOMETOR phyllotaxis featured construction
+   :target: https://geometor.github.io/phyllotaxis/
+   :width: 280px
+   :align: right
+
 Inspired by the mathematical botany of **Roger V. Jean**, Wilhelm Hofmeister, the Bravais brothers, Alan Turing, and H. Vogel, ``geometor.phyllotaxis`` models spiral plant morphogenesis symbolically and interactively:
 
 * **The Golden Divergence Angle**: Because :math:`\phi = [1; 1, 1, 1, \dots]` is the *most irrational* noble number (slowest rational approximation by continued fractions), consecutive primordia diverging by
@@ -35,6 +41,12 @@ Inspired by the mathematical botany of **Roger V. Jean**, Wilhelm Hofmeister, th
 * **Live Book Codex**: `geometor.github.io/thompson <https://geometor.github.io/thompson/>`_
 * **Repository**: `github.com/geometor/thompson <https://github.com/geometor/thompson>`_
 
+.. image:: ../_static/heroes/thompson.svg
+   :alt: GEOMETOR thompson featured construction
+   :target: https://geometor.github.io/thompson/
+   :width: 280px
+   :align: right
+
 3-Track Book Codex (*1917 Cambridge First Edition*, *Summary*, *Notes*) + exact ``SymPy`` / ``geometor.model`` biological morphogenesis engine reconstructing D'Arcy Thompson's mathematical morphology:
 
 * **Plateau Cellular Equilibrium**: Exact symbolic derivation of the :math:`120^\circ` three-film planar junction (via the Euclidean *vesica piscis*) and the :math:`\arccos(-1/3) \approx 109^\circ 28' 16''` tetrahedral four-edge soap-film vertex.
@@ -49,6 +61,12 @@ Inspired by the mathematical botany of **Roger V. Jean**, Wilhelm Hofmeister, th
 * **Live Mathematical Catalog**: `geometor.github.io/knott <https://geometor.github.io/knott/>`_
 * **Repository**: `github.com/geometor/knott <https://github.com/geometor/knott>`_
 
+.. image:: ../_static/heroes/knott.svg
+   :alt: GEOMETOR knott featured construction
+   :target: https://geometor.github.io/knott/
+   :width: 280px
+   :align: right
+
 Structured one-item-per-page **GEOMETOR Mathematical Catalog** documenting the number-theoretic, geometric, and combinatorial discoveries popularized in Dr. Ron Knott's *Fibonacci Numbers and the Golden Section* through original ``SymPy`` solvers and ``geometor.model`` constructions:
 
 * **Fibonacci & Lucas Number Theory**: Exact Binet :math:`\mathbb{Z}[\phi]` arithmetic, Cassini/Catalan/d'Ocagne identities, GCD divisibility (:math:`\gcd(F_m, F_n) = F_{\gcd(m, n)}`), modular **Pisano periods** :math:`\pi(m)`, and **Zeckendorf** / Fibonacci-base representations.
@@ -62,6 +80,12 @@ Structured one-item-per-page **GEOMETOR Mathematical Catalog** documenting the n
 
 * **Live Book Codex**: `geometor.github.io/hambidge <https://geometor.github.io/hambidge/>`_ (`The Elements of Dynamic Symmetry <https://geometor.github.io/hambidge/dynamic_symmetry/>`_)
 * **Repository**: `github.com/geometor/hambidge <https://github.com/geometor/hambidge>`_
+
+.. image:: ../_static/heroes/hambidge.svg
+   :alt: GEOMETOR hambidge featured construction
+   :target: https://geometor.github.io/hambidge/
+   :width: 280px
+   :align: right
 
 3-Track Book Codex (**174 tracked primary-source folios** from Hambidge's 1919–1920 *The Diagonal* & *Elements*) reconstructing **Dynamic Symmetry** in exact ``SymPy`` quadrance algebra: commensurable-in-power root rectangles (:math:`\sqrt{2}, \sqrt{3}, \sqrt{4}, \sqrt{5}`), the **Whirling Square Rectangle** (:math:`\phi`), and the :math:`\sqrt{\phi}` and :math:`\frac{\sqrt{5}+1}{4}` design canons of Greek vases and botanical phyllotaxis.
 
