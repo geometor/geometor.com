@@ -3,7 +3,7 @@
   <line x1="2.50" y1="25.0000" x2="47.50" y2="25.0000" stroke="#3b4b66" stroke-width="0.12" stroke-dasharray="0.8,0.6"/>
   <line x1="3.0000" y1="25.0000" x2="47.0000" y2="25.0000" stroke="#5c7089" stroke-width="0.14" data-id="[ A B ]" class="axis"/>
   <line x1="24.0000" y1="3.0000" x2="24.0000" y2="43.6795" stroke="#5c7089" stroke-width="0.14" data-id="[ C D ]" class="bisector"/>
-  <polygon points="14.0000,25.0000 34.0000,25.0000 24.0000,7.6795" fill="#61afef" fill-opacity="0.08" stroke="#98c379" stroke-width="0.22" data-id="< A B C >" class="equilateral"/>
+  <polygon points="14.0000,25.0000 34.0000,25.0000 24.0000,7.6795" fill="#61afef" fill-opacity="0.08" stroke="#98c379" stroke-width="0.22" data-id="&lt; A B C &gt;" class="equilateral"/>
   <circle cx="14.0000" cy="25.0000" r="20.0000" fill="none" stroke="#61afef" stroke-width="0.18" data-id="( A B )" class="vesica"/>
   <circle cx="34.0000" cy="25.0000" r="20.0000" fill="none" stroke="#61afef" stroke-width="0.18" data-id="( B A )" class="vesica"/>
   <circle cx="14.0000" cy="25.0000" r="12.3607" fill="none" stroke="#e5c07b" stroke-width="0.18" stroke-dasharray="0.9,0.5" data-id="( A phi_inv )" class="golden"/>
