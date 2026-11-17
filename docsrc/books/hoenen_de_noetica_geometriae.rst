@@ -1,5 +1,6 @@
 :type: book_record
 :author: Petrus Hubertus Jacobus Hoenen, S. J.
+:author_doc: people/hoenen
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/hoenen/de_noetica_geometriae/

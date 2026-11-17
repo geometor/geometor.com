@@ -1,5 +1,6 @@
 :type: book_record
 :author: Paul Seelig & phi ARCHITECT
+:author_doc: people/fundamentals
 :era: Mathematical Catalogs
 :languages: English
 :site_url: https://geometor.github.io/fundamentals/topics/

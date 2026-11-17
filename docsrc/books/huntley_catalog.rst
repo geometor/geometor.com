@@ -1,5 +1,6 @@
 :type: book_record
 :author: H. E. Huntley (1970) · Exact Synthesis by GEOMETOR
+:author_doc: people/huntley
 :era: Mathematical Catalogs
 :languages: English
 :site_url: https://geometor.github.io/huntley/catalog/

@@ -1,10 +1,11 @@
 :type: book_record
 :author: Heron of Alexandria
+:author_doc: people/heron
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/heron/dioptra/
 :github_url: https://github.com/geometor/heron
-:year: c. 60 CE
+:year: ca. 60 CE
 :native_title: Περὶ διόπτρας
 :excerpt: Precision geodetic instruments, theodolite engineering, orthogonal coordinate traverse, and two-portal mountain tunneling (Tunnel of Eupalinus paradigm).
 

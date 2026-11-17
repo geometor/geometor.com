@@ -1,5 +1,6 @@
 :type: book_record
 :author: Moritz Pasch
+:author_doc: people/pasch
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/pasch/vorlesungen_1882/

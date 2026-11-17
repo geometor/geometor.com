@@ -1,5 +1,6 @@
 :type: book_record
 :author: Clark Kimberling
+:author_doc: people/etc
 :era: Mathematical Catalogs
 :languages: English
 :site_url: https://geometor.github.io/etc/centers/

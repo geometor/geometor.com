@@ -1,10 +1,11 @@
 :type: book_record
 :author: Piero della Francesca
+:author_doc: people/piero
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/piero/quinque_corporibus/
 :github_url: https://github.com/geometor/piero
-:year: c. 1482–1492
+:year: ca. 1482–1492
 :native_title: Libellus de Quinque Corporibus Regularibus
 :excerpt: Piero della Francesca's landmark Renaissance treatise uniting classical Euclidean stereometry with abacus radical algebra, mutual Platonic inscriptions, and Archimedean solids.
 

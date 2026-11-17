@@ -1,5 +1,6 @@
 :type: book_record
 :author: Henri Poincaré
+:author_doc: people/poincare
 :era: Book Codices
 :languages: French, English
 :site_url: https://geometor.github.io/poincare/science_and_hypothesis/

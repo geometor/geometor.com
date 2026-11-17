@@ -1,5 +1,6 @@
 :type: book_record
 :author: Nicholas of Cusa
+:author_doc: people/cusa
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/cusa/de_mathematicis_complementis/

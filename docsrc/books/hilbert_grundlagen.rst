@@ -1,5 +1,6 @@
 :type: book_record
 :author: David Hilbert
+:author_doc: people/hilbert
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/hilbert/grundlagen/

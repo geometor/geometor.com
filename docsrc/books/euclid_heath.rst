@@ -1,5 +1,6 @@
 :type: book_record
 :author: Euclid of Alexandria
+:author_doc: people/euclid
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/euclid/heath/

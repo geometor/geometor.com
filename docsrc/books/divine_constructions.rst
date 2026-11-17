@@ -1,5 +1,6 @@
 :type: book_record
 :author: Alexander Bogomolny, Euclid & Contemporary Geometers
+:author_doc: people/divine
 :era: Mathematical Catalogs
 :languages: English
 :site_url: https://geometor.github.io/divine/constructions/

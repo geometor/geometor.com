@@ -1,5 +1,6 @@
 :type: book_record
 :author: Karl Wilhelm Feuerbach
+:author_doc: people/feuerbach
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/feuerbach/feuerbach_1822/

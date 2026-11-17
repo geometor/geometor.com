@@ -1,10 +1,11 @@
 :type: book_record
 :author: St. Thomas Aquinas, O.P. (1225–1274)
+:author_doc: people/aquinas
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/aquinas/de_anima/
 :github_url: https://github.com/geometor/aquinas
-:year: c. 1267–1268
+:year: ca. 1267–1268
 :native_title: Sentencia libri De anima (c. 1267–1268)
 :excerpt: Aquinas's psychological foundations for mathematics: why the human soul never understands without turning to phantasms (conversio ad phantasmata), the distinction between physical flesh/bone and spatial continuum, and the hand as organ of organs.
 

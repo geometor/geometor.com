@@ -1,5 +1,6 @@
 :type: book_record
 :author: Jakob Steiner
+:author_doc: people/steiner
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/steiner/constructionen_1833/

@@ -1,5 +1,6 @@
 :type: book_record
 :author: Karl Georg Christian von Staudt
+:author_doc: people/staudt
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/staudt/geometrie_der_lage/

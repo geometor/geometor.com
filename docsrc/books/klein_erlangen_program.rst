@@ -1,5 +1,6 @@
 :type: book_record
 :author: Felix Klein
+:author_doc: people/klein
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/klein/erlangen_program/
