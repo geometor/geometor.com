@@ -1,5 +1,6 @@
 :navigation: footer
-:order: 4
+:order: 30
+:nav_title: Connect
 
 Connect
 =======

@@ -1,5 +1,6 @@
 :navigation: footer
-:order: 1
+:order: 10
+:nav_title: Usage
 
 Quickstart
 ==========
