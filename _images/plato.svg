@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 640 500" data-graphic-id="foundations-peras" role="img" aria-label="Parmenides 137e, Philebus 51c &amp; Laws VII 819d: Compass, Straight Ray &amp; 1-sqrt(2)-sqrt(3) Triad">
+  <title>Parmenides 137e, Philebus 51c &amp; Laws VII 819d: Compass, Straight Ray &amp; 1-sqrt(2)-sqrt(3) Triad</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -6 16 12" refX="0" refY="0" markerWidth="16" markerHeight="12" orient="auto">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #334155;
+    --conic: #0284c7;
+    --cross: #0e7490;
+    --quad: #4338ca;
+    --pappus-even: #d97706;
+    --pappus-odd: #db2777;
+    --steiner: #7c3aed;
+    --harmonic: #059669;
+    --golden: #b45309;
+    --pt-given: #0f172a;
+    --pt-meet: #d97706;
+    --pt-steiner: #7c3aed;
+    --pt-harmonic: #059669;
+    --tri-square: #d97706;
+    --tri-circle: #0284c7;
+    --tri-diamond: #db2777;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #cbd5e1;
+      --conic: #38bdf8;
+      --cross: #38bdf8;
+      --quad: #818cf8;
+      --pappus-even: #fbbf24;
+      --pappus-odd: #f472b6;
+      --steiner: #c084fc;
+      --harmonic: #34d399;
+      --golden: #facc15;
+      --pt-given: #f8fafc;
+      --pt-meet: #fbbf24;
+      --pt-steiner: #c084fc;
+      --pt-harmonic: #34d399;
+      --tri-square: #fbbf24;
+      --tri-circle: #38bdf8;
+      --tri-diamond: #f472b6;
+    }
+  }
+  .euclid-graphic .bg { fill: #fafaf9; fill: var(--svg-bg, #fafaf9); }
+  .euclid-graphic .geom-circle.conic-curve { fill: none; stroke: #0284c7; stroke: var(--conic, #0284c7); stroke-width: 1.95; opacity: 0.86; }
+  .euclid-graphic .geom-line { fill: none; stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 1.75; stroke-linecap: round; }
+  .euclid-graphic .carrier-line { stroke: #334155; stroke: var(--carrier, #334155); stroke-width: 2.15; opacity: 0.94; }
+  .euclid-graphic .cross-line { stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.35; stroke-opacity: 0.68; }
+  .euclid-graphic .quad-line { stroke: #4338ca; stroke: var(--quad, #4338ca); stroke-width: 1.65; stroke-opacity: 0.84; }
+  .euclid-graphic .diagonal-line { stroke-dasharray: 5 3.5; }
+  .euclid-graphic .pappus-line { stroke-width: 2.65; opacity: 0.96; }
+  .euclid-graphic .pappus-even { stroke: #d97706; stroke: var(--pappus-even, #d97706); }
+  .euclid-graphic .pappus-odd { stroke: #db2777; stroke: var(--pappus-odd, #db2777); }
+  .euclid-graphic .steiner-line { stroke: #7c3aed; stroke: var(--steiner, #7c3aed); stroke-width: 2.45; stroke-dasharray: 6 3.5; }
+  .euclid-graphic .harmonic-line { stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 2.35; }
+  .euclid-graphic .geom-segment.golden-segment { fill: none; stroke: #b45309; stroke: var(--golden, #b45309); stroke-width: 3.6; stroke-linecap: round; opacity: 0.85; }
+  .euclid-graphic .geom-segment.harmonic-segment { fill: none; stroke: #059669; stroke: var(--harmonic, #059669); stroke-width: 3.2; stroke-linecap: round; opacity: 0.78; }
+  .euclid-graphic .geom-polygon.hexagon-poly { fill: #0e7490; fill: var(--cross, #0e7490); fill-opacity: 0.05; stroke: #0e7490; stroke: var(--cross, #0e7490); stroke-width: 1.4; stroke-opacity: 0.42; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.tri-square { fill: #d97706; fill: var(--tri-square, #d97706); fill-opacity: 0.11; stroke: #d97706; stroke: var(--tri-square, #d97706); stroke-width: 1.7; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.tri-circle { fill: #0284c7; fill: var(--tri-circle, #0284c7); fill-opacity: 0.09; stroke: #0284c7; stroke: var(--tri-circle, #0284c7); stroke-width: 1.6; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.tri-diamond { fill: #db2777; fill: var(--tri-diamond, #db2777); fill-opacity: 0.12; stroke: #db2777; stroke: var(--tri-diamond, #db2777); stroke-width: 1.9; stroke-linejoin: round; }
+  .euclid-graphic .geom-point { fill: #0f172a; fill: var(--pt-given, #0f172a); stroke: #fafaf9; stroke: var(--svg-bg, #fafaf9); stroke-width: 1.5; }
+  .euclid-graphic .meet-point { fill: #d97706; fill: var(--pt-meet, #d97706); }
+  .euclid-graphic .steiner-point { fill: #7c3aed; fill: var(--pt-steiner, #7c3aed); stroke-width: 1.9; }
+  .euclid-graphic .harmonic-point { fill: #059669; fill: var(--pt-harmonic, #059669); stroke-width: 1.8; }
+  .euclid-graphic .aux-point { opacity: 0.78; }
+  .euclid-graphic .geom-label {
+    fill: #1c1917;
+    fill: var(--ink, #1c1917);
+    font-size: 13px;
+    font-weight: 600;
+    paint-order: stroke fill;
+    stroke: #fafaf9;
+    stroke: var(--label-halo, rgba(250, 250, 249, 0.92));
+    stroke-width: 3.6px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 9.8px; font-weight: 600; }
+  </style>
+  <rect class="bg" x="0" y="0" width="640" height="500" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <circle class="geom-circle conic-curve" cx="320" cy="292.04" r="118.9" data-ref="( O C )" data-aliases="( O A ) | ( O B )" fill="none"><title>( O C ): (x - (0))^2 + (y - (0))^2 - (1) = 0</title></circle>
+      <polygon class="geom-polygon tri-square" points="320,292.04 438.9,292.04 438.9,173.14 320,173.14" data-ref="&lt; O C D B &gt;" fill="none" />
+      <polygon class="geom-polygon tri-diamond" points="320,292.04 438.9,173.14 354.83,89.06" data-ref="&lt; O D E &gt;" fill="none" />
+      <path class="geom-line quad-line" d="M 438.9 292.04 L 438.9 232.59 L 438.9 173.14" data-ref="[ C F ]" data-aliases="[ C D ] | [ D C ] | / C D /" fill="none"><title>[ C F ]: (1)*x + (0)*y + (-1) = 0</title></path>
+      <path class="geom-line quad-line" d="M 438.9 173.14 L 379.45 173.14 L 320 173.14" data-ref="[ B H ]" data-aliases="[ B D ] | [ D B ] | / B D /" fill="none"><title>[ B H ]: (0)*x + (1)*y + (-1) = 0</title></path>
+      <path class="geom-line carrier-line" d="M 201.1 292.04 L 320 292.04 L 438.9 292.04" data-ref="[ O C ]" data-aliases="[ C O ] | / O C / | [ O A ] | [ A O ] | / O A / | [ C A ] | [ A C ] | / C A /" fill="none"><title>[ O C ]: (0)*x + (1)*y + (0) = 0</title></path>
+      <path class="geom-line carrier-line" d="M 320 173.14 L 320 232.59 L 320 292.04" data-ref="[ O B ]" data-aliases="[ B O ] | / O B /" fill="none"><title>[ O B ]: (1)*x + (0)*y + (0) = 0</title></path>
+      <path class="geom-line pappus-line pappus-even" d="M 320 292.04 L 379.45 232.59 L 438.9 173.14" data-ref="[ O D ]" data-aliases="[ D O ] | / O D /" fill="none"><title>[ O D ]: (-1)*x + (1)*y + (0) = 0</title></path>
+      <path class="geom-line harmonic-line" d="M 438.9 173.14 L 396.86 131.1 L 354.83 89.06" data-ref="[ D K ]" data-aliases="[ D E ] | [ E D ] | / D E /" fill="none"><title>[ D K ]: (-1)*x + (-1)*y + (2) = 0</title></path>
+      <path class="geom-line steiner-line" d="M 320 292.04 L 337.41 190.55 L 354.83 89.06" data-ref="[ O E ]" data-aliases="[ E O ] | / O E /" fill="none"><title>[ O E ]: (-1 - sqrt(2)/2)*x + (1 - sqrt(2)/2)*y + (0) = 0</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point-halo" cx="438.9" cy="292.04" r="8.7" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point given-point" cx="438.9" cy="292.04" r="4.3" data-ref="C" data-latex-x="1" data-latex-y="0"><title>C = (1, 0)</title></circle>
+      <circle class="geom-point given-point" cx="201.1" cy="292.04" r="4.3" data-ref="A" data-latex-x="-1" data-latex-y="0"><title>A = (-1, 0)</title></circle>
+      <circle class="geom-point given-point" cx="320" cy="173.14" r="4.3" data-ref="B" data-latex-x="0" data-latex-y="1"><title>B = (0, 1)</title></circle>
+      <circle class="geom-point-halo" cx="438.9" cy="173.14" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point meet-point" cx="438.9" cy="173.14" r="4.2" data-ref="D" data-latex-x="1" data-latex-y="1"><title>D = (1, 1)</title></circle>
+      <circle class="geom-point-halo" cx="354.83" cy="89.06" r="9.2" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point harmonic-point" cx="354.83" cy="89.06" r="4.8" data-ref="E" data-latex-x="1 - \frac{\sqrt{2}}{2}" data-latex-y="\frac{\sqrt{2}}{2} + 1"><title>E = (1 - sqrt(2)/2, sqrt(2)/2 + 1)</title></circle>
+      <circle class="geom-point-halo" cx="320" cy="292.04" r="9.8" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point given-point steiner-point" cx="320" cy="292.04" r="5.4" data-ref="O" data-latex-x="0" data-latex-y="0"><title>O = (0, 0)</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="433.14" y="316.6" data-ref="C">C</text>
+      <text class="geom-label" x="195.34" y="277" data-ref="A">A</text>
+      <text class="geom-label" x="314.24" y="158.1" data-ref="B">B</text>
+      <text class="geom-label" x="433.14" y="158.2" data-ref="D">D</text>
+      <text class="geom-label" x="349.07" y="73.52" data-ref="E">E</text>
+      <text class="geom-label" x="314.24" y="317.7" data-ref="O">O</text>
+    </g>
+  </g>
+</svg>

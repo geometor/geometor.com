@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" data-graphic-id="cube-most-perfect-proportion" width="880" height="460" viewBox="0 0 880 460" role="img">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -8 12 16" refX="0" refY="0" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="16" orient="auto">
+      <line x1="0" y1="-5.5" x2="0" y2="5.5" stroke="#e2b553" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-8 -8 16 16" refX="0" refY="0" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto">
+      <line x1="-2.4" y1="-5.5" x2="-2.4" y2="5.5" stroke="#e2b553" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="2.4" y1="-5.5" x2="2.4" y2="5.5" stroke="#e2b553" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-10 -8 20 16" refX="0" refY="0" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="16" orient="auto">
+      <line x1="-4.2" y1="-5.5" x2="-4.2" y2="5.5" stroke="#e2b553" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-5.5" x2="0" y2="5.5" stroke="#e2b553" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="4.2" y1="-5.5" x2="4.2" y2="5.5" stroke="#e2b553" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+    <marker id="arrow-accent" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#e2b553"/>
+    </marker>
+    <marker id="arrow-muted" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#9a9488"/>
+    </marker>
+  </defs>
+  <style>
+    .euclid-graphic { font-family: "Gentium Plus", "Palatino Linotype", "Book Antiqua", Georgia, serif; }
+    .euclid-graphic .title { fill: #e8e2d5; font-size: 16px; font-weight: 700; letter-spacing: 0.02em; }
+    .euclid-graphic .subtitle { fill: #a8a195; font-size: 12px; font-style: italic; }
+    .euclid-graphic .lbl { fill: #e8e2d5; font-size: 13px; }
+    .euclid-graphic .lbl-b { fill: #e8e2d5; font-size: 13.5px; font-weight: 700; }
+    .euclid-graphic .lbl-sm { fill: #a8a195; font-size: 11.5px; }
+    .euclid-graphic .lbl-gr { fill: #e2b553; font-size: 13px; font-style: italic; }
+    .euclid-graphic .lbl-accent { fill: #e2b553; font-weight: 700; }
+    .euclid-graphic .lbl-blue { fill: #6ba9d8; }
+    .euclid-graphic .lbl-green { fill: #78c491; }
+    .euclid-graphic .lbl-rose { fill: #dc7d7d; }
+    .euclid-graphic .lbl-violet { fill: #b48ee0; }
+    .euclid-graphic .mono { font-family: "JetBrains Mono", "Fira Code", monospace; font-size: 12px; fill: #e8e2d5; }
+    .euclid-graphic .construct { stroke: #e8e2d5; stroke-width: 1.75; fill: none; }
+    .euclid-graphic .guide { stroke: #9a9488; stroke-width: 1.2; stroke-dasharray: 5 4; fill: none; }
+    .euclid-graphic .guide-accent { stroke: #e2b553; stroke-width: 1.6; stroke-dasharray: 5 4; fill: none; }
+    .euclid-graphic .accent-line { stroke: #e2b553; stroke-width: 2.2; fill: none; }
+    .euclid-graphic .blue-line { stroke: #6ba9d8; stroke-width: 2.0; fill: none; }
+    .euclid-graphic .green-line { stroke: #78c491; stroke-width: 2.0; fill: none; }
+    .euclid-graphic .rose-line { stroke: #dc7d7d; stroke-width: 2.0; fill: none; }
+    .euclid-graphic .violet-line { stroke: #b48ee0; stroke-width: 2.0; fill: none; }
+    .euclid-graphic .grid-line { stroke: #9a9488; stroke-opacity: 0.25; stroke-width: 0.85; fill: none; }
+    .euclid-graphic .card { fill: #202026; fill-opacity: 0.72; stroke: #8e887c; stroke-width: 1.15; }
+    .euclid-graphic .card-accent { fill: #202026; fill-opacity: 0.78; stroke: #e2b553; stroke-width: 1.85; }
+    .euclid-graphic .card-blue { fill: #202026; fill-opacity: 0.78; stroke: #6ba9d8; stroke-width: 1.7; }
+    .euclid-graphic .card-green { fill: #202026; fill-opacity: 0.78; stroke: #78c491; stroke-width: 1.7; }
+    .euclid-graphic .card-violet { fill: #202026; fill-opacity: 0.78; stroke: #b48ee0; stroke-width: 1.7; }
+    .euclid-graphic .card-rose { fill: #202026; fill-opacity: 0.78; stroke: #dc7d7d; stroke-width: 1.7; }
+    .euclid-graphic .pt { fill: #e8e2d5; }
+    .euclid-graphic .pt-accent { fill: #e2b553; stroke: #18181c; stroke-width: 1.1; }
+    .euclid-graphic .alpha-pebble { font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+  </style>
+  <g id="highlights"/>
+  <text x="440" y="28" text-anchor="middle" class="title">Nicomachus II.29 — The Most Perfect Proportion (Τελειοτάτη Ἀναλογία): 6 : 8 :: 9 : 12</text>
+  <text x="440" y="48" text-anchor="middle" class="subtitle">ϛ, η, ϑ, ιβ · Cube Topology (6 Faces, 8 Vertices, 12 Edges) &amp; Pythagorean Musical Consonances</text>
+  <rect x="20" y="66" width="310" height="378" rx="8" class="card"/>
+  <text x="175" y="90" text-anchor="middle" class="lbl-b">Philolaus's "Geometric Harmony"</text>
+  <g data-ref="FACES6">
+    <polygon points="95.3,166.0 175.0,120.0 254.7,166.0 175.0,220.0" fill="#e2b553" fill-opacity="0.22"/>
+    <polygon points="254.7,166.0 254.7,258.0 175.0,304.0 175.0,220.0" fill="#6ba9d8" fill-opacity="0.20"/>
+    <polygon points="175.0,304.0 95.3,258.0 95.3,166.0 175.0,220.0" fill="#78c491" fill-opacity="0.20"/>
+  </g>
+  <g data-ref="EDGES12">
+    <path d="M 175.00 120.00 L 214.84 143.00 L 254.67 166.00" fill="none" class="construct" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 254.67 166.00 L 254.67 212.00 L 254.67 258.00" fill="none" class="construct" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 254.67 258.00 L 214.84 281.00 L 175.00 304.00" fill="none" class="construct" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 175.00 304.00 L 135.16 281.00 L 95.33 258.00" fill="none" class="construct" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 95.33 258.00 L 95.33 212.00 L 95.33 166.00" fill="none" class="construct" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 95.33 166.00 L 135.16 143.00 L 175.00 120.00" fill="none" class="construct" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 175.00 220.00 L 214.84 193.00 L 254.67 166.00" fill="none" class="accent-line" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 175.00 220.00 L 175.00 262.00 L 175.00 304.00" fill="none" class="accent-line" marker-mid="url(#geom-tick-1)"/>
+    <path d="M 175.00 220.00 L 135.16 193.00 L 95.33 166.00" fill="none" class="accent-line" marker-mid="url(#geom-tick-1)"/>
+    <line x1="175.0" y1="204.0" x2="175.0" y2="120.0" class="guide"/>
+    <line x1="175.0" y1="204.0" x2="254.7" y2="258.0" class="guide"/>
+    <line x1="175.0" y1="204.0" x2="95.3" y2="258.0" class="guide"/>
+  </g>
+  <g data-ref="VERTS8">
+    <circle cx="175.0" cy="120.0" r="4.2" class="pt-accent"/>
+    <circle cx="254.7" cy="166.0" r="4.2" class="pt-accent"/>
+    <circle cx="254.7" cy="258.0" r="4.2" class="pt-accent"/>
+    <circle cx="175.0" cy="304.0" r="4.2" class="pt-accent"/>
+    <circle cx="95.3" cy="258.0" r="4.2" class="pt-accent"/>
+    <circle cx="95.3" cy="166.0" r="4.2" class="pt-accent"/>
+    <circle cx="175.0" cy="220.0" r="4.2" class="pt-accent"/>
+    <circle cx="175.0" cy="204.0" r="4.2" class="pt-accent"/>
+  </g>
+  <text x="175" y="336" text-anchor="middle" class="lbl-b">6 Faces · 8 Vertices · 12 Edges</text>
+  <text x="175" y="360" text-anchor="middle" class="mono">Harmonic Cube: 8 = 2·6·12 / (6 + 12)</text>
+  <text x="175" y="384" text-anchor="middle" class="lbl-sm">6 = 1×2×3 (scalene) · 8 = 2×2×2 (cube)</text>
+  <text x="175" y="404" text-anchor="middle" class="lbl-sm">9 = 1×3×3 (brick)   · 12 = 2×2×3 (beam)</text>
+  <text x="175" y="426" text-anchor="middle" class="mono">Euler: F − E + V = 6 − 12 + 8 = 2</text>
+  <rect x="346" y="66" width="514" height="378" rx="8" class="card"/>
+  <text x="603" y="90" text-anchor="middle" class="lbl-b">Projective Harmonic Conjugate &amp; Monochord Consonances</text>
+  <line x1="704.5" y1="151.0" x2="595.0" y2="274.0" class="guide"/>
+  <line x1="704.5" y1="151.0" x2="814.0" y2="274.0" class="guide"/>
+  <line x1="376.0" y1="274.0" x2="751.4" y2="203.7" class="guide"/>
+  <line x1="595.0" y1="274.0" x2="751.4" y2="203.7" class="guide"/>
+  <line x1="814.0" y1="274.0" x2="638.8" y2="224.8" class="guide"/>
+  <line x1="704.5" y1="151.0" x2="668.0" y2="274.0" class="blue-line" stroke-dasharray="4 3"/>
+  <circle cx="704.5" cy="151.0" r="3.4" class="pt"/>
+  <text x="714.5" y="155.0" class="lbl-sm">K (Steiner apex)</text>
+  <circle cx="679.2" cy="236.2" r="3.2" class="pt"/>
+  <line x1="376.0" y1="274.0" x2="814.0" y2="274.0" class="construct" data-ref="MONOCHORD"/>
+  <path d="M 595.00 274.00 L 649.75 274.00 L 704.50 274.00" fill="none" class="accent-line" marker-mid="url(#geom-tick-2)"/>
+  <path d="M 704.50 274.00 L 759.25 274.00 L 814.00 274.00" fill="none" class="accent-line" marker-mid="url(#geom-tick-2)"/>
+  <circle cx="376.0" cy="274.0" r="4.5" class="pt-accent"/>
+  <text x="376.0" y="263.0" text-anchor="middle" class="mono">Z=0</text>
+  <circle cx="595.0" cy="274.0" r="4.5" class="pt-accent"/>
+  <text x="595.0" y="263.0" text-anchor="middle" class="mono">6 (ϛ)</text>
+  <circle cx="668.0" cy="274.0" r="4.5" class="pt-accent"/>
+  <text x="661.0" y="263.0" text-anchor="middle" class="mono">8 (η)</text>
+  <circle cx="704.5" cy="274.0" r="4.5" class="pt-accent"/>
+  <text x="711.5" y="263.0" text-anchor="middle" class="mono">9 (ϑ)</text>
+  <circle cx="814.0" cy="274.0" r="4.5" class="pt-accent"/>
+  <text x="814.0" y="263.0" text-anchor="middle" class="mono">12 (ιβ)</text>
+  <g data-ref="TONE">
+    <path d="M 668.0 280.0 Q 686.2 306.0 704.5 280.0" fill="none" class="rose-line"/>
+    <text x="686.2" y="309.0" text-anchor="middle" class="mono lbl-rose">9:8 Tone</text>
+  </g>
+  <g data-ref="FOURTH">
+    <path d="M 595.0 280.0 Q 631.5 332.0 668.0 280.0" fill="none" class="blue-line"/>
+    <path d="M 704.5 280.0 Q 759.2 332.0 814.0 280.0" fill="none" class="blue-line"/>
+    <text x="623.5" y="328.0" text-anchor="middle" class="lbl-sm">4:3 Fourth</text>
+    <text x="769.2" y="328.0" text-anchor="middle" class="lbl-sm">12:9 = 4:3</text>
+  </g>
+  <g data-ref="FIFTH">
+    <path d="M 595.0 280.0 Q 649.8 368.0 704.5 280.0" fill="none" class="green-line"/>
+    <path d="M 668.0 280.0 Q 741.0 368.0 814.0 280.0" fill="none" class="green-line"/>
+    <text x="704.5" y="366.0" text-anchor="middle" class="mono lbl-green">Diapente (Fifth) 9:6 = 12:8 = 3:2</text>
+  </g>
+  <g data-ref="OCTAVE">
+    <path d="M 595.0 280.0 Q 704.5 406.0 814.0 280.0" fill="none" class="accent-line"/>
+    <text x="603" y="428" text-anchor="middle" class="mono lbl-accent">Diapason 12:6 = 2:1 · 6×12 = 8×9 = 72 · CR(6,12;8,0) = −1</text>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" width="520" height="480" class="euclid-graphic" data-graphic-id="dodeca-five-cubes">
+  <style>
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+    }
+    .poly-stroke {
+      stroke: #1e3a8a;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+    .poly-hidden {
+      stroke: #94a3b8;
+      stroke-dasharray: 3 3;
+      stroke-width: 1.0;
+      opacity: 0.5;
+      fill: none;
+    }
+    .poly-gold {
+      fill: #f59e0b;
+      fill-opacity: 0.30;
+      stroke: #b45309;
+      stroke-width: 2.5;
+      stroke-linejoin: round;
+    }
+    @media (prefers-color-scheme: dark) {
+      .poly-stroke {
+        stroke: #93c5fd;
+      }
+      .poly-hidden {
+        stroke: #64748b;
+        opacity: 0.6;
+      }
+    }
+    html[data-theme="dark"] .poly-stroke {
+      stroke: #93c5fd;
+    }
+    html[data-theme="dark"] .poly-hidden {
+      stroke: #64748b;
+      opacity: 0.6;
+    }
+  </style>
+  <defs />
+  <g id="hidden-edges">
+    <line x1="398.37" y1="126.37" x2="378.82" y2="201.19" class="poly-hidden" />
+    <line x1="378.82" y1="201.19" x2="273.26" y2="183.50" class="poly-hidden" />
+    <line x1="213.51" y1="102.27" x2="273.26" y2="183.50" class="poly-hidden" />
+    <line x1="213.51" y1="102.27" x2="285.20" y2="57.60" class="poly-hidden" />
+    <line x1="387.27" y1="318.24" x2="415.13" y2="338.86" class="poly-hidden" />
+    <line x1="387.27" y1="318.24" x2="378.82" y2="201.19" class="poly-hidden" />
+    <line x1="387.27" y1="318.24" x2="281.44" y2="365.43" class="poly-hidden" />
+    <line x1="216.35" y1="280.13" x2="281.44" y2="365.43" class="poly-hidden" />
+    <line x1="216.35" y1="280.13" x2="273.26" y2="183.50" class="poly-hidden" />
+    <line x1="281.44" y1="365.43" x2="223.11" y2="422.40" class="poly-hidden" />
+    <line x1="213.51" y1="102.27" x2="108.59" y2="154.85" class="poly-hidden" />
+    <line x1="95.82" y1="151.81" x2="108.59" y2="154.85" class="poly-hidden" />
+    <line x1="216.35" y1="280.13" x2="115.35" y2="269.99" class="poly-hidden" />
+    <line x1="108.59" y1="154.85" x2="115.35" y2="269.99" class="poly-hidden" />
+    <line x1="108.98" y1="357.91" x2="115.35" y2="269.99" class="poly-hidden" />
+  </g>
+  <g id="faces">
+    <polygon points="398.37,126.37 387.27,318.24 216.35,280.13 213.51,102.27" class="poly-gold" data-type="golden-polygon" data-gold-idx="1" />
+    <polygon points="213.51,102.27 216.35,280.13 108.98,357.91 95.82,151.81" class="poly-gold" data-type="golden-polygon" data-gold-idx="5" />
+    <polygon points="387.27,318.24 302.84,412.03 108.98,357.91 216.35,280.13" class="poly-gold" data-type="golden-polygon" data-gold-idx="3" />
+    <polygon points="398.37,126.37 213.51,102.27 95.82,151.81 307.81,187.10" class="poly-gold" data-type="golden-polygon" data-gold-idx="2" />
+    <polygon points="398.37,126.37 307.81,187.10 302.84,412.03 387.27,318.24" class="poly-gold" data-type="golden-polygon" data-gold-idx="0" />
+    <polygon points="302.84,412.03 226.00,325.72 95.62,293.72 108.98,357.91 223.11,422.40" fill="#6385ab" fill-opacity="0.22" stroke="#1e3a8a" stroke-width="1.3" class="poly-stroke" data-face-role="base" data-face-idx="7" />
+    <polygon points="398.37,126.37 285.20,57.60 218.40,83.86 307.81,187.10 424.38,207.59" fill="#6385ab" fill-opacity="0.22" stroke="#1e3a8a" stroke-width="1.3" class="poly-stroke" data-face-role="base" data-face-idx="1" />
+    <polygon points="307.81,187.10 95.82,151.81 108.98,357.91 302.84,412.03" class="poly-gold" data-type="golden-polygon" data-gold-idx="4" />
+    <polygon points="307.81,187.10 226.00,325.72 302.84,412.03 415.13,338.86 424.38,207.59" fill="#6385ab" fill-opacity="0.22" stroke="#1e3a8a" stroke-width="1.3" class="poly-stroke" data-face-role="base" data-face-idx="6" />
+    <polygon points="307.81,187.10 218.40,83.86 95.82,151.81 95.62,293.72 226.00,325.72" fill="#6385ab" fill-opacity="0.22" stroke="#1e3a8a" stroke-width="1.3" class="poly-stroke" data-face-role="base" data-face-idx="5" />
+  </g>
+</svg>

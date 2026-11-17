@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="50mm" viewBox="0 0 50.00 50.00" class="euclid-graphic elementarium-reticle" data-plate="P0">
+  <rect x="0.50" y="0.50" width="49.00" height="49.00" fill="#0b0e14" stroke="#8aa2c8" stroke-width="0.25" rx="1.0"/>
+  <line x1="2.50" y1="25.0000" x2="47.50" y2="25.0000" stroke="#3b4b66" stroke-width="0.12" stroke-dasharray="0.8,0.6"/>
+  <line x1="3.0000" y1="25.0000" x2="47.0000" y2="25.0000" stroke="#5c7089" stroke-width="0.14" data-id="[ A B ]" class="axis"/>
+  <line x1="24.0000" y1="3.0000" x2="24.0000" y2="43.6795" stroke="#5c7089" stroke-width="0.14" data-id="[ C D ]" class="bisector"/>
+  <polygon points="14.0000,25.0000 34.0000,25.0000 24.0000,7.6795" fill="#61afef" fill-opacity="0.08" stroke="#98c379" stroke-width="0.22" data-id="< A B C >" class="equilateral"/>
+  <circle cx="14.0000" cy="25.0000" r="20.0000" fill="none" stroke="#61afef" stroke-width="0.18" data-id="( A B )" class="vesica"/>
+  <circle cx="34.0000" cy="25.0000" r="20.0000" fill="none" stroke="#61afef" stroke-width="0.18" data-id="( B A )" class="vesica"/>
+  <circle cx="14.0000" cy="25.0000" r="12.3607" fill="none" stroke="#e5c07b" stroke-width="0.18" stroke-dasharray="0.9,0.5" data-id="( A phi_inv )" class="golden"/>
+  <circle cx="14.0000" cy="25.0000" r="32.3607" fill="none" stroke="#e5c07b" stroke-width="0.18" stroke-dasharray="0.9,0.5" data-id="( A phi )" class="golden"/>
+  <circle cx="14.0000" cy="25.0000" r="0.55" fill="#ffffff" stroke="#0b0e14" stroke-width="0.12" data-id="A" class="given aperture"/>
+  <circle cx="34.0000" cy="25.0000" r="0.55" fill="#ffffff" stroke="#0b0e14" stroke-width="0.12" data-id="B" class="given aperture"/>
+  <circle cx="24.0000" cy="7.6795" r="0.38" fill="#e5c07b" stroke="#0b0e14" stroke-width="0.12" data-id="C" class="keystone"/>
+  <circle cx="24.0000" cy="42.3205" r="0.38" fill="#e5c07b" stroke="#0b0e14" stroke-width="0.12" data-id="D" class="keystone"/>
+  <circle cx="24.0000" cy="25.0000" r="0.38" fill="#e5c07b" stroke="#0b0e14" stroke-width="0.12" data-id="M" class="midpoint"/>
+  <circle cx="34.0000" cy="15.0000" r="0.38" fill="#e5c07b" stroke="#0b0e14" stroke-width="0.12" data-id="P" class="golden_aux"/>
+  <circle cx="26.3607" cy="25.0000" r="0.55" fill="#ffffff" stroke="#0b0e14" stroke-width="0.12" data-id="PhiInv" class="golden_stop"/>
+  <circle cx="46.3607" cy="25.0000" r="0.55" fill="#ffffff" stroke="#0b0e14" stroke-width="0.12" data-id="Phi" class="golden_stop"/>
+</svg>

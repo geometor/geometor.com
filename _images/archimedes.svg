@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555 326" width="555" height="326" class="euclid-graphic" data-graphic-id="fig_archimedean_spiral" data-proposition="On Spirals 18 &amp; 24">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="var(--geom-assert)" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line {
+      stroke: var(--geom-fg);
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-bold {
+      stroke: var(--geom-fg);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-dashed {
+      stroke: var(--geom-fg);
+      stroke-width: 1.3;
+      stroke-dasharray: 5, 3.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      opacity: 0.72;
+    }
+    .geom-accent-line {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-assert-line {
+      stroke: var(--geom-assert);
+      stroke-width: 2.1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+    .geom-circle {
+      stroke: var(--geom-fg);
+      stroke-width: 1.65;
+      fill: none;
+    }
+    .geom-circle-accent {
+      stroke: var(--geom-accent);
+      stroke-width: 2.1;
+      fill: var(--geom-accent);
+      fill-opacity: 0.10;
+    }
+    .geom-circle-assert {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-dasharray: 6, 3;
+      fill: var(--geom-assert);
+      fill-opacity: 0.08;
+    }
+    .geom-arc {
+      stroke: var(--geom-fg);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-ang-arc {
+      stroke: var(--geom-assert);
+      stroke-width: 2.0;
+      stroke-linecap: round;
+      fill: none;
+    }
+    .geom-polygon {
+      fill: var(--geom-poly-fill);
+      fill-opacity: 0.05;
+      stroke: none;
+    }
+    .geom-polygon-accent {
+      fill: var(--geom-accent);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-polygon-assert {
+      fill: var(--geom-assert);
+      fill-opacity: 0.14;
+      stroke: none;
+    }
+    .geom-point {
+      fill: var(--geom-fg);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-accent {
+      fill: var(--geom-accent);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-point-assert {
+      fill: var(--geom-assert);
+      stroke: var(--geom-point-stroke);
+      stroke-width: 1.1;
+    }
+    .geom-label {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 13.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      user-select: none;
+    }
+    .geom-label-sm {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      fill: var(--geom-fg);
+      opacity: 0.88;
+      user-select: none;
+    }
+    .geom-label-accent {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: var(--geom-accent);
+      user-select: none;
+    }
+    .geom-label-assert {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: var(--geom-assert);
+      user-select: none;
+    }
+  </style>
+  <g id="elements">
+    <circle cx="195.00" cy="272.00" r="38.00" class="geom-dashed" data-ref="( O A )" />
+    <polygon points="195.00,272.00 195.32,272.02 195.63,272.07 195.94,272.15 196.24,272.26 196.53,272.41 196.81,272.59 197.07,272.79 197.31,273.03 197.54,273.29 197.74,273.58 197.92,273.90 198.07,274.23 198.20,274.59 198.29,274.97 198.36,275.36 198.39,275.77 198.39,276.18 198.35,276.61 198.28,277.05 198.17,277.48 198.02,277.93 197.83,278.36 197.61,278.80 197.35,279.23 197.05,279.65 196.71,280.05 196.34,280.44 195.93,280.82 195.48,281.17 195.00,281.50 194.49,281.80 193.94,282.08 193.37,282.32 192.76,282.53 192.13,282.71 191.48,282.84 190.80,282.94 190.11,282.99 189.39,283.00 188.67,282.97 187.93,282.89 187.18,282.76 186.43,282.58 185.68,282.35 184.92,282.08 184.17,281.75 183.43,281.37 182.70,280.93 181.99,280.45 181.29,279.92 180.61,279.33 179.96,278.70 179.33,278.01 178.74,277.28 178.18,276.51 177.65,275.69 177.17,274.82 176.73,273.92 176.34,272.98 176.00,272.00 175.71,270.99 175.47,269.95 175.30,268.88 175.18,267.79 175.12,266.67 175.12,265.54 175.19,264.40 175.33,263.24 175.53,262.08 175.80,260.92 176.14,259.75 176.55,258.60 177.03,257.45 177.59,256.32 178.21,255.21 178.90,254.11 179.66,253.05 180.48,252.02 181.37,251.02 182.33,250.06 183.36,249.15 184.44,248.28 185.58,247.46 186.78,246.70 188.03,246.00 189.34,245.36 190.69,244.79 192.09,244.29 193.52,243.86 195.00,243.50 196.51,243.22 198.05,243.03 199.61,242.91 201.19,242.88 202.79,242.94 204.39,243.09 206.01,243.32 207.62,243.65 209.23,244.07 210.83,244.58 212.42,245.18 213.99,245.87 215.53,246.65 217.04,247.53 218.51,248.49 219.94,249.54 221.33,250.68 222.67,251.90 223.95,253.20 225.17,254.58 226.32,256.04 227.40,257.57 228.41,259.18 229.33,260.84 230.18,262.57 230.93,264.36 231.59,266.20 232.16,268.09 232.63,270.03 233.00,272.00" class="geom-polygon-accent" data-ref="&lt; O A &gt;" />
+  </g>
+  <g id="graphics">
+    <path d="M 195.00 272.00 L 195.32 272.02 L 195.63 272.07 L 195.94 272.15 L 196.24 272.26 L 196.53 272.41 L 196.81 272.59 L 197.07 272.79 L 197.31 273.03 L 197.54 273.29 L 197.74 273.58 L 197.92 273.90 L 198.07 274.23 L 198.20 274.59 L 198.29 274.97 L 198.36 275.36 L 198.39 275.77 L 198.39 276.18 L 198.35 276.61 L 198.28 277.05 L 198.17 277.48 L 198.02 277.93 L 197.83 278.36 L 197.61 278.80 L 197.35 279.23 L 197.05 279.65 L 196.71 280.05 L 196.34 280.44 L 195.93 280.82 L 195.48 281.17 L 195.00 281.50 L 194.49 281.80 L 193.94 282.08 L 193.37 282.32 L 192.76 282.53 L 192.13 282.71 L 191.48 282.84 L 190.80 282.94 L 190.11 282.99 L 189.39 283.00 L 188.67 282.97 L 187.93 282.89 L 187.18 282.76 L 186.43 282.58 L 185.68 282.35 L 184.92 282.08 L 184.17 281.75 L 183.43 281.37 L 182.70 280.93 L 181.99 280.45 L 181.29 279.92 L 180.61 279.33 L 179.96 278.70 L 179.33 278.01 L 178.74 277.28 L 178.18 276.51 L 177.65 275.69 L 177.17 274.82 L 176.73 273.92 L 176.34 272.98 L 176.00 272.00 L 175.71 270.99 L 175.47 269.95 L 175.30 268.88 L 175.18 267.79 L 175.12 266.67 L 175.12 265.54 L 175.19 264.40 L 175.33 263.24 L 175.53 262.08 L 175.80 260.92 L 176.14 259.75 L 176.55 258.60 L 177.03 257.45 L 177.59 256.32 L 178.21 255.21 L 178.90 254.11 L 179.66 253.05 L 180.48 252.02 L 181.37 251.02 L 182.33 250.06 L 183.36 249.15 L 184.44 248.28 L 185.58 247.46 L 186.78 246.70 L 188.03 246.00 L 189.34 245.36 L 190.69 244.79 L 192.09 244.29 L 193.52 243.86 L 195.00 243.50 L 196.51 243.22 L 198.05 243.03 L 199.61 242.91 L 201.19 242.88 L 202.79 242.94 L 204.39 243.09 L 206.01 243.32 L 207.62 243.65 L 209.23 244.07 L 210.83 244.58 L 212.42 245.18 L 213.99 245.87 L 215.53 246.65 L 217.04 247.53 L 218.51 248.49 L 219.94 249.54 L 221.33 250.68 L 222.67 251.90 L 223.95 253.20 L 225.17 254.58 L 226.32 256.04 L 227.40 257.57 L 228.41 259.18 L 229.33 260.84 L 230.18 262.57 L 230.93 264.36 L 231.59 266.20 L 232.16 268.09 L 232.63 270.03 L 233.00 272.00" class="geom-accent-line" data-ref="( O S A )" />
+    <path d="M 195.00 272.00 L 226.00 272.00 L 257.00 272.00" class="geom-bold" data-ref="/ O A /" />
+    <path d="M 195.00 272.00 L 195.00 152.62 L 195.00 33.24" class="geom-assert-line" data-ref="/ O T /" />
+    <path d="M 233.00 272.00 L 214.00 152.62 L 195.00 33.24" class="geom-bold" data-ref="/ A T /" />
+    <path d="M 195.00 263.00 L 199.50 263.00 L 204.00 263.00" class="geom-line" />
+    <path d="M 204.00 263.00 L 204.00 267.50 L 204.00 272.00" class="geom-line" />
+  </g>
+  <g id="highlights" style="pointer-events: none;"></g>
+  <g id="points">
+    <circle cx="195.00" cy="272.00" r="3.20" class="geom-point" data-ref="O" />
+    <circle cx="233.00" cy="272.00" r="3.20" class="geom-point-accent" data-ref="A" />
+    <circle cx="195.00" cy="33.24" r="3.20" class="geom-point-assert" data-ref="T" />
+  </g>
+  <g id="labels">
+    <text x="275.00" y="20.00" text-anchor="middle" class="geom-label-sm">On Spirals (Props. 18 &amp; 24): Subtangent Rectification &amp; Sector Quadrature</text>
+    <text x="183.00" y="277.00" text-anchor="middle" class="geom-label">O</text>
+    <text x="239.00" y="288.00" text-anchor="start" class="geom-label-accent">A (θ = 2π)</text>
+    <text x="183.00" y="38.24" text-anchor="middle" class="geom-label-assert">T</text>
+    <text x="185.00" y="152.62" text-anchor="end" class="geom-label-assert">OT = 2π · OA</text>
+    <text x="295.00" y="92.00" text-anchor="start" class="geom-label-sm">Prop. 18 (Rectification):</text>
+    <text x="295.00" y="114.00" text-anchor="start" class="geom-label-assert">Subtangent OT = Circumference(First Circle)</text>
+    <text x="295.00" y="156.00" text-anchor="start" class="geom-label-sm">Prop. 24 (Quadrature):</text>
+    <text x="295.00" y="178.00" text-anchor="start" class="geom-label-accent">Area(Spiral Turn) = 1/3 · π · OA²</text>
+    <text x="295.00" y="220.00" text-anchor="start" class="geom-label-sm">Polar locus: r(θ) = aθ</text>
+  </g>
+</svg>

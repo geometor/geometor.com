@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 320" width="650" height="320" class="euclid-graphic" data-graphic-id="fig_mascheroni_inversion" data-proposition="Libro-VII-Adler">
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.35; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.15; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: var(--geom-fg); stroke-width: 1.55; fill: none; }
+    .geom-arc { stroke: var(--geom-accent); stroke-width: 1.75; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-assert { fill: var(--geom-assert); stroke: var(--geom-point-stroke); stroke-width: 1.25; }
+    .geom-label { font-size: 13px; font-weight: 700; fill: var(--geom-fg); user-select: none; }
+    .geom-label-sm { font-size: 10.5px; font-weight: 700; fill: var(--geom-fg); opacity: 0.88; user-select: none; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <!-- Inversion Reference Circle Gamma: center O(220, 160), R=100 -->
+    <circle cx="220.00" cy="160.00" r="100.00" fill="none" class="geom-bold" data-ref="Gamma" />
+    <!-- Circle A(AO): center A(380, 160), radius d=160 cutting Gamma at P, Q -->
+    <circle cx="380.00" cy="160.00" r="160.00" fill="none" class="geom-accent-line" data-ref="A(AO)" />
+    <!-- Arcs P(PO) and Q(QO) with radius R=100 meeting at A' -->
+    <path d="M 270.00 70.00 A 100.00 100.00 0 0 1 300.00 180.00" fill="none" class="geom-assert-line" data-ref="P(PO)" />
+    <path d="M 270.00 250.00 A 100.00 100.00 0 0 0 300.00 140.00" fill="none" class="geom-assert-line" data-ref="Q(QO)" />
+  </g>
+  <g id="graphics">
+    <!-- Inversion axis through O, A', A -->
+    <line x1="80.00" y1="160.00" x2="560.00" y2="160.00" class="geom-dashed" />
+    <!-- Chords OP and AP -->
+    <line x1="220.00" y1="160.00" x2="300.00" y2="90.00" class="geom-line" />
+    <line x1="380.00" y1="160.00" x2="300.00" y2="90.00" class="geom-line" />
+    <line x1="282.50" y1="160.00" x2="300.00" y2="90.00" class="geom-line" />
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle cx="220.00" cy="160.00" r="3.60" class="geom-point" data-ref="O" />
+    <circle cx="380.00" cy="160.00" r="3.60" class="geom-point-accent" data-ref="A" />
+    <circle cx="282.50" cy="160.00" r="4.20" class="geom-point-assert" data-ref="A&#x27;" />
+    <circle cx="300.00" cy="90.00" r="3.40" class="geom-point" data-ref="P" />
+    <circle cx="300.00" cy="230.00" r="3.40" class="geom-point" data-ref="Q" />
+  </g>
+  <g id="labels">
+    <text x="206.00" y="155.00" text-anchor="middle" class="geom-label">O</text>
+    <text x="395.00" y="155.00" text-anchor="middle" class="geom-label">A</text>
+    <text x="282.50" y="182.00" text-anchor="middle" class="geom-label" fill="var(--geom-assert)">A' (Inverse)</text>
+    <text x="300.00" y="78.00" text-anchor="middle" class="geom-label">P</text>
+    <text x="300.00" y="250.00" text-anchor="middle" class="geom-label">Q</text>
+    <text x="140.00" y="130.00" text-anchor="middle" class="geom-label-sm">Γ (O, R)</text>
+    <text x="325.00" y="28.00" text-anchor="middle" class="geom-label-sm">Circular Inversion by Compass Alone — Adler (1890) &amp; Lemoine Problem XXXVIII</text>
+    <text x="325.00" y="302.00" text-anchor="middle" class="geom-label-sm">A(AO) ∩ Γ(O, R) at P, Q → P(R) ∩ Q(R) meets at A' such that OA · OA' = R² in 5C₁ + 3C₃ (S = 8, 3 circles)</text>
+  </g>
+</svg>
