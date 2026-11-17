@@ -12,6 +12,8 @@
    foundations/index
    lineage/index
    broadcasts/index
+   people/index
+   media/index
    usage/index
    about
    changelog

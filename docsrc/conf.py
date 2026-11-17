@@ -35,3 +35,6 @@ blog_title = site_title
 html_baseurl = "https://geometor.com/"
 html_base_url = "https://geometor.com/"
 blog_baseurl = "https://geometor.com/"
+
+html_css_files = list(globals().get("html_css_files", [])) + ["css/directory.css"]
+html_js_files = list(globals().get("html_js_files", [])) + ["js/directory.js"]
