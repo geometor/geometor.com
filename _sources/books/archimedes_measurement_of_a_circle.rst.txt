@@ -1,10 +1,11 @@
 :type: book_record
 :author: Archimedes of Syracuse
+:author_doc: people/archimedes
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/archimedes/measurement_of_a_circle/
 :github_url: https://github.com/geometor/archimedes
-:year: c. 250 BCE / 1897
+:year: ca. 250 BCE / 1897
 :native_title: Dimensio Circuli
 :excerpt: Double exhaustion of circle area by a right triangle (A = ½Cr) and rational 96-gon bisection bounding 3 10/71 < π < 3 1/7.
 

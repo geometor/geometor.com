@@ -1,5 +1,6 @@
 :type: book_record
 :author: Nicomachus of Gerasa
+:author_doc: people/nicomachus
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/nicomachus/introductio_arithmetica/

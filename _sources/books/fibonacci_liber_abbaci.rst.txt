@@ -1,5 +1,6 @@
 :type: book_record
 :author: Leonardo Pisano (Fibonacci)
+:author_doc: people/fibonacci
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/fibonacci/liber_abbaci/

@@ -1,5 +1,6 @@
 :type: book_record
 :author: Giovanni Ceva
+:author_doc: people/ceva
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/ceva/de_lineis_rectis/

@@ -1,5 +1,6 @@
 :type: book_record
 :author: Leonhard Euler
+:author_doc: people/euler
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/euler/solutio_facilis_1765/

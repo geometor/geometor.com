@@ -1,10 +1,11 @@
 :type: book_record
 :author: Claudius Ptolemy
+:author_doc: people/ptolemy
 :era: Book Codices
 :languages: Greek, Latin, English
 :site_url: https://geometor.github.io/ptolemy/almagest_geometry/
 :github_url: https://github.com/geometor/ptolemy
-:year: c. 150 CE
+:year: ca. 150 CE
 :native_title: Μαθηματικὴ Σύνταξις
 :excerpt: Ptolemy's foundational treatise on spherical cosmology, sexagesimal chord trigonometry, regular decagon and pentagon construction, Ptolemy's Theorem on cyclic quadrilaterals, chord difference and half-arc lemmas, and spherical Menelaus trigonometry.
 

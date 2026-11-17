@@ -1,5 +1,6 @@
 :type: book_record
 :author: Dr. Ron Knott & phi ARCHITECT
+:author_doc: people/knott
 :era: Mathematical Catalogs
 :languages: English
 :site_url: https://geometor.github.io/knott/catalog/

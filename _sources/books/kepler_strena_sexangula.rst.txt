@@ -1,5 +1,6 @@
 :type: book_record
 :author: Johannes Kepler
+:author_doc: people/kepler
 :era: Book Codices
 :languages: Latin, English
 :site_url: https://geometor.github.io/kepler/strena_sexangula/

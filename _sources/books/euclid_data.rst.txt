@@ -1,10 +1,11 @@
 :type: book_record
 :author: Euclid of Alexandria
+:author_doc: people/euclid
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/euclid/data/
 :github_url: https://github.com/geometor/euclid
-:year: c. 300 BCE / 1896
+:year: ca. 300 BCE / 1896
 :native_title: Δεδομένα
 :excerpt: Euclid's foundational treatise of the Ancient Treasury of Analysis (Δεδομένα) establishing functional geometric determinacy across Definitions 1–15 and Propositions 1–94, prefaced by Marinus of Neapolis.
 

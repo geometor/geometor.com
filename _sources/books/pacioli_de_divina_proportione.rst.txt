@@ -1,5 +1,6 @@
 :type: book_record
 :author: Fra Luca Pacioli
+:author_doc: people/pacioli
 :era: Book Codices
 :languages: Italian, English
 :site_url: https://geometor.github.io/pacioli/de_divina_proportione/

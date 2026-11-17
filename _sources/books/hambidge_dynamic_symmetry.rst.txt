@@ -1,5 +1,6 @@
 :type: book_record
 :author: Jay Hambidge
+:author_doc: people/hambidge
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/hambidge/dynamic_symmetry/

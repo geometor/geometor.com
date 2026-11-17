@@ -1,5 +1,6 @@
 :type: book_record
 :author: Albrecht Dürer
+:author_doc: people/durer
 :era: Book Codices
 :languages: German, English
 :site_url: https://geometor.github.io/durer/underweysung/

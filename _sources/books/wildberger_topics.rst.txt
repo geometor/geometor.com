@@ -1,5 +1,6 @@
 :type: book_record
 :author: Norman J. Wildberger • Formalized by GEOMETOR
+:author_doc: people/wildberger
 :era: Mathematical Catalogs
 :languages: English
 :site_url: https://geometor.github.io/wildberger/topics/

@@ -1,5 +1,6 @@
 :type: book_record
 :author: Sir D'Arcy Wentworth Thompson
+:author_doc: people/thompson
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/thompson/growth_and_form/

@@ -1,10 +1,11 @@
 :type: book_record
 :author: Proclus Diadochus
+:author_doc: people/proclus
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/proclus/in_euclidem/
 :github_url: https://github.com/geometor/proclus
-:year: c. 470 AD
+:year: ca. 470 AD
 :native_title: Εἰς τὸ αʹ τῶν Εὐκλείδου Στοιχείων
 :excerpt: Proclus's 5th-century Neoplatonic commentary preserving the Eudemian history of geometry, axiomatic philosophy, and the first principles of Euclid's Elements.
 

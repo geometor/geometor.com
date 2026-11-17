@@ -1,5 +1,6 @@
 :type: book_record
 :author: Plato of Athens
+:author_doc: people/plato
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/plato/foundations/

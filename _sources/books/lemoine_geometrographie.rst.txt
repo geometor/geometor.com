@@ -1,5 +1,6 @@
 :type: book_record
 :author: Émile Lemoine
+:author_doc: people/lemoine
 :era: Book Codices
 :languages: French, English
 :site_url: https://geometor.github.io/lemoine/geometrographie/

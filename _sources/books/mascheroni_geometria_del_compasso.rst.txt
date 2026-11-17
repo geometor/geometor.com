@@ -1,5 +1,6 @@
 :type: book_record
 :author: Lorenzo Mascheroni
+:author_doc: people/mascheroni
 :era: Book Codices
 :languages: Italian, English
 :site_url: https://geometor.github.io/mascheroni/geometria_del_compasso/

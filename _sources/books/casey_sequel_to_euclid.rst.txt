@@ -1,5 +1,6 @@
 :type: book_record
 :author: John Casey, LL.D., F.R.S.
+:author_doc: people/casey
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/casey/sequel_to_euclid/

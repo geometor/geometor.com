@@ -1,5 +1,6 @@
 :type: book_record
 :author: Bertrand Russell
+:author_doc: people/bertrand-russell
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/bertrand-russell/principles_of_mathematics/

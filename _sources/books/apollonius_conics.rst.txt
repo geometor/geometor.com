@@ -1,5 +1,6 @@
 :type: book_record
 :author: Apollonius of Perga
+:author_doc: people/apollonius
 :era: Book Codices
 :languages: Greek, English
 :site_url: https://geometor.github.io/apollonius/conics/

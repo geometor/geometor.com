@@ -1,5 +1,6 @@
 :type: book_record
 :author: Julius Petersen
+:author_doc: people/petersen
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/petersen/methods_and_theories/

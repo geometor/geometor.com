@@ -1,5 +1,6 @@
 :type: book_record
 :author: Blaise Pascal
+:author_doc: people/pascal
 :era: Book Codices
 :languages: French, English
 :site_url: https://geometor.github.io/pascal/essay_coniques_1640/

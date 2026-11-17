@@ -1,5 +1,6 @@
 :type: book_record
 :author: Oliver Byrne
+:author_doc: people/byrne
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/byrne/coloured_euclid/
