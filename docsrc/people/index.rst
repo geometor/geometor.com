@@ -12,6 +12,5 @@ People
 
 Browse all **49 figures** across the GEOMETOR lineage—filter by **source language**, search by name or treatise, and sort by **death date** or **name**.
 
-.. collection::
-   :template: collection/directory.html
+.. people-directory::
    :sort: death_year
