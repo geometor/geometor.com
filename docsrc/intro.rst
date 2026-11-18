@@ -12,15 +12,15 @@ GEOMETOR
 
 When we watch a botanical meristem pack florets at the golden angle, examine crystal lattices, or trace projective collineations, one foundational question recurs: *How do the simplest axiomatic relationships unfold into the full complexity of form and mind?*
 
-Across **sixty-one interconnected repositories**, GEOMETOR recasts 2,400 years of classical treatises, projective and rational geometry, natural morphogenesis, epistemological philosophy, and machine reasoning into **one consistent, exact symbolic grammar**—uniting two complementary modes of work:
+Across **sixty-two interconnected repositories**, GEOMETOR recasts 2,400 years of classical treatises, projective and rational geometry, natural morphogenesis, epistemological philosophy, and machine reasoning into **one consistent, exact symbolic grammar**—uniting two complementary modes of work:
 
-* **Scholarly Editions (*74 Book Codices · 39 Authors*)**: Multi-language critical editions of public-domain works (*Greek, Latin, Italian, German, French, and English*) paired with over **8,400 tracked primary-source folio scans** and calibrated ``.euclid-graphic`` SVGs.
-* **Mathematical Catalogs (*11 Compendia*)**: One-item-per-page symbolic catalogs documenting the dependency graphs, golden constructions, triangle centers, polyhedra, rational trigonometry laws, Fibonacci identities, and proving engines of modern mathematics (``elements``, ``etc``, ``wildberger``, ``fundamentals``, ``divine``, ``polyhedra``, ``knott``, ``huntley``, ``livio``, ``posamentier``, ``codes``) with full scholarly citation.
+* **Scholarly Editions (*72 Book Codices · 39 Authors*)**: Multi-language critical editions of public-domain works (*Greek, Latin, Italian, German, French, and English*) paired with over **8,900 tracked primary-source folio scans** and calibrated ``.euclid-graphic`` SVGs.
+* **Mathematical Catalogs (*12 Compendia*)**: One-item-per-page symbolic catalogs documenting the dependency graphs, golden constructions, triangle centers, triangle cubics, polyhedra, rational trigonometry laws, Fibonacci identities, and proving engines of modern mathematics (``elements``, ``etc``, ``gibert``, ``wildberger``, ``fundamentals``, ``divine``, ``polyhedra``, ``knott``, ``huntley``, ``livio``, ``posamentier``, ``codes``) with full scholarly citation.
 
 .. admonition:: Browse the Complete Digital Scriptorium & Symbolic Catalogs
    :class: note
 
-   Explore all **74 working Book Codices** (direct links to every treatise across all 39 authors) and **11 Mathematical Catalogs** in the :doc:`Books & Catalogs Directory <books/index>`, or view the full 61-repository architecture in :doc:`Projects <projects/index>`.
+   Explore all **72 working Book Codices** (direct links to every treatise across all 39 authors) and **12 Mathematical Catalogs** in the :doc:`Books & Catalogs Directory <books/index>`, or view the full 62-repository architecture in :doc:`Projects <projects/index>`.
 
 ----
 
@@ -75,7 +75,7 @@ One Language of Form: Method & Principles
 Key Projects Across Five Pillars
 --------------------------------
 
-*(See the complete list of all 74 historical treatises and 11 catalogs in* :doc:`Books & Catalogs <books/index>` *, or all 61 repositories in* :doc:`Projects <projects/index>` *.)*
+*(See the complete list of all 72 historical treatises and 12 catalogs in* :doc:`Books & Catalogs <books/index>` *, or all 62 repositories in* :doc:`Projects <projects/index>` *.)*
 
 I. The Symbolic Core, Discovery & Archive Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,14 +93,14 @@ II. The Unfolding Canon (*The Elementrium* & Constructive Geometry)
 * `archimedes <https://geometor.github.io/archimedes/>`_ · `apollonius <https://geometor.github.io/apollonius/>`_ · `heron <https://geometor.github.io/heron/>`_ · `menelaus <https://geometor.github.io/menelaus/>`_ · `ptolemy <https://geometor.github.io/ptolemy/>`_ · `pappus <https://geometor.github.io/pappus/>`_: Seven treatises of Archimedes, Apollonius's *Conics* & reconstructed works, four treatises of Heron (*Metrica*, *Definitiones*, *Catoptrica*, *Dioptra*), Menelaus's *Sphaerica*, Ptolemy's *Almagest* & *Planisphaerium* (**1,054 folios**), and Pappus's *Synagoge*.
 * `pascal <https://geometor.github.io/pascal/>`_ · `ceva <https://geometor.github.io/ceva/>`_ · `euler <https://geometor.github.io/euler/>`_ · `mascheroni <https://geometor.github.io/mascheroni/>`_ · `feuerbach <https://geometor.github.io/feuerbach/>`_ · `steiner <https://geometor.github.io/steiner/>`_: Pascal's 1640 *Essay pour les Coniques*, Ceva's 1678 statical concurrency, Euler's 1765 *Solutio facilis* (*E325*), Mascheroni's 1797 compass-only geometry, Feuerbach's 1822 Nine-Point tangency, and Steiner's 1833 fixed-circle straightedge constructions.
 * `staudt <https://geometor.github.io/staudt/>`_ · `petersen <https://geometor.github.io/petersen/>`_ · `casey <https://geometor.github.io/casey/>`_ · `klein <https://geometor.github.io/klein/>`_ · `lemoine <https://geometor.github.io/lemoine/>`_ · `altshiller-court <https://geometor.github.io/altshiller-court/>`_: von Staudt's *Geometrie der Lage* & *Beiträge*, Petersen's *Methods and Theories*, Casey's *Sequel to Euclid*, Klein's *Erlangen Program* & *Famous Problems*, Lemoine's *Géométrographie*, and Altshiller-Court's *College Geometry*.
-* `etc <https://geometor.github.io/etc/>`_ · `wildberger <https://geometor.github.io/wildberger/>`_ · `fundamentals <https://geometor.github.io/fundamentals/>`_: **Catalogs** of Kimberling's *Encyclopedia of Triangle Centers* (4,000+ compiled centers, 16,000+ SVGs), Wildberger's *Divine Proportions* & Rational Trigonometry, and the 353-folio Fred W. Seelig Archive.
+* `etc <https://geometor.github.io/etc/>`_ · `gibert <https://geometor.github.io/gibert/>`_ · `wildberger <https://geometor.github.io/wildberger/>`_ · `fundamentals <https://geometor.github.io/fundamentals/>`_: **Catalogs** of Kimberling's *Encyclopedia of Triangle Centers* (4,000+ compiled centers, 16,000+ SVGs), Gibert's *Catalogue of Triangle Cubics*, Wildberger's *Divine Proportions* & Rational Trigonometry, and the 353-folio Fred W. Seelig Archive.
 
 III. Philosophical, Renaissance, Harmonic & Axiomatic Scriptorium
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `plato <https://geometor.github.io/plato/>`_ · `aristotle <https://geometor.github.io/aristotle/>`_ · `nicomachus <https://geometor.github.io/nicomachus/>`_ · `proclus <https://geometor.github.io/proclus/>`_: Five Platonic mathematical dialogues, five Aristotelian geometric/noetic treatises, Nicomachus's *Introductio Arithmetica* (**572 folios**), and Proclus's *Commentary on Euclid Book I*.
 * `fibonacci <https://geometor.github.io/fibonacci/>`_ · `aquinas <https://geometor.github.io/aquinas/>`_ · `cusa <https://geometor.github.io/cusa/>`_: Fibonacci's *Liber Abbaci* & *Practica Geometriae* (**762 folios**), six Thomistic treatises on *materia intelligibilis*, and Nicholas of Cusa's *De Docta Ignorantia* & *De Mathematicis Complementis*.
-* `piero <https://geometor.github.io/piero/>`_ · `pacioli <https://geometor.github.io/pacioli/>`_ · `durer <https://geometor.github.io/durer/>`_ · `kepler <https://geometor.github.io/kepler/>`_: Piero della Francesca's *Libellus de Quinque Corporibus Regularibus*, Pacioli's *De Divina Proportione* (Leonardo's 60 woodcuts) & *Summa* (1494), Dürer's *Underweysung der Messung* (1525), and Kepler's *Mysterium*, *Strena*, & *Harmonices Mundi*.
+* `piero <https://geometor.github.io/piero/>`_ · `pacioli <https://geometor.github.io/pacioli/>`_ · `durer <https://geometor.github.io/durer/>`_ · `kepler <https://geometor.github.io/kepler/>`_: Piero della Francesca's *Libellus de Quinque Corporibus Regularibus*, Pacioli's *De Divina Proportione* (Leonardo's 60 woodcuts) & *Summa* (1494), Dürer's *Underweysung der Messung* (1525), and Kepler's *Mysterium*, *Strena*, & *Harmonices Mundi* (**552 folios** & interactive 3D nested Platonic solids).
 * `pasch <https://geometor.github.io/pasch/>`_ · `hilbert <https://geometor.github.io/hilbert/>`_ · `poincare <https://geometor.github.io/poincare/>`_ · `bertrand-russell <https://geometor.github.io/bertrand-russell/>`_ · `hoenen <https://geometor.github.io/hoenen/>`_ · `russell <https://geometor.github.io/russell/>`_: Pasch's *Vorlesungen* (1882), Hilbert's *Grundlagen* (1899), Poincaré's *Science and Hypothesis*, Bertrand Russell's *Foundations* & *Principles*, Hoenen's *De Noetica Geometriae* (1954), and Walter & Lao Russell's *Home Study Course* (**519 folios**) & *Wave-Field Cosmogony*.
 
 IV. Living Geometry, Dynamic Symmetry & Golden Ratio Catalogs

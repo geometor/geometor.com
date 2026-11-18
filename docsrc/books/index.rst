@@ -10,7 +10,7 @@ Books & Catalogs
 
 .. rubric:: Searchable Directory of GEOMETOR Book Codices & Mathematical Catalogs
 
-Browse all **83 Book Codices & Mathematical Catalogs** across **39 historical authors** and **11 constructive catalog archives**—filter by **language** or **group**, search by title or author, and sort dynamically by **title** or **year**.
+Browse all **84 Book Codices & Mathematical Catalogs** across **39 historical authors** and **12 constructive catalog archives**—filter by **language** or **group**, search by title or author, and sort dynamically by **title** or **year**.
 
 .. reference-directory::
    :sort: year

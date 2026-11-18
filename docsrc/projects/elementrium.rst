@@ -375,6 +375,16 @@ Symbolic **Catalog** documenting Clark Kimberling's *Encyclopedia of Triangle Ce
 
 ----
 
+``gibert`` — Catalog: Bernard Gibert's *Catalogue of Triangle Cubics*
+---------------------------------------------------------------------
+
+* **Live Mathematical Catalog**: `geometor.github.io/gibert <https://geometor.github.io/gibert/>`_
+* **Repository**: `github.com/geometor/gibert <https://github.com/geometor/gibert>`_
+
+Symbolic **Catalog** modeling Bernard Gibert's *Catalogue of Triangle Cubics* (CTC) in exact ``SymPy`` algebra, linking barycentric cubic loci and triangle center concurrences directly to the historical treatises of GEOMETOR.
+
+----
+
 ``wildberger`` — Catalog: *Divine Proportions* & Rational Trigonometry
 ----------------------------------------------------------------------
 
