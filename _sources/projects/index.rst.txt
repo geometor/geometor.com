@@ -4,24 +4,24 @@
 Projects
 ========
 
-.. rubric:: The Five Pillars & Complete 61-Repository Atlas
+.. rubric:: The Five Pillars & Complete 62-Repository Atlas
 
-The **GEOMETOR** ecosystem spans **sixty-one** public research repositories—uniting **74 multi-track Book Codices** across **39 historical authors** with **11 symbolic Mathematical Catalogs**, interactive WebGL studios, and neuro-symbolic reasoning tools—grounded in exact symbolic algebra (`SymPy <https://www.sympy.org/>`_) and `photon-platform/publish <https://github.com/photon-platform/publish>`_.
+The **GEOMETOR** ecosystem spans **sixty-two** public research repositories—uniting **72 multi-track Book Codices** across **39 historical authors** with **12 symbolic Mathematical Catalogs**, interactive WebGL studios, and neuro-symbolic reasoning tools—grounded in exact symbolic algebra (`SymPy <https://www.sympy.org/>`_) and `photon-platform/publish <https://github.com/photon-platform/publish>`_.
 
 .. tip::
 
-   Looking directly for a specific treatise or catalog? Visit the :doc:`Books & Catalogs Directory <../books/index>` for direct links to all **74 Book Codices** and **11 Mathematical Catalogs**.
+   Looking directly for a specific treatise or catalog? Visit the :doc:`Books & Catalogs Directory <../books/index>` for direct links to all **72 Book Codices** and **12 Mathematical Catalogs**.
 
 Ecosystem Overview
 ------------------
 
 * :doc:`core` — ``model``, ``explorer``, ``divine``, ``polyhedra``, ``codes``, ``elementarium``, ``press``, ``animations``, ``trees`` (plus ``geometor.com``)
-* :doc:`elementrium` — ``euclid``, ``elements``, ``byrne``, ``archimedes``, ``apollonius``, ``heron``, ``menelaus``, ``ptolemy``, ``pappus``, ``pascal``, ``ceva``, ``euler``, ``mascheroni``, ``feuerbach``, ``steiner``, ``staudt``, ``petersen``, ``casey``, ``klein``, ``lemoine``, ``altshiller-court``, ``fundamentals``, ``etc``, ``wildberger``
+* :doc:`elementrium` — ``euclid``, ``elements``, ``byrne``, ``archimedes``, ``apollonius``, ``heron``, ``menelaus``, ``ptolemy``, ``pappus``, ``pascal``, ``ceva``, ``euler``, ``mascheroni``, ``feuerbach``, ``steiner``, ``staudt``, ``petersen``, ``casey``, ``klein``, ``lemoine``, ``altshiller-court``, ``fundamentals``, ``etc``, ``gibert``, ``wildberger``
 * :doc:`scriptorium` — ``plato``, ``aristotle``, ``nicomachus``, ``proclus``, ``fibonacci``, ``aquinas``, ``cusa``, ``piero``, ``pacioli``, ``durer``, ``kepler``, ``pasch``, ``hilbert``, ``poincare``, ``bertrand-russell``, ``hoenen``, ``russell``
 * :doc:`living_geometry` — ``phyllotaxis``, ``thompson``, ``hambidge``, ``knott``, ``huntley``, ``livio``, ``posamentier``
 * :doc:`reasoning` — ``seer``, ``seer_navigator``, ``seer_sessions``
 
-Quick Reference Directory (61 Repositories)
+Quick Reference Directory (62 Repositories)
 -------------------------------------------
 
 .. list-table::
@@ -164,6 +164,10 @@ Quick Reference Directory (61 Repositories)
      - **Catalog**: Kimberling's *ETC* (53,144 parsed; 4,000+ compiled)
      - `Explore Catalog <https://geometor.github.io/etc/>`_
      - `GitHub <https://github.com/geometor/etc>`_
+   * - ``gibert``
+     - **Catalog**: Bernard Gibert's *Catalogue of Triangle Cubics*
+     - `Explore Catalog <https://geometor.github.io/gibert/>`_
+     - `GitHub <https://github.com/geometor/gibert>`_
    * - ``wildberger``
      - **Catalog**: *Divine Proportions* & Rational Trigonometry
      - `Explore Catalog <https://geometor.github.io/wildberger/>`_
