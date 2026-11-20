@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • geometor.com Medallion
+   :target: https://geometor.com/
+   :width: 150px
+   :align: right
+
 GEOMETOR • geometor.com
 =======================
 
 **Visit the Online Archive:** https://geometor.com
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • geometor.com Medallion
-   :target: https://geometor.com/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/root3-harmonics-banner.png
    :alt: GEOMETOR • geometor.com featured geometric construction
