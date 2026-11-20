@@ -11,7 +11,7 @@
 Claudius Ptolemy
 ================
 
-.. image:: /_static/heroes/ptolemy.svg
+.. image:: /_static/medallions/ptolemy.svg
    :alt: Claudius Ptolemy
 
 In Almagest Book I.10, Ptolemy gave antiquity's most economical single-circle construction of both the regular decagon and regular pentagon via the Golden Section alongside Ptolemy's Cyclic Quadrilateral Theorem ()…

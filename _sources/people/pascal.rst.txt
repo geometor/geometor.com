@@ -11,7 +11,7 @@
 Blaise Pascal
 =============
 
-.. image:: /_static/heroes/pascal.svg
+.. image:: /_static/medallions/pascal.svg
    :alt: Blaise Pascal
 
 At age sixteen, Pascal generalized Pappus's two-line hexagon theorem to any six points inscribed on a non-degenerate conic (Essay pour les Coniques, 1640): opposite sides of an inscribed hexagon meet in three…

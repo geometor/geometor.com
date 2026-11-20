@@ -11,7 +11,7 @@
 Sir D'Arcy Wentworth Thompson
 =============================
 
-.. image:: /_static/heroes/thompson.svg
+.. image:: /_static/medallions/thompson.svg
    :alt: Sir D'Arcy Wentworth Thompson
 
 Scottish biologist, mathematician, and classical scholar whose On Growth and Form (1917) revealed physical forces and geometric invariance across living structures: Plateau's and minimal-surface junctions, Maraldi's…

@@ -11,7 +11,7 @@
 Johannes Kepler
 ===============
 
-.. image:: /_static/heroes/kepler.svg
+.. image:: /_static/medallions/kepler.svg
    :alt: Johannes Kepler
 
 In Mysterium Cosmographicum (1596), Strena seu de Nive Sexangula (1611), and Harmonices Mundi (1619), Kepler famously declared: .. epigraph:: Kepler nested the five Platonic solids among the planetary spheres,…

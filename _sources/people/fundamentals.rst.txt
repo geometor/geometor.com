@@ -11,7 +11,7 @@
 Fred W. Seelig
 ==============
 
-.. image:: /_static/heroes/fundamentals.svg
+.. image:: /_static/medallions/fundamentals.svg
    :alt: Fred W. Seelig
 
 Independent geometric researcher whose meticulous 353-folio manuscript archive and 59 analytical spreadsheets explore triangle concurrency, harmonic duality, circle–square proportions, and classical ratios from first…

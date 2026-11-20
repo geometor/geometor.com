@@ -11,7 +11,7 @@
 Pappus of Alexandria
 ====================
 
-.. image:: /_static/heroes/pappus.svg
+.. image:: /_static/medallions/pappus.svg
    :alt: Pappus of Alexandria
 
 Last great synthesist of the Alexandrian mathematical school. Across Books III–VIII of his Synagoge (Mathematical Collection), Pappus united the three classical means in one semicircle (Book III), generalized…

@@ -11,7 +11,7 @@
 Nicomachus of Gerasa
 ====================
 
-.. image:: /_static/heroes/nicomachus.svg
+.. image:: /_static/medallions/nicomachus.svg
    :alt: Nicomachus of Gerasa
 
 Neo-Pythagorean philosopher whose Introductio Arithmetica codified the fourfold Quadrivium (Arithmetic, Music, Geometry, Astronomy), proved that all superparticular and superpartient ratios unfold deductively from…

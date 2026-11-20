@@ -11,7 +11,7 @@
 Euclid of Alexandria
 ====================
 
-.. image:: /_static/heroes/euclid.svg
+.. image:: /_static/medallions/euclid.svg
    :alt: Euclid of Alexandria
 
 Euclid's thirteen books of the Elements—paired in geometor/euclid with his *94-proposition Data** (Δεδομένα, governing constructive givens in geometric analysis)—established the enduring paradigm of deductive…

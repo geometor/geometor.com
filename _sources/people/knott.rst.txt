@@ -11,7 +11,7 @@
 Ron Knott — Fibonacci Numbers & the Golden Section
 ==================================================
 
-.. image:: /_static/heroes/knott.svg
+.. image:: /_static/medallions/knott.svg
    :alt: Ron Knott — Fibonacci Numbers & the Golden Section
 
 Mathematician at the University of Surrey whose acclaimed educational corpus connected Fibonacci recurrences, Lucas identities, Pisano modular periods, Pythagorean triple generators, Zeckendorf representations,…

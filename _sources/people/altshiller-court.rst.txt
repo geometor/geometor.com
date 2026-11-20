@@ -11,7 +11,7 @@
 Nathan Altshiller-Court
 =======================
 
-.. image:: /_static/heroes/altshiller-court.svg
+.. image:: /_static/medallions/altshiller-court.svg
    :alt: Nathan Altshiller-Court
 
 Master pedagogue of modern synthetic geometry whose College Geometry (1925) systematically trains the geometer in the four-part constructive discipline (Analysis, Construction, Proof, Discussion), parsed one item per…

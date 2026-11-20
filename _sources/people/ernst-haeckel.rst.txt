@@ -9,5 +9,8 @@
 Ernst Haeckel
 =============
 
+.. image:: /_static/medallions/ernst-haeckel.svg
+   :alt: Ernst Haeckel
+
 Naturalist, marine biologist, and scientific illustrator whose Kunstformen der Natur (Art Forms in Nature, 1899–1904) revealed icosahedral, dodecahedral, hexagonal, and logarithmic spiral geometries in radiolarians,…
 

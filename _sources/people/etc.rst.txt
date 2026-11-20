@@ -11,7 +11,7 @@
 Clark Kimberling & Forum Geometricorum
 ======================================
 
-.. image:: /_static/heroes/etc.svg
+.. image:: /_static/medallions/etc.svg
    :alt: Clark Kimberling & Forum Geometricorum
 
 Through the Encyclopedia of Triangle Centers (ETC, initiated 1994/1998 and now surpassing 53,000 centers) and the open-access journal Forum Geometricorum (founded by Paul Yiu), Clark Kimberling and collaborators…

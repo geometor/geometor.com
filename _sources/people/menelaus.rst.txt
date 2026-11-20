@@ -11,7 +11,7 @@
 Menelaus of Alexandria
 ======================
 
-.. image:: /_static/heroes/menelaus.svg
+.. image:: /_static/medallions/menelaus.svg
    :alt: Menelaus of Alexandria
 
 Founder of intrinsic spherical geometry. Defining the spherical triangle formed by arcs of three great circles (Sphaerica Book I, where angle sums strictly exceed two right angles without parallel lines) and proving…

@@ -11,7 +11,7 @@
 Apollonius of Perga
 ===================
 
-.. image:: /_static/heroes/apollonius.svg
+.. image:: /_static/medallions/apollonius.svg
    :alt: Apollonius of Perga
 
 "The Great Geometer," whose Conics derived the parabola, ellipse, and hyperbola from a single oblique circular cone through symptomata of application of areas (parabole, elleipsis, hyperbole), conjugate diameters,…

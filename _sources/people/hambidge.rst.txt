@@ -11,7 +11,7 @@
 Jay Hambidge
 ============
 
-.. image:: /_static/heroes/hambidge.svg
+.. image:: /_static/medallions/hambidge.svg
    :alt: Jay Hambidge
 
 Artist and scholar of classical design who distinguished passive static symmetry (rational linear grids) from dynamic symmetry—proportions commensurable in square (potentia, Euclid Book X): root-, root-, and root-…

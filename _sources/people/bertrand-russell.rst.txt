@@ -11,7 +11,7 @@
 Bertrand Russell
 ================
 
-.. image:: /_static/heroes/bertrand-russell.svg
+.. image:: /_static/medallions/bertrand-russell.svg
    :alt: Bertrand Russell
 
 Across An Essay on the Foundations of Geometry (1897) and Part VI (Space) of The Principles of Mathematics (1903), Bertrand Russell analyzed the philosophical relationship between projective order, Cayley–Klein…

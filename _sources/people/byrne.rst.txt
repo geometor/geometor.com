@@ -11,7 +11,7 @@
 Oliver Byrne
 ============
 
-.. image:: /_static/heroes/byrne.svg
+.. image:: /_static/medallions/byrne.svg
    :alt: Oliver Byrne
 
 Civil engineer and mathematician whose 1847 Pickering edition replaced traditional lettered labels (AB, ∠ABC) with primary-colored Bauhaus-avant-la-lettre visual tokens—transforming Euclidean deduction into…

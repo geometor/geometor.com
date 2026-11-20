@@ -9,5 +9,8 @@
 Hans Kayser
 ===========
 
+.. image:: /_static/medallions/hans-kayser.svg
+   :alt: Hans Kayser
+
 Founder of modern Pythagorean Harmonics (Akróasis: The Theory of World Harmonics, Lehrbuch der Harmonik). Kayser investigated integer and superparticular string ratios, the lambdoma matrix, crystallographic…
 

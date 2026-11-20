@@ -11,7 +11,7 @@
 George Odom
 ===========
 
-.. image:: /_static/heroes/divine.png
+.. image:: /_static/medallions/divine.svg
    :alt: George Odom
 
 Artist and geometer who discovered one of the simplest golden section constructions in history (published as Problem E3007 in the American Mathematical Monthly, 1983, proved by H. S. M. Coxeter): joining the…

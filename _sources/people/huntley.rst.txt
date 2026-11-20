@@ -11,6 +11,9 @@
 H. E. Huntley, Mario Livio & Alfred S. Posamentier / Ingmar Lehmann
 ===================================================================
 
+.. image:: /_static/medallions/huntley.svg
+   :alt: H. E. Huntley, Mario Livio & Alfred S. Posamentier / Ingmar Lehmann
+
 Across The Divine Proportion (Huntley, 1970), The Golden Ratio (Livio, 2002), and The Glorious Golden Ratio (Posamentier & Lehmann, 2011), modern mathematical expositors synthesized Fibonacci matrix algebra, spira…
 
 * **GEOMETOR Website**: `H. E. Huntley, Mario Livio & Alfred S. Posamentier / Ingmar Lehmann <https://geometor.github.io/huntley/>`_

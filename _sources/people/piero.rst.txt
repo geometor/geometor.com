@@ -11,6 +11,9 @@
 Piero della Francesca
 =====================
 
+.. image:: /_static/medallions/piero.svg
+   :alt: Piero della Francesca
+
 Master painter and mathematician of Borgo Sansepolcro whose Libellus de Quinque Corporibus Regularibus (Codex Vaticanus Urbinas latinus 632) computed exact quadratic and golden radical coordinates, reciprocal dual…
 
 * **GEOMETOR Website**: `Piero della Francesca <https://geometor.github.io/piero/>`_

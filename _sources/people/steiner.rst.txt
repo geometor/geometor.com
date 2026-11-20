@@ -11,7 +11,7 @@
 Jakob Steiner
 =============
 
-.. image:: /_static/heroes/steiner.svg
+.. image:: /_static/medallions/steiner.svg
    :alt: Jakob Steiner
 
 Swiss synthetic geometer whose 1833 Berlin treatise proved the Poncelet–Steiner Theorem: given a single fixed circle and its center drawn once on the plane, every Euclidean ruler-and-compass construction can be…

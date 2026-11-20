@@ -11,7 +11,7 @@
 St. Thomas Aquinas
 ==================
 
-.. image:: /_static/heroes/aquinas.svg
+.. image:: /_static/medallions/aquinas.svg
    :alt: St. Thomas Aquinas
 
 In Super Boetium De Trinitate (Questions 5 and 6) and his commentaries on Aristotle's Posterior Analytics, Physics, De Anima, and Metaphysics, Aquinas articulated how mathematics stands uniquely poised between…

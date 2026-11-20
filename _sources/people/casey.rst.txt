@@ -11,7 +11,7 @@
 John Casey
 ==========
 
-.. image:: /_static/heroes/casey.svg
+.. image:: /_static/medallions/casey.svg
    :alt: John Casey
 
 Irish geometer who bridged classical Euclid and late-nineteenth-century triangle and circle geometry, discovering Casey's Generalized Ptolemy Theorem ( for four circles tangent to a fifth circle, providing a pure…

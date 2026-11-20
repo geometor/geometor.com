@@ -11,6 +11,9 @@
 Aristotle
 =========
 
+.. image:: /_static/medallions/aristotle.svg
+   :alt: Aristotle
+
 In Posterior Analytics, Physics, De Anima, and Metaphysics IX.9 (1051a21–33), Aristotle formulated the classical theory of demonstrative science (episteme) and observed how latent geometric relations are brought from…
 
 * **GEOMETOR Website**: `Aristotle <https://geometor.github.io/aristotle/>`_

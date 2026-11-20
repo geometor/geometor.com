@@ -11,7 +11,7 @@
 Leonhard Euler
 ==============
 
-.. image:: /_static/heroes/euler.svg
+.. image:: /_static/medallions/euler.svg
    :alt: Leonhard Euler
 
 In St. Petersburg memoir E325 (Solutio facilis, 1765), Euler computed the exact algebraic distances among the four classical centers of any scalene triangle—discovering and proving the collinearity of the Euler Line ().

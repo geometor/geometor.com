@@ -11,7 +11,7 @@
 Karl Georg Christian von Staudt
 ===============================
 
-.. image:: /_static/heroes/staudt.svg
+.. image:: /_static/medallions/staudt.svg
    :alt: Karl Georg Christian von Staudt
 
 Architect of pure synthetic projective geometry. In Geometrie der Lage (1847) and Beiträge (1857), von Staudt liberated projective space from metric length by defining the fourth harmonic point purely via the…

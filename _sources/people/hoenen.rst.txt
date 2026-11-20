@@ -11,6 +11,9 @@
 Petrus Hoenen, S.J.
 ===================
 
+.. image:: /_static/medallions/hoenen.svg
+   :alt: Petrus Hoenen, S.J.
+
 Dutch Jesuit physicist and philosopher at the Pontifical Gregorian University in Rome. In De Noetica Geometriae Origine Theoriae Cognitionis (1954), Hoenen engaged Hilbert, Russell, and non-Euclidean geometry…
 
 * **GEOMETOR Website**: `Petrus Hoenen, S.J. <https://geometor.github.io/hoenen/>`_

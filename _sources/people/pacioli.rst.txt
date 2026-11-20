@@ -11,7 +11,7 @@
 Fra Luca Pacioli & Leonardo da Vinci
 ====================================
 
-.. image:: /_static/heroes/pacioli.svg
+.. image:: /_static/medallions/pacioli.svg
    :alt: Fra Luca Pacioli & Leonardo da Vinci
 
 Franciscan mathematician Luca Pacioli—steward of Piero della Francesca's polyhedral geometry and mathematical collaborator with Leonardo da Vinci at the court of Milan—published both the encyclopedic Summa (1494) and…

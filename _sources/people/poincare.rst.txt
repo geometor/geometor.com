@@ -11,7 +11,7 @@
 Henri Poincaré
 ==============
 
-.. image:: /_static/heroes/poincare.svg
+.. image:: /_static/medallions/poincare.svg
    :alt: Henri Poincaré
 
 Universal mathematician whose philosophy of geometric conventionalism traced perceptual space to Lie groups of rigid displacements and introduced the Poincaré conformal disk dictionary—translating every hyperbolic…
