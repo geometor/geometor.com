@@ -11,7 +11,7 @@
 Karl Wilhelm Feuerbach
 ======================
 
-.. image:: /_static/heroes/feuerbach.svg
+.. image:: /_static/medallions/feuerbach.svg
    :alt: Karl Wilhelm Feuerbach
 
 In Nuremberg (Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks, 1822), Feuerbach proved that the circle through the side-midpoints and altitude-feet (center , radius ) touches the incircle…

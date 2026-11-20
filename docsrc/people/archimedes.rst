@@ -11,7 +11,7 @@
 Archimedes of Syracuse
 ======================
 
-.. image:: /_static/heroes/archimedes.svg
+.. image:: /_static/medallions/archimedes.svg
    :alt: Archimedes of Syracuse
 
 Greatest mathematician of antiquity. In Measurement of a Circle (), Quadrature of the Parabola (exact triangle ratio), On the Sphere and Cylinder ( volume and surface ratio), On Spirals, Book of Lemmas (arbelos,…

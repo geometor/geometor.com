@@ -11,7 +11,7 @@
 Émile Lemoine
 =============
 
-.. image:: /_static/heroes/lemoine.svg
+.. image:: /_static/medallions/lemoine.svg
    :alt: Émile Lemoine
 
 Discoverer of the Symmedian / Lemoine Point (1873) and creator of Géométrographie (La Géométrographie ou l'art des constructions géométriques, 1902)—the first quantitative operational complexity calculus (,…

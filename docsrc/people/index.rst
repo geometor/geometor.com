@@ -10,7 +10,7 @@ People
 
 .. rubric:: Searchable Directory of Geometers, Philosophers & Mathematical Thinkers
 
-Browse all **50 figures** across the GEOMETOR lineage—filter by **source language**, search by name or treatise, and sort by **death date** or **name**.
+Browse all **50 figures** across the GEOMETOR lineage—filter by **source language** or **era**, search by name or treatise, and sort by **death date** or **name**.
 
 .. people-directory::
    :sort: death_year

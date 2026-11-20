@@ -11,7 +11,7 @@
 Felix Klein
 ===========
 
-.. image:: /_static/heroes/klein.svg
+.. image:: /_static/medallions/klein.svg
    :alt: Felix Klein
 
 In his Erlangen Program (1872), Klein unified Euclidean, affine, elliptic, hyperbolic, inversive, and projective geometries as invariant theories of nested transformation groups. In Famous Problems of Elementary…

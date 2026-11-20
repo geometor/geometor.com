@@ -11,7 +11,7 @@
 Walter Russell & Lao Russell
 ============================
 
-.. image:: /_static/heroes/walter-russell.png
+.. image:: /_static/medallions/walter-russell.svg
    :alt: Walter Russell & Lao Russell
 
 Artist, sculptor, and natural philosopher Walter Russell and co-author Lao Russell articulated a geometric wave-field cosmogony built on the interpenetrating cube and sphere—modeling compression and expansion as…

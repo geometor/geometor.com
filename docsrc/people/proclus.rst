@@ -11,7 +11,7 @@
 Proclus Lycius
 ==============
 
-.. image:: /_static/heroes/proclus.svg
+.. image:: /_static/medallions/proclus.svg
    :alt: Proclus Lycius
 
 Head (diadochus) of the Athenian Academy whose Commentary on the First Book of Euclid's Elements preserves both Eudemus's lost history of early Greek geometry and a profound philosophy of mathematical imagination…

@@ -11,7 +11,7 @@
 Lorenzo Mascheroni
 ==================
 
-.. image:: /_static/heroes/mascheroni.svg
+.. image:: /_static/medallions/mascheroni.svg
    :alt: Lorenzo Mascheroni
 
 Pavian mathematician and poet whose La Geometria del Compasso (1797) proved that every Euclidean ruler-and-compass construction—including circle division and straight-line intersection—can be executed cleanly with…

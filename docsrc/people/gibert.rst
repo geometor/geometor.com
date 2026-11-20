@@ -11,6 +11,9 @@
 Bernard Gibert
 ==============
 
+.. image:: /_static/medallions/gibert.svg
+   :alt: Bernard Gibert
+
 Creator of the *Catalogue of Triangle Cubics* (CTC), a comprehensive classification of triangle cubics in barycentric coordinates and projective triangle geometry.
 
 * **GEOMETOR Website**: `Bernard Gibert <https://geometor.github.io/gibert/>`_

@@ -11,7 +11,7 @@
 Roger V. Jean
 =============
 
-.. image:: /_static/heroes/phyllotaxis.png
+.. image:: /_static/medallions/phyllotaxis.svg
    :alt: Roger V. Jean
 
 Mathematician whose treatise Phyllotaxis: A Systemic Study in Plant Morphogenesis (Cambridge University Press, 1994) unified continued-fraction divergence theory, visible opposed parastichy pairs, allometric growth…

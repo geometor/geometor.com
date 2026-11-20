@@ -11,7 +11,7 @@
 Moritz Pasch
 ============
 
-.. image:: /_static/heroes/pasch.svg
+.. image:: /_static/medallions/pasch.svg
    :alt: Moritz Pasch
 
 Pioneer of modern axiomatic rigor whose Vorlesungen über neuere Geometrie (1882) exposed Euclid's unstated planar order assumptions—formulating Pasch's Axiom (a line meeting one side of a triangle and missing the…

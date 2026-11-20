@@ -11,7 +11,7 @@
 Albrecht Dürer
 ==============
 
-.. image:: /_static/heroes/durer.svg
+.. image:: /_static/medallions/durer.svg
    :alt: Albrecht Dürer
 
 Master printmaker and geometer of Nuremberg whose Underweysung der Messung mit dem Zirckel und Richtscheyt (1525) founded German constructive geometry: introducing parallel-projection conic sections (anticipating…

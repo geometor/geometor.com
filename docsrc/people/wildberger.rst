@@ -11,7 +11,7 @@
 Norman J. Wildberger
 ====================
 
-.. image:: /_static/heroes/wildberger.svg
+.. image:: /_static/medallions/wildberger.svg
    :alt: Norman J. Wildberger
 
 Author of Divine Proportions: Rational Trigonometry to Universal Geometry (2005). By replacing distance with quadrance and transcendental angle with spread , Wildberger stripped trigonometry of infinite power series…

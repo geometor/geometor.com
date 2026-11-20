@@ -11,7 +11,7 @@
 Plato
 =====
 
-.. image:: /_static/heroes/plato.svg
+.. image:: /_static/medallions/plato.svg
    :alt: Plato
 
 Across Meno (doubling the square via the diagonal), Republic VI–VII (the Divided Line and the four mathematical sciences lifting the soul toward Being), and Timaeus (the harmonic World-Soul scale and construction of…

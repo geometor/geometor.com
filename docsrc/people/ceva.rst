@@ -11,7 +11,7 @@
 Giovanni Ceva
 =============
 
-.. image:: /_static/heroes/ceva.svg
+.. image:: /_static/medallions/ceva.svg
    :alt: Giovanni Ceva
 
 Milanese and Mantuan geometer who elevated Archimedes' Law of the Lever into pure incidence geometry: by placing virtual statical weights at the vertices of a triangle (and tetrahedron), Ceva proved Ceva's…

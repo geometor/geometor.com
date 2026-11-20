@@ -11,7 +11,7 @@
 David Hilbert
 =============
 
-.. image:: /_static/heroes/hilbert.svg
+.. image:: /_static/medallions/hilbert.svg
    :alt: David Hilbert
 
 In Grundlagen der Geometrie (1899), Hilbert completed Euclid's deductive program for the modern era by making explicit the order (betweenness) and continuity postulates tacitly read off diagrams since antiquity,…

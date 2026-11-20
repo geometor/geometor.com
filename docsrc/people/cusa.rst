@@ -11,7 +11,7 @@
 Nicholas of Cusa
 ================
 
-.. image:: /_static/heroes/cusa.svg
+.. image:: /_static/medallions/cusa.svg
    :alt: Nicholas of Cusa
 
 German cardinal, jurist, and philosopher whose De Docta Ignorantia (On Learned Ignorance, Book I) employed exact transsumptive mathematical symbolism to contemplate the Infinite: as radius grows without bound, the…

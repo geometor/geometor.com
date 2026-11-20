@@ -11,7 +11,7 @@
 Julius Petersen
 ===============
 
-.. image:: /_static/heroes/petersen.svg
+.. image:: /_static/medallions/petersen.svg
    :alt: Julius Petersen
 
 Danish geometer and graph-theorist whose 1879 handbook codified compass-and-straightedge problem solving into systematic two-locus intersection (Method of Loci) and geometric transformations (translation, rotation,…

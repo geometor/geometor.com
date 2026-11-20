@@ -11,7 +11,7 @@
 Leonardo Pisano — Fibonacci
 ===========================
 
-.. image:: /_static/heroes/fibonacci.svg
+.. image:: /_static/medallions/fibonacci.svg
    :alt: Leonardo Pisano — Fibonacci
 
 Pisan mathematician whose Liber Abaci introduced Hindu–Arabic positional arithmetic, unit-fraction decompositions, and the additive Fibonacci recurrence to Latin Europe, while his Practica Geometriae transmitted…

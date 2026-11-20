@@ -11,7 +11,7 @@
 Heron of Alexandria
 ===================
 
-.. image:: /_static/heroes/heron.svg
+.. image:: /_static/medallions/heron.svg
    :alt: Heron of Alexandria
 
 Synthesist of Alexandrian pure proof and algorithmic engineering. In Metrica (rediscovered in 1896 in the Codex Constantinopolitanus), Heron proved Heron's Area Formula via cyclic quadrilaterals alongside iterative…
