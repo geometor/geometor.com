@@ -227,7 +227,7 @@ Multi-track edition of Books I–III of Menelaus's *Sphaerica*: intrinsic geomet
    :width: 280px
    :align: right
 
-4-Track German/English Codex (**76 folios**, Nuremberg 1822) proving that the **Nine-Point Circle** (center :math:`X_5`, radius :math:`R/2`) touches the incircle internally at **Feuerbach's Point (:math:`X_{11}`)** and all three excircles externally.
+4-Track German/English Codex (**76 folios**, Nuremberg 1822) proving that the **Nine-Point Circle** (center :math:`X_5`, radius :math:`R/2`) touches the incircle internally at **Feuerbach's Point** (:math:`X_{11}`) and all three excircles externally.
 
 ----
 
@@ -307,7 +307,7 @@ Bridges Euclid Books I–VI to nineteenth-century circle and triangle synthesis:
    :width: 280px
    :align: right
 
-Bilingual French/English Codex of Lemoine's operational complexity calculus counting five elementary ruler-and-compass primitives (:math:`R_1, R_2, C_1, C_2, C_3`) to measure **Simplicity** (:math:`S`) and **Exactness** (:math:`E`) across classical constructions, paired with Lemoine's **Symmedian Point (:math:`X_6`)** and Lemoine circles.
+Bilingual French/English Codex of Lemoine's operational complexity calculus counting five elementary ruler-and-compass primitives (:math:`R_1, R_2, C_1, C_2, C_3`) to measure **Simplicity** (:math:`S`) and **Exactness** (:math:`E`) across classical constructions, paired with Lemoine's **Symmedian Point** (:math:`X_6`) and Lemoine circles.
 
 ----
 
