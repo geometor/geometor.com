@@ -64,7 +64,7 @@ Continued Fraction, Fibonacci & Lucas Sequences
 
   Because all partial quotients equal :math:`1` (the smallest possible positive integer), :math:`\phi` is Hurwitz's extremal irrational—explaining why living plant meristems adopt the golden divergence angle :math:`2\pi/\phi^2` in `geometor/phyllotaxis <https://geometor.github.io/phyllotaxis/>`_.
 
-* **Fibonacci (:math:`F_n`) and Lucas (:math:`L_n`) Numbers via Binet's Exact Formulas**:
+* **Fibonacci** (:math:`F_n`) **and Lucas** (:math:`L_n`) **Numbers via Binet's Exact Formulas**:
 
   .. math::
 
