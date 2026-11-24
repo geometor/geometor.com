@@ -17,5 +17,6 @@ Instruction in Measurement
 
 Albrecht Dürer's foundational treatise on compass and straightedge construction, spirals, conics, planar polyhedral nets, and perspective.
 
+* **Published**: 1525
 * **Read Online**: `Instruction in Measurement <https://geometor.github.io/durer/underweysung/>`_
 * **GitHub Repository**: `https://github.com/geometor/durer <https://github.com/geometor/durer>`_

@@ -12,7 +12,11 @@
 The Noetics of Geometry
 =======================
 
+.. image:: /_static/medallions/hoenen.svg
+   :alt: The Noetics of Geometry
+
 Fr. Peter Hoenen's epistemological treatise investigating the origin of geometric knowledge through Thomistic intuitive formal abstraction and modern axiomatics.
 
+* **Published**: 1954
 * **Read Online**: `The Noetics of Geometry <https://geometor.github.io/hoenen/de_noetica_geometriae/>`_
 * **GitHub Repository**: `https://github.com/geometor/hoenen <https://github.com/geometor/hoenen>`_

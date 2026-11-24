@@ -17,5 +17,6 @@ De Mathematicis Complementis
 
 Nicholas of Cusa's constructive mathematical treatises on isoperimetric transmutations, Archimedes' spiral, circle quadrature, and the Golden Proposition.
 
+* **Published**: 1453
 * **Read Online**: `De Mathematicis Complementis <https://geometor.github.io/cusa/de_mathematicis_complementis/>`_
 * **GitHub Repository**: `https://github.com/geometor/cusa <https://github.com/geometor/cusa>`_

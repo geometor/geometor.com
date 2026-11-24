@@ -17,5 +17,6 @@ Practice of Geometry
 
 Leonardo Pisano's 1220 medieval masterwork on practical geometry, field divisions, circle measurement, and Euclidean regular polyhedra.
 
+* **Published**: 1220
 * **Read Online**: `Practice of Geometry <https://geometor.github.io/fibonacci/practica_geometriae/>`_
 * **GitHub Repository**: `https://github.com/geometor/fibonacci <https://github.com/geometor/fibonacci>`_

@@ -5,7 +5,9 @@
 :languages: Greek, English
 :site_url: https://geometor.github.io/archimedes/arenarius/
 :github_url: https://github.com/geometor/archimedes
-:year: ca. 250 BCE / 1897
+:year: -250
+:year_label: ca. 250 BCE
+:edition_year: 1897
 :native_title: Τρισκαίδεκα ἡμικανονικὰ στερεά
 :excerpt: Pappus V.19 census of the thirteen Archimedean semi-regular polyhedra, the 14-piece Stomachion square dissection, and The Sand-Reckoner preserving Aristarchus's heliocentric cosmos and myriad-octad powers.
 
@@ -17,5 +19,6 @@ The Sand-Reckoner & Semi-Regular Solids
 
 Pappus V.19 census of the thirteen Archimedean semi-regular polyhedra, the 14-piece Stomachion square dissection, and The Sand-Reckoner preserving Aristarchus's heliocentric cosmos and myriad-octad powers.
 
+* **Published**: ca. 250 BCE *(Edition: 1897)*
 * **Read Online**: `The Sand-Reckoner & Semi-Regular Solids <https://geometor.github.io/archimedes/arenarius/>`_
 * **GitHub Repository**: `https://github.com/geometor/archimedes <https://github.com/geometor/archimedes>`_

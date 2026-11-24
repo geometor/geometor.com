@@ -17,5 +17,6 @@ The Book of Calculation
 
 Leonardo Pisano's revolutionary 1202/1228 treatise introducing Indo-Arabic numerals, commercial arithmetic, and the golden rabbit sequence to the Latin West.
 
+* **Published**: 1202
 * **Read Online**: `The Book of Calculation <https://geometor.github.io/fibonacci/liber_abbaci/>`_
 * **GitHub Repository**: `https://github.com/geometor/fibonacci <https://github.com/geometor/fibonacci>`_

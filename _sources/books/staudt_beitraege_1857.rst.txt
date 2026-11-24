@@ -17,5 +17,6 @@ Contributions to the Geometry of Position
 
 Karl Georg Christian von Staudt's foundational 1857 treatise Beiträge zur Geometrie der Lage (Zweites Heft), establishing the metric-free Algebra of Throws (Rechnung mit Würfen), pure straightedge addition and multiplication, and intrinsic projective coordinates.
 
+* **Published**: 1857
 * **Read Online**: `Contributions to the Geometry of Position <https://geometor.github.io/staudt/beitraege_1857/>`_
 * **GitHub Repository**: `https://github.com/geometor/staudt <https://github.com/geometor/staudt>`_

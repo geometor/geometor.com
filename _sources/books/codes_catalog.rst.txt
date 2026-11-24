@@ -15,5 +15,6 @@ Codes
 
 Interactive symbolic catalog in geometor/codes.
 
+* **Published**: 2026
 * **Read Online**: `Codes <https://geometor.github.io/codes/>`_
 * **GitHub Repository**: `https://github.com/geometor/codes <https://github.com/geometor/codes>`_

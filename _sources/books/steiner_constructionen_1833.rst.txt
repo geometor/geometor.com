@@ -17,5 +17,6 @@ Geometrical Constructions
 
 The 1833 treatise demonstrating that every Euclidean construction can be performed using only a straightedge, given a single fixed circle and its center.
 
+* **Published**: 1833
 * **Read Online**: `Geometrical Constructions <https://geometor.github.io/steiner/constructionen_1833/>`_
 * **GitHub Repository**: `https://github.com/geometor/steiner <https://github.com/geometor/steiner>`_

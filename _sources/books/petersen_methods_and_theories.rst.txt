@@ -13,5 +13,6 @@ Methods and Theories for Geometrical Constructions
 .. image:: /_static/heroes/petersen.svg
    :alt: Methods and Theories for Geometrical Constructions
 
+* **Published**: 1879
 * **Read Online**: `Methods and Theories for Geometrical Constructions <https://geometor.github.io/petersen/methods_and_theories/>`_
 * **GitHub Repository**: `https://github.com/geometor/petersen <https://github.com/geometor/petersen>`_

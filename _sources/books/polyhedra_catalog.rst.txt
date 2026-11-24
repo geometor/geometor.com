@@ -15,5 +15,6 @@ Polyhedra
 
 Interactive symbolic catalog in geometor/polyhedra.
 
+* **Published**: 2026
 * **Read Online**: `Polyhedra <https://geometor.github.io/polyhedra/>`_
 * **GitHub Repository**: `https://github.com/geometor/polyhedra <https://github.com/geometor/polyhedra>`_

@@ -17,5 +17,6 @@ Foundations of Geometry
 
 David Hilbert's epoch-making axiomatic foundation of geometry, establishing the independence, consistency, and completeness of geometric axioms.
 
+* **Published**: 1899
 * **Read Online**: `Foundations of Geometry <https://geometor.github.io/hilbert/grundlagen/>`_
 * **GitHub Repository**: `https://github.com/geometor/hilbert <https://github.com/geometor/hilbert>`_

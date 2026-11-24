@@ -16,5 +16,6 @@ An Essay on the Foundations of Geometry
 
 Russell's 1897 Cambridge Fellowship dissertation deducing the a priori axioms of projective and metrical geometry from the form of externality and nineteenth-century metageometry.
 
+* **Published**: 1897
 * **Read Online**: `An Essay on the Foundations of Geometry <https://geometor.github.io/bertrand-russell/foundations_of_geometry/>`_
 * **GitHub Repository**: `https://github.com/geometor/bertrand-russell <https://github.com/geometor/bertrand-russell>`_

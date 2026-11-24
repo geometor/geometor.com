@@ -17,5 +17,6 @@ On Growth and Form
 
 Sir D'Arcy Wentworth Thompson's classic mathematical and physical analysis of biological morphology, scaling laws, surface tension, cellular foams, equiangular spirals, phyllotaxis, bone architecture, and coordinate transformations.
 
+* **Published**: 1917
 * **Read Online**: `On Growth and Form <https://geometor.github.io/thompson/growth_and_form/>`_
 * **GitHub Repository**: `https://github.com/geometor/thompson <https://github.com/geometor/thompson>`_

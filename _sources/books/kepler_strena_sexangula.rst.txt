@@ -17,5 +17,6 @@ The Six-Cornered Snowflake
 
 Kepler's New Year's gift on the six-cornered snowflake, founding mathematical crystallography, discovering the space-filling rhombic dodecahedron, asserting the sphere close-packing conjecture, and tracing Fibonacci growth in flowers.
 
+* **Published**: 1611
 * **Read Online**: `The Six-Cornered Snowflake <https://geometor.github.io/kepler/strena_sexangula/>`_
 * **GitHub Repository**: `https://github.com/geometor/kepler <https://github.com/geometor/kepler>`_
