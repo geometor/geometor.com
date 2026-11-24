@@ -16,5 +16,6 @@ Catalog of Golden Ratio Constructions
 
 A machine-verified symbolic catalog of 45 geometric constructions across seven families certifying 129 exact golden sections.
 
+* **Published**: 2024
 * **Read Online**: `Catalog of Golden Ratio Constructions <https://geometor.github.io/divine/constructions/>`_
 * **GitHub Repository**: `https://github.com/geometor/divine <https://github.com/geometor/divine>`_

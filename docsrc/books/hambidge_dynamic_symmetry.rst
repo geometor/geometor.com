@@ -16,5 +16,6 @@ The Elements of Dynamic Symmetry
 
 Jay Hambidge's foundational recovery of Dynamic Symmetry, root rectangles (√1 to √5), reciprocal diagonals, and the rectangle of the whirling squares in Greek design and phyllotaxis.
 
+* **Published**: 1920
 * **Read Online**: `The Elements of Dynamic Symmetry <https://geometor.github.io/hambidge/dynamic_symmetry/>`_
 * **GitHub Repository**: `https://github.com/geometor/hambidge <https://github.com/geometor/hambidge>`_

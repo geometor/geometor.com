@@ -1,5 +1,6 @@
 :type: book_record
 :author: Walter & Lao Russell • Reconstructed by GEOMETOR
+:author_doc: people/russell
 :era: Book Codices
 :languages: English
 :site_url: https://geometor.github.io/russell/cosmogony/
@@ -15,5 +16,6 @@ The Wave-Field Cosmogony of Walter Russell
 
 A geometric and 3D visual treatise synthesizing Walter Russell's wave mechanics, cube-sphere wave-fields, and nine-octave periodic table of elements.
 
+* **Published**: 2026
 * **Read Online**: `The Wave-Field Cosmogony of Walter Russell <https://geometor.github.io/russell/cosmogony/>`_
 * **GitHub Repository**: `https://github.com/geometor/russell <https://github.com/geometor/russell>`_

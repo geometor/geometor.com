@@ -25,6 +25,7 @@ CATALOG_REPOS = {
     "codes",
     "gibert",
     "heptadecagon",
+    "levels",
 }
 
 REPO_LANGUAGES: dict[str, list[str]] = {
@@ -273,6 +274,17 @@ Browse all **{len(people)} figures** across the GEOMETOR lineage—filter by **s
     return len(people)
 
 
+def _author_doc_for_repo(repo_local: str) -> str:
+    overrides = {
+        "elements": "euclid",
+        "walter-russell": "russell",
+    }
+    slug = overrides.get(repo_local, repo_local)
+    if (DOCSRC / "people" / f"{slug}.rst").is_file():
+        return f"people/{slug}"
+    return ""
+
+
 def generate_book_records() -> int:
     books_dir = DOCSRC / "books"
     books_dir.mkdir(parents=True, exist_ok=True)
@@ -282,7 +294,14 @@ def generate_book_records() -> int:
 
     records: list[dict[str, Any]] = []
     for d in sorted(GEO_ROOT.iterdir()):
-        if not (d.is_dir() and (d / ".git").exists()) or d.name in {".config", ".github", "geometor.com"}:
+        if not (d.is_dir() and (d / ".git").exists()) or d.name in {
+            ".config",
+            ".github",
+            "geometor.com",
+            "seer",
+            "seer_navigator",
+            "seer_sessions",
+        }:
             continue
         docsrc = d / "docsrc"
         if not docsrc.is_dir():
@@ -291,6 +310,7 @@ def generate_book_records() -> int:
         hero = _hero_for_repo(d.name)
         langs = REPO_LANGUAGES.get(d.name, ["English"])
         is_catalog = d.name in CATALOG_REPOS
+        author_doc = _author_doc_for_repo(d.name)
 
         found_books = []
         for idx_rst in sorted(docsrc.glob("*/index.rst")):
@@ -309,7 +329,10 @@ def generate_book_records() -> int:
                     "slug": f"{d.name}_catalog",
                     "title": title,
                     "author": rmeta.get("author", "GEOMETOR"),
+                    "author_doc": author_doc,
                     "year": rmeta.get("year", "2026"),
+                    "year_label": rmeta.get("year_label", ""),
+                    "edition_year": rmeta.get("edition_year", ""),
                     "native_title": "",
                     "era": "Mathematical Catalogs",
                     "languages": langs,
@@ -325,6 +348,8 @@ def generate_book_records() -> int:
             title = meta.get("book_title") or _extract_h1(txt) or sub_slug.replace("_", " ").title()
             author = meta.get("author") or d.name.replace("-", " ").title()
             year = meta.get("year") or ""
+            year_label = meta.get("year_label") or ""
+            edition_year = meta.get("edition_year") or ""
             m_rubric = re.search(r"^\.\. rubric::\s*\*([^*]+)\*", txt, re.M)
             native = m_rubric.group(1).strip() if m_rubric else ""
             excerpt = meta.get("excerpt") or meta.get("description") or ""
@@ -333,7 +358,10 @@ def generate_book_records() -> int:
                     "slug": f"{d.name}_{sub_slug}",
                     "title": title,
                     "author": author,
+                    "author_doc": author_doc,
                     "year": year,
+                    "year_label": year_label,
+                    "edition_year": edition_year,
                     "native_title": native,
                     "era": "Mathematical Catalogs" if is_catalog else "Book Codices",
                     "languages": langs,
@@ -350,13 +378,23 @@ def generate_book_records() -> int:
         lines = [
             ":type: book_record",
             f":author: {rec['author']}",
-            f":era: {rec['era']}",
-            f":languages: {', '.join(rec['languages'])}",
-            f":site_url: {rec['site_url']}",
-            f":github_url: {rec['github_url']}",
         ]
+        if rec["author_doc"]:
+            lines.append(f":author_doc: {rec['author_doc']}")
+        lines.extend(
+            [
+                f":era: {rec['era']}",
+                f":languages: {', '.join(rec['languages'])}",
+                f":site_url: {rec['site_url']}",
+                f":github_url: {rec['github_url']}",
+            ]
+        )
         if rec["year"]:
             lines.append(f":year: {rec['year']}")
+        if rec["year_label"]:
+            lines.append(f":year_label: {rec['year_label']}")
+        if rec["edition_year"]:
+            lines.append(f":edition_year: {rec['edition_year']}")
         if rec["native_title"]:
             lines.append(f":native_title: {rec['native_title']}")
         if rec["excerpt"]:
@@ -366,6 +404,10 @@ def generate_book_records() -> int:
             lines.extend([f".. image:: {rec['hero']}", f"   :alt: {title}", ""])
         if rec["excerpt"]:
             lines.extend([rec["excerpt"], ""])
+        pub_disp = rec["year_label"] or rec["year"]
+        if pub_disp:
+            ed_suffix = f" *(Edition: {rec['edition_year']})*" if rec["edition_year"] else ""
+            lines.append(f"* **Published**: {pub_disp}{ed_suffix}")
         lines.append(f"* **Read Online**: `{title} <{rec['site_url']}>`_")
         lines.append(f"* **GitHub Repository**: `{rec['github_url']} <{rec['github_url']}>`_")
         lines.append("")
@@ -384,7 +426,7 @@ Books & Catalogs
 
 .. rubric:: Searchable Directory of GEOMETOR Book Codices & Mathematical Catalogs
 
-Browse all **{len(records)} Book Codices & Mathematical Catalogs** across **39 historical authors** and **13 constructive catalog archives**—filter by **language** or **group**, search by title or author, and sort dynamically by **title** or **year**.
+Browse all **{len(records)} Book Codices & Mathematical Catalogs** across **39 historical authors** and **{len(CATALOG_REPOS)} constructive catalog archives**—filter by **language** or **group**, search by title or author, and sort dynamically by **year** or **title**.
 
 .. reference-directory::
    :sort: year

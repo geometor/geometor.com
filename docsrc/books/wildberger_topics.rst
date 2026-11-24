@@ -5,7 +5,8 @@
 :languages: English
 :site_url: https://geometor.github.io/wildberger/topics/
 :github_url: https://github.com/geometor/wildberger
-:year: 2005–2026
+:year: 2005
+:year_label: 2005–2026
 :excerpt: A 28-principle executable codex formalizing Rational Trigonometry, Universal Geometry, and Chromogeometry in exact SymPy algebra and interactive vector models.
 
 Principles of Rational Trigonometry & Universal Geometry
@@ -16,5 +17,6 @@ Principles of Rational Trigonometry & Universal Geometry
 
 A 28-principle executable codex formalizing Rational Trigonometry, Universal Geometry, and Chromogeometry in exact SymPy algebra and interactive vector models.
 
+* **Published**: 2005–2026
 * **Read Online**: `Principles of Rational Trigonometry & Universal Geometry <https://geometor.github.io/wildberger/topics/>`_
 * **GitHub Repository**: `https://github.com/geometor/wildberger <https://github.com/geometor/wildberger>`_

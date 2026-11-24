@@ -17,5 +17,6 @@ Summary of Arithmetic, Geometry, Proportions and Proportionality
 
 Pacioli's monumental 1494 Venetian compendium of speculative arithmetic, Hindu–Arabic algorism, Cossic algebra, Euclidean proportion theory, double-entry bookkeeping, and practical geometry.
 
+* **Published**: 1494
 * **Read Online**: `Summary of Arithmetic, Geometry, Proportions and Proportionality <https://geometor.github.io/pacioli/summa_1494/>`_
 * **GitHub Repository**: `https://github.com/geometor/pacioli <https://github.com/geometor/pacioli>`_

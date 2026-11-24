@@ -16,5 +16,6 @@ A Sequel to the First Six Books of the Elements of Euclid
 
 John Casey's foundational 1888/1892 treatise extending Euclid's Elements into modern synthetic circle, projective, and triangle geometry.
 
+* **Published**: 1888
 * **Read Online**: `A Sequel to the First Six Books of the Elements of Euclid <https://geometor.github.io/casey/sequel_to_euclid/>`_
 * **GitHub Repository**: `https://github.com/geometor/casey <https://github.com/geometor/casey>`_

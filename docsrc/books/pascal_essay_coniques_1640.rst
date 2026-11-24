@@ -17,5 +17,6 @@ Essay on Conics
 
 Pascal's 1640 broadside announcing the Mystic Hexagram theorem for any conic section, foundational projective definitions, and universal projective invariance.
 
+* **Published**: 1640
 * **Read Online**: `Essay on Conics <https://geometor.github.io/pascal/essay_coniques_1640/>`_
 * **GitHub Repository**: `https://github.com/geometor/pascal <https://github.com/geometor/pascal>`_

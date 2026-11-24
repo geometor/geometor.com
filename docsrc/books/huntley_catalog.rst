@@ -5,12 +5,18 @@
 :languages: English
 :site_url: https://geometor.github.io/huntley/catalog/
 :github_url: https://github.com/geometor/huntley
+:year: 1970
+:edition_year: 2026
 :excerpt: An exact symbolic mathematical catalog and cross-corpus concordance inspired by H. E. Huntley's classic 1970 treatise The Divine Proportion: A Study in Mathematical Beauty.
 
 The Divine Proportion — Mathematical Catalog & Concordance
 ==========================================================
 
+.. image:: /_static/medallions/huntley.svg
+   :alt: The Divine Proportion — Mathematical Catalog & Concordance
+
 An exact symbolic mathematical catalog and cross-corpus concordance inspired by H. E. Huntley's classic 1970 treatise The Divine Proportion: A Study in Mathematical Beauty.
 
+* **Published**: 1970 *(Edition: 2026)*
 * **Read Online**: `The Divine Proportion — Mathematical Catalog & Concordance <https://geometor.github.io/huntley/catalog/>`_
 * **GitHub Repository**: `https://github.com/geometor/huntley <https://github.com/geometor/huntley>`_

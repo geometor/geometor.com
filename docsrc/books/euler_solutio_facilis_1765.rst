@@ -17,5 +17,6 @@ An Easy Solution of Certain Very Difficult Geometric Problems
 
 Euler's 1765 St. Petersburg memoir discovering the Euler line connecting the orthocenter, centroid, and circumcenter of every triangle, deriving the six mutual quadrances among the four classical triangle centers, and solving the inverse reconstruction problem via symmetric polynomials.
 
+* **Published**: 1765
 * **Read Online**: `An Easy Solution of Certain Very Difficult Geometric Problems <https://geometor.github.io/euler/solutio_facilis_1765/>`_
 * **GitHub Repository**: `https://github.com/geometor/euler <https://github.com/geometor/euler>`_

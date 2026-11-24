@@ -5,7 +5,8 @@
 :languages: German, English
 :site_url: https://geometor.github.io/klein/erlangen_program/
 :github_url: https://github.com/geometor/klein
-:year: 1872 / 1893
+:year: 1872
+:edition_year: 1893
 :native_title: Vergleichende Betrachtungen über neuere geometrische Forschungen
 :excerpt: Klein's landmark inaugural monograph synthesizing geometry through the invariant theory of transformation groups.
 
@@ -17,5 +18,6 @@ The Erlangen Program
 
 Klein's landmark inaugural monograph synthesizing geometry through the invariant theory of transformation groups.
 
+* **Published**: 1872 *(Edition: 1893)*
 * **Read Online**: `The Erlangen Program <https://geometor.github.io/klein/erlangen_program/>`_
 * **GitHub Repository**: `https://github.com/geometor/klein <https://github.com/geometor/klein>`_
