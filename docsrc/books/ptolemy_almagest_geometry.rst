@@ -2,7 +2,7 @@
 :author: Claudius Ptolemy
 :author_doc: people/ptolemy
 :era: Book Codices
-:languages: Greek, Latin, English
+:languages: Greek, English
 :site_url: https://geometor.github.io/ptolemy/almagest_geometry/
 :github_url: https://github.com/geometor/ptolemy
 :year: 150
