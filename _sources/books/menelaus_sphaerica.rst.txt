@@ -2,7 +2,7 @@
 :author: Menelaus of Alexandria
 :author_doc: people/menelaus
 :era: Book Codices
-:languages: Latin, Greek, English
+:languages: Latin, English
 :site_url: https://geometor.github.io/menelaus/sphaerica/
 :github_url: https://github.com/geometor/menelaus
 :year: 100

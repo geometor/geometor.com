@@ -2,7 +2,7 @@
 :author: Apollonius of Perga
 :author_doc: people/apollonius
 :era: Book Codices
-:languages: Greek, English
+:languages: English
 :site_url: https://geometor.github.io/apollonius/conics/
 :github_url: https://github.com/geometor/apollonius
 :year: -200
